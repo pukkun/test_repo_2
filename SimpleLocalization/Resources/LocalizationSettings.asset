@@ -1,0 +1,692 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63817d93022759543b57e795c78efe11, type: 3}
+  m_Name: LocalizationSettings
+  m_EditorClassIdentifier: 
+  TableId: 1Zj_Bui6MY8XgWjIV-i7KXGOfnytBm_ta1AqOoG0F8bo
+  ResultText: "{\"level_with_num\":{\"vi\":\"M\xE0n {0}\",\"en\":\"Level {0}\",\"id\":\"Level
+    {0}\",\"ru\":\"\u0423\u0440\u043E\u0432\u0435\u043D\u044C {0}\",\"de\":\"Level
+    {0}\",\"ja\":\"\u30EC\u30D9\u30EB {0}\",\"zh-tw\":\"\u95DC\u5361 {0}\",\"pt\":\"N\xEDvel
+    {0}\",\"fr\":\"Niveau {0}\",\"ko\":\"\uB808\uBCA8 {0}\",\"es\":\"Nivel {0}\",\"it\":\"Livello
+    {0}\",\"in\":\"\u0938\u094D\u0924\u0930 {0}\"},\"home_play\":{\"vi\":\"Ch\u01A1i\",\"en\":\"Play\",\"id\":\"Main\",\"ru\":\"\u0418\u0433\u0440\u0430\u0442\u044C\",\"de\":\"Spielen\",\"ja\":\"\u30D7\u30EC\u30A4\",\"zh-tw\":\"\u958B\u59CB\u904A\u6232\",\"pt\":\"Jogar\",\"fr\":\"Jouer\",\"ko\":\"\uD50C\uB808\uC774\",\"es\":\"Jugar\",\"it\":\"Gioca\",\"in\":\"\u0916\u0947\u0932\u0947\u0902\"},\"keep_playing\":{\"vi\":\"Ti\u1EBFp
+    t\u1EE5c\",\"en\":\"Keep Playing\",\"id\":\"Terus Main\",\"ru\":\"\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C
+    \u0438\u0433\u0440\u0430\u0442\u044C\",\"de\":\"Weiterspielen\",\"ja\":\"\u7D9A\u3051\u3066\u30D7\u30EC\u30A4\",\"zh-tw\":\"\u7E7C\u7E8C\u904A\u6232\",\"pt\":\"Continuar
+    Jogando\",\"fr\":\"Continuer \xE0 jouer\",\"ko\":\"\uACC4\uC18D \uD50C\uB808\uC774\",\"es\":\"Seguir
+    Jugando\",\"it\":\"Continua a giocare\",\"in\":\"\u0916\u0947\u0932\u0924\u0947
+    \u0930\u0939\u0947\u0902\"},\"give_up\":{\"vi\":\"B\u1ECF cu\u1ED9c\",\"en\":\"Give
+    Up\",\"id\":\"Menyerah\",\"ru\":\"\u0421\u0434\u0430\u0442\u044C\u0441\u044F\",\"de\":\"Aufgeben\",\"ja\":\"\u3042\u304D\u3089\u3081\u308B\",\"zh-tw\":\"\u653E\u68C4\",\"pt\":\"Desistir\",\"fr\":\"Abandonner\",\"ko\":\"\uD3EC\uAE30\",\"es\":\"Rendirse\",\"it\":\"Arrendersi\",\"in\":\"\u0939\u093E\u0930
+    \u092E\u093E\u0928 \u0932\u0947\u0902\"},\"out_of_space\":{\"vi\":\"H\u1EBFt
+    ch\u1ED7\",\"en\":\"NO MORE SPACE!\",\"id\":\"Ruang Habis\",\"ru\":\"\u041D\u0435\u0442
+    \u043C\u0435\u0441\u0442\u0430\",\"de\":\"Kein Platz mehr\",\"ja\":\"\u30B9\u30DA\u30FC\u30B9\u4E0D\u8DB3\",\"zh-tw\":\"\u6C92\u6709\u7A7A\u9593\",\"pt\":\"Sem
+    Espa\xE7o\",\"fr\":\"Plus de place\",\"ko\":\"\uACF5\uAC04 \uBD80\uC871\",\"es\":\"Sin
+    Espacio\",\"it\":\"Spazio esaurito\",\"in\":\"\u0938\u094D\u0925\u093E\u0928
+    \u0938\u092E\u093E\u092A\u094D\u0924\"},\"out_of_space_content\":{\"vi\":\"B\u1EA1n
+    \u0111\xE3 h\u1EBFt ch\u1ED7. H\xE3y l\u1EA5p \u0111\u1EA7y h\u1ED9p d\u1EE5ng
+    c\u1EE5 v\u1EDBi v\xEDt \u0111\xFAng v\xE0 ti\u1EBFp t\u1EE5c ch\u01A1i!\",\"en\":\"Open
+    new hole\",\"id\":\"Ruang habis. Isi kotak peralatan dengan sekrup yang benar
+    dan lanjutkan bermain!\",\"ru\":\"\u041D\u0435\u0442 \u043C\u0435\u0441\u0442\u0430.
+    \u0417\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435 \u044F\u0449\u0438\u043A\u0438
+    \u043F\u0440\u0430\u0432\u0438\u043B\u044C\u043D\u044B\u043C\u0438 \u0432\u0438\u043D\u0442\u0430\u043C\u0438
+    \u0438 \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0439\u0442\u0435 \u0438\u0433\u0440\u0430\u0442\u044C!\",\"de\":\"Kein
+    Platz mehr. F\xFClle die Werkzeugkisten mit den richtigen Schrauben und spiele
+    weiter!\",\"ja\":\"\u30B9\u30DA\u30FC\u30B9\u304C\u4E0D\u8DB3\u3057\u3066\u3044\u307E\u3059\u3002
+    \u6B63\u3057\u3044\u30CD\u30B8\u3067\u30C4\u30FC\u30EB\u30DC\u30C3\u30AF\u30B9\u3092\u6E80\u305F\u3057\u3001
+    \u30B2\u30FC\u30E0\u3092\u7D9A\u3051\u3066\u304F\u3060\u3055\u3044\uFF01\",\"zh-tw\":\"\u6C92\u6709\u7A7A\u9593\u4E86\u3002
+    \u586B\u6EFF\u5DE5\u5177\u7BB1\u5F8C\u7E7C\u7E8C\u904A\u6232\uFF01\",\"pt\":\"Voc\xEA
+    est\xE1 sem espa\xE7o. Preencha as caixas de ferramentas com os parafusos corretos
+    e continue jogando!\",\"fr\":\"Vous n'avez plus de place. Remplissez les bo\xEEtes
+    \xE0 outils avec les bonnes vis et continuez \xE0 jouer !\",\"ko\":\"\uACF5\uAC04\uC774
+    \uBD80\uC871\uD569\uB2C8\uB2E4. \uC62C\uBC14\uB978 \uB098\uC0AC\uB85C \uB3C4\uAD6C
+    \uC0C1\uC790\uB97C \uCC44\uC6B0\uACE0 \uACC4\uC18D \uD50C\uB808\uC774\uD558\uC138\uC694!\",\"es\":\"No
+    tienes espacio. Llena las cajas de herramientas con los tornillos correctos y
+    sigue jugando!\",\"it\":\"Spazio esaurito. Riempire le cassette degli attrezzi
+    con le viti corrette e continuare a giocare!\",\"in\":\"\u0906\u092A\u0915\u093E
+    \u0938\u094D\u0925\u093E\u0928 \u0938\u092E\u093E\u092A\u094D\u0924 \u0939\u094B
+    \u0917\u092F\u093E \u0939\u0948\u0964 \u0938\u0939\u0940 \u0938\u094D\u0915\u094D\u0930\u0942
+    \u0938\u0947 \u091F\u0942\u0932\u092C\u0949\u0915\u094D\u0938 \u092D\u0930\u0947\u0902
+    \u0914\u0930 \u0916\u0947\u0932\u0924\u0947 \u0930\u0939\u0947\u0902!\"},\"bomb\":{\"vi\":\"\",\"en\":\"EXPLOSION!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"bomb_content\":{\"vi\":\"\",\"en\":\"PLAY
+    ON to revive\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"are_you_sure_content\":{\"vi\":\"B\u1EA1n
+    s\u1EBD m\u1EA5t m\u1ED9t m\u1EA1ng!\",\"en\":\"You will lose a life!\",\"id\":\"Kamu
+    akan kehilangan satu nyawa!\",\"ru\":\"\u0412\u044B \u043F\u043E\u0442\u0435\u0440\u044F\u0435\u0442\u0435
+    \u0436\u0438\u0437\u043D\u044C!\",\"de\":\"Du verlierst ein Leben!\",\"ja\":\"\u30E9\u30A4\u30D5\u3092\u5931\u3044\u307E\u3059\uFF01\",\"zh-tw\":\"\u4F60\u5C07\u5931\u53BB\u4E00\u689D\u751F\u547D\uFF01\",\"pt\":\"Voc\xEA
+    vai perder uma vida!\",\"fr\":\"Vous allez perdre une vie !\",\"ko\":\"\uBAA9\uC228\uC744
+    \uC783\uAC8C \uB429\uB2C8\uB2E4!\",\"es\":\"\xA1Perder\xE1s una vida!\",\"it\":\"Perderai
+    una vita!\",\"in\":\"\u0906\u092A \u090F\u0915 \u091C\u0940\u0935\u0928 \u0916\u094B
+    \u0926\u0947\u0902\u0917\u0947!\"},\"are_you_sure\":{\"vi\":\"B\u1EA1n c\xF3
+    ch\u1EAFc kh\xF4ng?\",\"en\":\"Are you sure?\",\"id\":\"Apakah kamu yakin?\",\"ru\":\"\u0412\u044B
+    \u0443\u0432\u0435\u0440\u0435\u043D\u044B?\",\"de\":\"Bist du sicher?\",\"ja\":\"\u78BA\u8A8D\u3057\u307E\u3059\u304B\uFF1F\",\"zh-tw\":\"\u4F60\u78BA\u5B9A\u55CE\uFF1F\",\"pt\":\"Voc\xEA
+    tem certeza?\",\"fr\":\"\xCAtes-vous s\xFBr ?\",\"ko\":\"\uD655\uC2E4\uD569\uB2C8\uAE4C?\",\"es\":\"\xBFEst\xE1s
+    seguro?\",\"it\":\"Sei sicuro?\",\"in\":\"\u0915\u094D\u092F\u093E \u0906\u092A
+    \u0938\u0941\u0928\u093F\u0936\u094D\u091A\u093F\u0924 \u0939\u0948\u0902?\"},\"leave\":{\"vi\":\"Tho\xE1t\",\"en\":\"Leave\",\"id\":\"Keluar\",\"ru\":\"\u0412\u044B\u0439\u0442\u0438\",\"de\":\"Verlassen\",\"ja\":\"\u96E2\u8131\",\"zh-tw\":\"\u96E2\u958B\",\"pt\":\"Sair\",\"fr\":\"Quitter\",\"ko\":\"\uB098\uAC00\uAE30\",\"es\":\"Salir\",\"it\":\"Esci\",\"in\":\"\u091B\u094B\u0921\u093C\u0947\u0902\"},\"completed\":{\"vi\":\"Ho\xE0n
+    th\xE0nh\",\"en\":\"Completed\",\"id\":\"Selesai\",\"ru\":\"\u0417\u0430\u0432\u0435\u0440\u0448\u0435\u043D\u043E\",\"de\":\"Abgeschlossen\",\"ja\":\"\u5B8C\u4E86\",\"zh-tw\":\"\u5DF2\u5B8C\u6210\",\"pt\":\"Conclu\xEDdo\",\"fr\":\"Termin\xE9\",\"ko\":\"\uC644\uB8CC\uB428\",\"es\":\"Completado\",\"it\":\"Completato\",\"in\":\"\u092A\u0942\u0930\u094D\u0923\"},\"level\":{\"vi\":\"M\xE0n
+    ch\u01A1i\",\"en\":\"Level\",\"id\":\"Level\",\"ru\":\"\u0423\u0440\u043E\u0432\u0435\u043D\u044C\",\"de\":\"Level\",\"ja\":\"\u30EC\u30D9\u30EB\",\"zh-tw\":\"\u95DC\u5361\",\"pt\":\"N\xEDvel\",\"fr\":\"Niveau\",\"ko\":\"\uB808\uBCA8\",\"es\":\"Nivel\",\"it\":\"Livello\",\"in\":\"\u0938\u094D\u0924\u0930\"},\"menu_home\":{\"vi\":\"Trang
+    ch\u1EE7\",\"en\":\"HOME\",\"id\":\"BERANDA\",\"ru\":\"\u0413\u041B\u0410\u0412\u041D\u0410\u042F\",\"de\":\"STARTSEITE\",\"ja\":\"\u30DB\u30FC\u30E0\",\"zh-tw\":\"\u4E3B\u9801\",\"pt\":\"IN\xCDCIO\",\"fr\":\"ACCUEIL\",\"ko\":\"\uD648\",\"es\":\"INICIO\",\"it\":\"CASA\",\"in\":\"\u0918\u0930\"},\"menu_shop\":{\"vi\":\"C\u1EEDa
+    h\xE0ng\",\"en\":\"SHOP\",\"id\":\"TOKO\",\"ru\":\"\u041C\u0410\u0413\u0410\u0417\u0418\u041D\",\"de\":\"SHOP\",\"ja\":\"\u30B7\u30E7\u30C3\u30D7\",\"zh-tw\":\"\u5546\u5E97\",\"pt\":\"LOJA\",\"fr\":\"BOUTIQUE\",\"ko\":\"\uC0C1\uC810\",\"es\":\"TIENDA\",\"it\":\"NEGOZIO\",\"in\":\"\u0926\u0941\u0915\u093E\u0928\"},\"menu_top\":{\"vi\":\"B\u1EA3ng
+    X\u1EBFp H\u1EA1ng\",\"en\":\"LEADERBOARD\",\"id\":\"Papan Skor\",\"ru\":\"\u0422\u0410\u0411\u041B\u0418\u0426\u0410
+    \u041B\u0418\u0414\u0415\u0420\u041E\u0412\",\"de\":\"BESTENLISTE\",\"ja\":\"\u30EA\u30FC\u30C0\u30FC\u30DC\u30FC\u30C9\",\"zh-tw\":\"\u6392\u884C\u699C\",\"pt\":\"CLASSIFICA\xC7\xC3O\",\"fr\":\"CLASSEMENT\",\"ko\":\"\uB9AC\uB354\uBCF4\uB4DC\",\"es\":\"TABLA
+    DE L\xCDDERES\",\"it\":\"CLASSIFICA\",\"in\":\"\u0932\u0940\u0921\u0930\u092C\u094B\u0930\u094D\u0921\"},\"boost_hammer_guide\":{\"vi\":\"Ch\u1EA1m
+    v\xE0o k\xEDnh \u0111\u1EC3 ph\xE1 v\u1EE1\",\"en\":\"Tap on the glass to break\",\"id\":\"Ketuk
+    kaca untuk memecahkan\",\"ru\":\"\u041D\u0430\u0436\u043C\u0438\u0442\u0435 \u043D\u0430
+    \u0441\u0442\u0435\u043A\u043B\u043E, \u0447\u0442\u043E\u0431\u044B \u0440\u0430\u0437\u0431\u0438\u0442\u044C\",\"de\":\"Tippe
+    auf das Glas, um es zu zerbrechen\",\"ja\":\"\u30AC\u30E9\u30B9\u3092\u30BF\u30C3\u30D7\u3057\u3066\u58CA\u3059\",\"zh-tw\":\"\u9EDE\u64CA\u73BB\u7483\u4EE5\u6253\u7834\",\"pt\":\"Toque
+    no vidro para quebrar\",\"fr\":\"Tapez sur le verre pour casser\",\"ko\":\"\uC720\uB9AC\uB97C
+    \uAE68\uAE30 \uC704\uD574 \uD0ED\uD558\uC138\uC694\",\"es\":\"Toca el vidrio
+    para romperlo\",\"it\":\"Tocca il vetro per romperlo\",\"in\":\"\u0924\u094B\u0921\u093C\u0928\u0947
+    \u0915\u0947 \u0932\u093F\u090F \u0915\u093E\u0902\u091A \u092A\u0930 \u091F\u0948\u092A
+    \u0915\u0930\u0947\u0902\"},\"boost_freeze_name\":{\"vi\":\"B\xFAa\",\"en\":\"Freeze
+    Timer\",\"id\":\"PALU\",\"ru\":\"\u041C\u041E\u041B\u041E\u0422\u041E\u041A\",\"de\":\"HAMMER\",\"ja\":\"\u30CF\u30F3\u30DE\u30FC\",\"zh-tw\":\"\u9318\u5B50\",\"pt\":\"MARTELO\",\"fr\":\"MARTEAU\",\"ko\":\"\uB9DD\uCE58\",\"es\":\"MARTILLO\",\"it\":\"MARTELLO\",\"in\":\"\u0939\u0925\u094C\u0921\u093C\u093E\"},\"boost_freeze_des\":{\"vi\":\"Ph\xE1
+    k\xEDnh\",\"en\":\"Freezes time for \\n10 seconds\",\"id\":\"Pecahkan kaca\",\"ru\":\"\u0420\u0430\u0437\u0431\u0435\u0439\u0442\u0435
+    \u0441\u0442\u0435\u043A\u043B\u043E\",\"de\":\"Zerbrich das Glas\",\"ja\":\"\u30AC\u30E9\u30B9\u3092\u58CA\u3059\",\"zh-tw\":\"\u6253\u7834\u73BB\u7483\",\"pt\":\"Quebre
+    o vidro\",\"fr\":\"Casser un verre\",\"ko\":\"\uC720\uB9AC \uAE68\uAE30\",\"es\":\"Romper
+    un vidrio\",\"it\":\"Rompi un vetro\",\"in\":\"\u090F\u0915 \u0915\u093E\u0902\u091A
+    \u0924\u094B\u0921\u093C\u094B\"},\"boost_ghost_name\":{\"vi\":\"L\u1ED7 th\xEAm\",\"en\":\"Ghost
+    Jelly\",\"id\":\"Lubang Tambahan\",\"ru\":\"\u0414\u043E\u043F\u043E\u043B\u043D\u0438\u0442\u0435\u043B\u044C\u043D\u043E\u0435
+    \u043E\u0442\u0432\u0435\u0440\u0441\u0442\u0438\u0435\",\"de\":\"Extra Loch\",\"ja\":\"\u8FFD\u52A0\u306E\u7A74\",\"zh-tw\":\"\u984D\u5916\u7684\u5B54\",\"pt\":\"Buraco
+    Extra\",\"fr\":\"Trou suppl\xE9mentaire\",\"ko\":\"\uCD94\uAC00 \uAD6C\uBA4D\",\"es\":\"Agujero
+    Extra\",\"it\":\"Foro Extra\",\"in\":\"\u0905\u0924\u093F\u0930\u093F\u0915\u094D\u0924
+    \u091B\u0947\u0926\"},\"boost_ghost_des\":{\"vi\":\"T\u1EA1o l\u1ED7 m\u1EDBi\",\"en\":\"Move
+    through any \\nworm or obstacle!\",\"id\":\"Dapatkan lubang baru\",\"ru\":\"\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u0435
+    \u043D\u043E\u0432\u043E\u0435 \u043E\u0442\u0432\u0435\u0440\u0441\u0442\u0438\u0435\",\"de\":\"Neues
+    Loch erhalten\",\"ja\":\"\u65B0\u3057\u3044\u7A74\u3092\u53D6\u5F97\",\"zh-tw\":\"\u7372\u53D6\u65B0\u5B54\",\"pt\":\"Obtenha
+    um novo buraco\",\"fr\":\"Obtenez un nouveau trou\",\"ko\":\"\uC0C8 \uAD6C\uBA4D
+    \uC5BB\uAE30\",\"es\":\"Conseguir un nuevo agujero\",\"it\":\"Ottieni un nuovo
+    foro\",\"in\":\"\u090F\u0915 \u0928\u092F\u093E \u091B\u0947\u0926 \u092A\u094D\u0930\u093E\u092A\u094D\u0924
+    \u0915\u0930\u0947\u0902\"},\"boost_ghost_guide\":{\"vi\":\"H\u1ED9p d\u1EE5ng
+    c\u1EE5 \u0111\xF4i\",\"en\":\"Tap any worm to go the hole\",\"id\":\"Kotak Alat
+    Ganda\",\"ru\":\"\u0414\u0432\u043E\u0439\u043D\u043E\u0439 \u044F\u0449\u0438\u043A\",\"de\":\"Doppel-Werkzeugkiste\",\"ja\":\"\u30C0\u30D6\u30EB\u30C4\u30FC\u30EB\u30DC\u30C3\u30AF\u30B9\",\"zh-tw\":\"\u96D9\u5DE5\u5177\u7BB1\",\"pt\":\"Caixa
+    de Ferramentas Dupla\",\"fr\":\"Bo\xEEte \xE0 outils double\",\"ko\":\"\uB354\uBE14
+    \uB3C4\uAD6C \uC0C1\uC790\",\"es\":\"Caja de herramientas doble\",\"it\":\"Doppia
+    cassetta degli attrezzi\",\"in\":\"\u0921\u092C\u0932 \u091F\u0942\u0932\u092C\u0949\u0915\u094D\u0938\"},\"settings_change_name\":{\"vi\":\"\u0110\u1ED5i
+    t\xEAn\",\"en\":\"CHANGE NAME\",\"id\":\"GANTI NAMA\",\"ru\":\"\u0421\u041C\u0415\u041D\u0418\u0422\u042C
+    \u0418\u041C\u042F\",\"de\":\"NAMEN \xC4NDERN\",\"ja\":\"\u540D\u524D\u3092\u5909\u66F4\",\"zh-tw\":\"\u66F4\u6539\u540D\u7A31\",\"pt\":\"ALTERAR
+    NOME\",\"fr\":\"CHANGER DE NOM\",\"ko\":\"\uC774\uB984 \uBCC0\uACBD\",\"es\":\"CAMBIAR
+    NOMBRE\",\"it\":\"CAMBIA NOME\",\"in\":\"\u0928\u093E\u092E \u092C\u0926\u0932\u0947\u0902\"},\"settings_privacy\":{\"vi\":\"Quy\u1EC1n
+    ri\xEAng t\u01B0\",\"en\":\"PRIVACY\",\"id\":\"PRIVASI\",\"ru\":\"\u041A\u041E\u041D\u0424\u0418\u0414\u0415\u041D\u0426\u0418\u0410\u041B\u042C\u041D\u041E\u0421\u0422\u042C\",\"de\":\"DATENSCHUTZ\",\"ja\":\"\u30D7\u30E9\u30A4\u30D0\u30B7\u30FC\",\"zh-tw\":\"\u96B1\u79C1\",\"pt\":\"PRIVACIDADE\",\"fr\":\"CONFIDENTIALIT\xC9\",\"ko\":\"\uAC1C\uC778\uC815\uBCF4
+    \uBCF4\uD638\",\"es\":\"PRIVACIDAD\",\"it\":\"PRIVACY\",\"in\":\"\u0917\u094B\u092A\u0928\u0940\u092F\u0924\u093E\"},\"settings\":{\"vi\":\"C\xE0i
+    \u0111\u1EB7t\",\"en\":\"SETTINGS\",\"id\":\"PENGATURAN\",\"ru\":\"\u041D\u0410\u0421\u0422\u0420\u041E\u0419\u041A\u0418\",\"de\":\"EINSTELLUNGEN\",\"ja\":\"\u8A2D\u5B9A\",\"zh-tw\":\"\u8A2D\u5B9A\",\"pt\":\"CONFIGURA\xC7\xD5ES\",\"fr\":\"PARAM\xC8TRES\",\"ko\":\"\uC124\uC815\",\"es\":\"AJUSTES\",\"it\":\"IMPOSTAZIONI\",\"in\":\"\u0938\u0947\u091F\u093F\u0902\u0917\u094D\u0938\"},\"no_more_move\":{\"vi\":\"H\u1EBFt
+    n\u01B0\u1EDBc \u0111i\",\"en\":\"NO MORE MOVES\",\"id\":\"TIDAK ADA LAGI LANGKAH\",\"ru\":\"\u0411\u041E\u041B\u042C\u0428\u0415
+    \u041D\u0415\u0422 \u0425\u041E\u0414\u041E\u0412\",\"de\":\"KEINE Z\xDCGE MEHR\",\"ja\":\"\u79FB\u52D5\u3067\u304D\u306A\u3044\",\"zh-tw\":\"\u6C92\u6709\u66F4\u591A\u6B65\u6578\",\"pt\":\"SEM
+    MAIS MOVIMENTOS\",\"fr\":\"PLUS DE COUPS\",\"ko\":\"\uB354 \uC774\uC0C1 \uC774\uB3D9\uD560
+    \uC218 \uC5C6\uC74C\",\"es\":\"SIN M\xC1S MOVIMIENTOS\",\"it\":\"NESSUNA MOSSA
+    DISPONIBILE\",\"in\":\"\u0915\u094B\u0908 \u0914\u0930 \u091A\u093E\u0932 \u0928\u0939\u0940\u0902\"},\"stuck_ice_content\":{\"vi\":\"\u1ED0c
+    b\u1ECB k\u1EB9t trong b\u0103ng! Ti\u1EBFp t\u1EE5c ch\u01A1i \u0111\u1EC3 ph\xE1
+    b\u0103ng.\",\"en\":\"Screw stuck in ice! Keep playing to break all the ice.\",\"id\":\"Sekrup
+    terjebak di es! Terus bermain untuk memecahkan semua es.\",\"ru\":\"\u0412\u0438\u043D\u0442
+    \u0437\u0430\u0441\u0442\u0440\u044F\u043B \u0432 \u043B\u044C\u0434\u0443! \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0439\u0442\u0435
+    \u0438\u0433\u0440\u0430\u0442\u044C, \u0447\u0442\u043E\u0431\u044B \u0440\u0430\u0437\u0431\u0438\u0442\u044C
+    \u0432\u0435\u0441\u044C \u043B\u0451\u0434.\",\"de\":\"Schraube im Eis festgefroren!
+    Spiele weiter, um alles Eis zu brechen.\",\"ja\":\"\u30CD\u30B8\u304C\u6C37\u306B\u9589\u3058\u8FBC\u3081\u3089\u308C\u305F\uFF01
+    \u6C37\u3092\u3059\u3079\u3066\u58CA\u3059\u305F\u3081\u306B\u30D7\u30EC\u30A4\u3057\u7D9A\u3051\u3066\u304F\u3060\u3055\u3044\u3002\",\"zh-tw\":\"\u87BA\u7D72\u5361\u5728\u51B0\u4E2D\uFF01
+    \u7E7C\u7E8C\u73A9\u4EE5\u6253\u7834\u6240\u6709\u7684\u51B0\u3002\",\"pt\":\"Parafuso
+    preso no gelo! Continue jogando para quebrar todo o gelo.\",\"fr\":\"Vis coinc\xE9e
+    dans la glace ! Continuez \xE0 jouer pour briser toute la glace.\",\"ko\":\"\uB098\uC0AC\uAC00
+    \uC5BC\uC74C\uC5D0 \uAC07\uD614\uC5B4\uC694! \uACC4\uC18D\uD574\uC11C \uC5BC\uC74C\uC744
+    \uBAA8\uB450 \uAE68\uC138\uC694.\",\"es\":\"Tornillo atascado en el hielo! Sigue
+    jugando para romper todo el hielo.\",\"it\":\"Vite bloccata nel ghiaccio! Continua
+    a giocare per rompere tutto il ghiaccio.\",\"in\":\"\u0938\u094D\u0915\u094D\u0930\u0942
+    \u092C\u0930\u094D\u092B \u092E\u0947\u0902 \u092B\u0902\u0938\u093E \u0939\u0948!
+    \u0938\u093E\u0930\u0940 \u092C\u0930\u094D\u092B \u0924\u094B\u0921\u093C\u0928\u0947
+    \u0915\u0947 \u0932\u093F\u090F \u0916\u0947\u0932\u0924\u0947 \u0930\u0939\u0947\u0902\u0964\"},\"stuck_toggle_content\":{\"vi\":\"C\u1EEDa
+    ch\u1EDBp b\u1ECB \u0111\xF3ng! Ti\u1EBFp t\u1EE5c ch\u01A1i \u0111\u1EC3 m\u1EDF
+    c\u1EEDa ch\u1EDBp.\",\"en\":\"Shutter is closed! Keep playing to remove all
+    the shutters.\",\"id\":\"Jendela tertutup! Terus bermain untuk membuka semua
+    jendela.\",\"ru\":\"\u0416\u0430\u043B\u044E\u0437\u0438 \u0437\u0430\u043A\u0440\u044B\u0442\u044B!
+    \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0439\u0442\u0435 \u0438\u0433\u0440\u0430\u0442\u044C,
+    \u0447\u0442\u043E\u0431\u044B \u0441\u043D\u044F\u0442\u044C \u0432\u0441\u0435
+    \u0436\u0430\u043B\u044E\u0437\u0438.\",\"de\":\"Der Rollladen ist geschlossen!
+    Spiele weiter, um alle Rolll\xE4den zu entfernen.\",\"ja\":\"\u30B7\u30E3\u30C3\u30BF\u30FC\u304C\u9589\u3058\u3066\u3044\u307E\u3059\uFF01
+    \u30B7\u30E3\u30C3\u30BF\u30FC\u3092\u3059\u3079\u3066\u53D6\u308A\u9664\u304F\u305F\u3081\u306B\u30D7\u30EC\u30A4\u3057\u7D9A\u3051\u3066\u304F\u3060\u3055\u3044\u3002\",\"zh-tw\":\"\u767E\u8449\u7A97\u95DC\u9589\u4E86\uFF01
+    \u7E7C\u7E8C\u73A9\u4EE5\u79FB\u9664\u6240\u6709\u767E\u8449\u7A97\u3002\",\"pt\":\"Persiana
+    fechada! Continue jogando para remover todas as persianas.\",\"fr\":\"Volet ferm\xE9
+    ! Continuez \xE0 jouer pour enlever tous les volets.\",\"ko\":\"\uC154\uD130\uAC00
+    \uB2EB\uD614\uC5B4\uC694! \uACC4\uC18D\uD574\uC11C \uC154\uD130\uB97C \uBAA8\uB450
+    \uC81C\uAC70\uD558\uC138\uC694.\",\"es\":\"Persiana cerrada! Sigue jugando para
+    quitar todas las persianas.\",\"it\":\"Tapparella chiusa! Continua a giocare
+    per rimuovere tutte le tapparelle.\",\"in\":\"\u0936\u091F\u0930 \u092C\u0902\u0926
+    \u0939\u0948! \u0938\u092D\u0940 \u0936\u091F\u0930 \u0939\u091F\u093E\u0928\u0947
+    \u0915\u0947 \u0932\u093F\u090F \u0916\u0947\u0932\u0924\u0947 \u0930\u0939\u0947\u0902\u0964\"},\"bomb_exploded_title\":{\"vi\":\"N\u1ED5\",\"en\":\"Explosion!\",\"id\":\"Ledakan!\",\"ru\":\"\u0412\u0437\u0440\u044B\u0432!\",\"de\":\"Explosion!\",\"ja\":\"\u7206\u767A\uFF01\",\"zh-tw\":\"\u7206\u70B8\uFF01\",\"pt\":\"Explos\xE3o!\",\"fr\":\"Explosion
+    !\",\"ko\":\"\uD3ED\uBC1C!\",\"es\":\"\xA1Explosi\xF3n!\",\"it\":\"Esplosione!\",\"in\":\"\u0935\u093F\u0938\u094D\u092B\u094B\u091F!\"},\"bomb_exploded_content\":{\"vi\":\"Bom
+    \u0111\xE3 n\u1ED5! Ti\u1EBFp t\u1EE5c ch\u01A1i \u0111\u1EC3 h\u1ED3i sinh.\",\"en\":\"The
+    bomb exploded! Keep playing to revive.\",\"id\":\"Bom meledak! Terus bermain
+    untuk hidup kembali.\",\"ru\":\"\u0411\u043E\u043C\u0431\u0430 \u0432\u0437\u043E\u0440\u0432\u0430\u043B\u0430\u0441\u044C!
+    \u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0439\u0442\u0435 \u0438\u0433\u0440\u0430\u0442\u044C,
+    \u0447\u0442\u043E\u0431\u044B \u0432\u043E\u0437\u0440\u043E\u0434\u0438\u0442\u044C\u0441\u044F.\",\"de\":\"Die
+    Bombe ist explodiert! Spiele weiter, um dich wiederzubeleben.\",\"ja\":\"\u7206\u5F3E\u304C\u7206\u767A\u3057\u307E\u3057\u305F\uFF01
+    \u5FA9\u6D3B\u3059\u308B\u305F\u3081\u306B\u30D7\u30EC\u30A4\u3057\u7D9A\u3051\u3066\u304F\u3060\u3055\u3044\u3002\",\"zh-tw\":\"\u70B8\u5F48\u7206\u70B8\u4E86\uFF01
+    \u7E7C\u7E8C\u73A9\u4EE5\u5FA9\u6D3B\u3002\",\"pt\":\"A bomba explodiu! Continue
+    jogando para reviver.\",\"fr\":\"La bombe a explos\xE9 ! Continuez \xE0 jouer
+    pour vous ressusciter.\",\"ko\":\"\uD3ED\uD0C4\uC774 \uD130\uC84C\uC5B4\uC694!
+    \uBD80\uD65C\uD558\uB824\uBA74 \uACC4\uC18D \uD50C\uB808\uC774\uD558\uC138\uC694.\",\"es\":\"\xA1La
+    bomba explot\xF3! Sigue jugando para revivir.\",\"it\":\"La bomba \xE8 esplosa!
+    Continua a giocare per rivivere.\",\"in\":\"\u092C\u092E \u092B\u091F \u0917\u092F\u093E!
+    \u092A\u0941\u0928\u0930\u094D\u091C\u0940\u0935\u093F\u0924 \u0939\u094B\u0928\u0947
+    \u0915\u0947 \u0932\u093F\u090F \u0916\u0947\u0932\u0924\u0947 \u0930\u0939\u0947\u0902\u0964\"},\"time_up\":{\"vi\":\"H\u1EBFt
+    gi\u1EDD\",\"en\":\"OUT OF TIME!\",\"id\":\"WAKTU HABIS\",\"ru\":\"\u0412\u0420\u0415\u041C\u042F
+    \u0412\u042B\u0428\u041B\u041E\",\"de\":\"ZEIT ABGELAUFEN\",\"ja\":\"\u30BF\u30A4\u30E0\u30A2\u30C3\u30D7\",\"zh-tw\":\"\u6642\u9593\u5230\",\"pt\":\"TEMPO
+    ACABOU\",\"fr\":\"TEMPS \xC9COUL\xC9\",\"ko\":\"\uC2DC\uAC04\uC774 \uB05D\uB0AC\uC2B5\uB2C8\uB2E4\",\"es\":\"TIEMPO
+    AGOTADO\",\"it\":\"TEMPO SCADUTO\",\"in\":\"\u0938\u092E\u092F \u0938\u092E\u093E\u092A\u094D\u0924\"},\"time_up_content\":{\"vi\":\"Ti\u1EBFp
+    t\u1EE5c ch\u01A1i \u0111\u1EC3 th\xEAm gi\u1EDD\",\"en\":\"Get 20 seconds to
+    keep playing!\",\"id\":\"Terus bermain untuk menambah waktu\",\"ru\":\"\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0430\u0439\u0442\u0435
+    \u0438\u0433\u0440\u0430\u0442\u044C, \u0447\u0442\u043E\u0431\u044B \u0434\u043E\u0431\u0430\u0432\u0438\u0442\u044C
+    \u0431\u043E\u043B\u044C\u0448\u0435 \u0432\u0440\u0435\u043C\u0435\u043D\u0438\",\"de\":\"Spiele
+    weiter, um mehr Zeit hinzuzuf\xFCgen\",\"ja\":\"\u6642\u9593\u3092\u8FFD\u52A0\u3059\u308B\u305F\u3081\u306B\u30D7\u30EC\u30A4\u3057\u7D9A\u3051\u308B\",\"zh-tw\":\"\u7E7C\u7E8C\u73A9\u4EE5\u589E\u52A0\u66F4\u591A\u6642\u9593\",\"pt\":\"Continue
+    jogando para adicionar mais tempo\",\"fr\":\"Continuez \xE0 jouer pour ajouter
+    du temps\",\"ko\":\"\uC2DC\uAC04\uC744 \uCD94\uAC00\uD558\uB824\uBA74 \uACC4\uC18D
+    \uD50C\uB808\uC774\uD558\uC138\uC694\",\"es\":\"Sigue jugando para a\xF1adir
+    m\xE1s tiempo\",\"it\":\"Continua a giocare per aggiungere pi\xF9 tempo\",\"in\":\"\u0905\u0927\u093F\u0915
+    \u0938\u092E\u092F \u091C\u094B\u0921\u093C\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F
+    \u0916\u0947\u0932\u0924\u0947 \u0930\u0939\u0947\u0902\"},\"timer_startup_game\":{\"vi\":\"Ho\xE0n
+    th\xE0nh trong:\",\"en\":\"COMPLETE THE LEVEL IN\",\"id\":\"SELESAIKAN LEVEL
+    DALAM\",\"ru\":\"\u0417\u0410\u0412\u0415\u0420\u0428\u0418\u0422\u0415 \u0423\u0420\u041E\u0412\u0415\u041D\u042C
+    \u0417\u0410\",\"de\":\"SCHLIESSE DAS LEVEL AB IN\",\"ja\":\"\u30EC\u30D9\u30EB\u3092\u30AF\u30EA\u30A2\u3059\u308B\u306B\u306F\",\"zh-tw\":\"\u5B8C\u6210\u95DC\u5361\u65BC\",\"pt\":\"COMPLETE
+    O N\xCDVEL EM\",\"fr\":\"TERMINEZ LE NIVEAU EN\",\"ko\":\"\uC774 \uB808\uBCA8\uC744
+    \uC644\uB8CC\uD558\uB824\uBA74\",\"es\":\"COMPLETA EL NIVEL EN\",\"it\":\"COMPLETA
+    IL LIVELLO IN\",\"in\":\"\u0938\u094D\u0924\u0930 \u092A\u0942\u0930\u093E \u0915\u0930\u0947\u0902\"},\"daily_reward_title\":{\"vi\":\"Qu\xE0
+    h\xE0ng ng\xE0y\",\"en\":\"DAILY REWARDS\",\"id\":\"HADIAH HARIAN\",\"ru\":\"\u0415\u0416\u0415\u0414\u041D\u0415\u0412\u041D\u042B\u0415
+    \u041D\u0410\u0413\u0420\u0410\u0414\u042B\",\"de\":\"T\xC4GLICHE BELOHNUNGEN\",\"ja\":\"\u6BCE\u65E5\u306E\u5831\u916C\",\"zh-tw\":\"\u6BCF\u65E5\u734E\u52F5\",\"pt\":\"RECOMPENSAS
+    DI\xC1RIAS\",\"fr\":\"R\xC9COMPENSES QUOTIDIENNES\",\"ko\":\"\uB9E4\uC77C \uBCF4\uC0C1\",\"es\":\"RECOMPENSAS
+    DIARIAS\",\"it\":\"RICOMPENSE GIORNALIERE\",\"in\":\"\u0926\u0948\u0928\u093F\u0915
+    \u0907\u0928\u093E\u092E\"},\"claim\":{\"vi\":\"Nh\u1EADn\",\"en\":\"Claim\",\"id\":\"klaim\",\"ru\":\"\u043F\u043E\u043B\u0443\u0447\u0438\u0442\u044C\",\"de\":\"einfordern\",\"ja\":\"\u53D7\u3051\u53D6\u308B\",\"zh-tw\":\"\u9818\u53D6\",\"pt\":\"reivindicar\",\"fr\":\"r\xE9clamer\",\"ko\":\"\uBC1B\uAE30\",\"es\":\"reclamar\",\"it\":\"rivendica\",\"in\":\"\u0926\u093E\u0935\u093E
+    \u0915\u0930\u0947\u0902\"},\"free\":{\"vi\":\"Mi\u1EC5n ph\xED\",\"en\":\"Free\",\"id\":\"gratis\",\"ru\":\"\u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E\",\"de\":\"kostenlos\",\"ja\":\"\u7121\u6599\",\"zh-tw\":\"\u514D\u8CBB\",\"pt\":\"gr\xE1tis\",\"fr\":\"gratuit\",\"ko\":\"\uBB34\uB8CC\",\"es\":\"gratis\",\"it\":\"gratuito\",\"in\":\"\u092E\u0941\u092B\u094D\u0924\"},\"boost_time_name\":{\"vi\":\"Th\xEAm
+    th\u1EDDi gian\",\"en\":\"EXTRA PLAYTIME\",\"id\":\"WAKTU BERMAIN TAMBAHAN\",\"ru\":\"\u0414\u041E\u041F\u041E\u041B\u041D\u0418\u0422\u0415\u041B\u042C\u041D\u041E\u0415
+    \u0412\u0420\u0415\u041C\u042F\",\"de\":\"ZUS\xC4TZLICHE SPIELZEIT\",\"ja\":\"\u8FFD\u52A0\u30D7\u30EC\u30A4\u6642\u9593\",\"zh-tw\":\"\u984D\u5916\u904A\u73A9\u6642\u9593\",\"pt\":\"TEMPO
+    EXTRA DE JOGO\",\"fr\":\"TEMPS DE JEU SUPPL\xC9MENTAIRE\",\"ko\":\"\uCD94\uAC00
+    \uD50C\uB808\uC774 \uC2DC\uAC04\",\"es\":\"TIEMPO EXTRA DE JUEGO\",\"it\":\"TEMPO
+    DI GIOCO EXTRA\",\"in\":\"\u0905\u0924\u093F\u0930\u093F\u0915\u094D\u0924 \u0916\u0947\u0932\u0928\u0947
+    \u0915\u093E \u0938\u092E\u092F\"},\"boost_time_des\":{\"vi\":\"Th\xEAm 30s\",\"en\":\"Add
+    30 seconds\",\"id\":\"Tambah 30 detik\",\"ru\":\"\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C
+    30 \u0441\u0435\u043A\u0443\u043D\u0434\",\"de\":\"30 Sekunden hinzuf\xFCgen\",\"ja\":\"30\u79D2\u8FFD\u52A0\",\"zh-tw\":\"\u589E\u52A030\u79D2\",\"pt\":\"Adicionar
+    30 segundos\",\"fr\":\"Ajouter 30 secondes\",\"ko\":\"30\uCD08 \uCD94\uAC00\",\"es\":\"A\xF1adir
+    30 segundos\",\"it\":\"Aggiungi 30 secondi\",\"in\":\"30 \u0938\u0947\u0915\u0902\u0921
+    \u091C\u094B\u0921\u093C\u0947\u0902\"},\"shop_bundle_name_2\":{\"vi\":\"G\u1EE1
+    qu\u1EA3ng c\xE1o\",\"en\":\"REMOVE ADS\",\"id\":\"HILANGKAN IKLAN\",\"ru\":\"\u0423\u0411\u0420\u0410\u0422\u042C
+    \u0420\u0415\u041A\u041B\u0410\u041C\u0423\",\"de\":\"WERBUNG ENTFERNEN\",\"ja\":\"\u5E83\u544A\u3092\u524A\u9664\",\"zh-tw\":\"\u79FB\u9664\u5EE3\u544A\",\"pt\":\"REMOVER
+    AN\xDANCIOS\",\"fr\":\"SUPPRIMER LES PUBS\",\"ko\":\"\uAD11\uACE0 \uC81C\uAC70\",\"es\":\"ELIMINAR
+    ANUNCIOS\",\"it\":\"RIMUOVI PUBBLICIT\xC0\",\"in\":\"\u0935\u093F\u091C\u094D\u091E\u093E\u092A\u0928
+    \u0939\u091F\u093E\u090F\u0902\"},\"shop_bundle_name_3\":{\"vi\":\"G\xF3i g\u1EE1
+    qu\u1EA3ng c\xE1o\",\"en\":\"REMOVE ADS BUNDLE\",\"id\":\"PAKET HILANGKAN IKLAN\",\"ru\":\"\u041D\u0410\u0411\u041E\u0420
+    \u0423\u0414\u0410\u041B\u0415\u041D\u0418\u042F \u0420\u0415\u041A\u041B\u0410\u041C\u042B\",\"de\":\"WERBUNGS-ENTFERNUNGS-PAKET\",\"ja\":\"\u5E83\u544A\u524A\u9664\u30D1\u30C3\u30AF\",\"zh-tw\":\"\u79FB\u9664\u5EE3\u544A\u7D44\u5408\u5305\",\"pt\":\"PACOTE
+    PARA REMOVER AN\xDANCIOS\",\"fr\":\"PACK SUPPRESSION DE PUBS\",\"ko\":\"\uAD11\uACE0
+    \uC81C\uAC70 \uBC88\uB4E4\",\"es\":\"PAQUETE DE ELIMINACI\xD3N DE ANUNCIOS\",\"it\":\"PACCHETTO
+    RIMOZIONE PUBBLICIT\xC0\",\"in\":\"\u0935\u093F\u091C\u094D\u091E\u093E\u092A\u0928
+    \u0939\u091F\u093E\u0928\u0947 \u0915\u093E \u092A\u0948\u0915\u0947\u091C\"},\"shop_bundle_name_4\":{\"vi\":\"G\xF3i
+    d\xE0nh cho ng\u01B0\u1EDDi m\u1EDBi\",\"en\":\"BEGINNER'S BUNDLE\",\"id\":\"PAKET
+    PEMULA\",\"ru\":\"\u041D\u0410\u0411\u041E\u0420 \u0414\u041B\u042F \u041D\u0410\u0427\u0418\u041D\u0410\u042E\u0429\u0418\u0425\",\"de\":\"ANF\xC4NGER-PAKET\",\"ja\":\"\u521D\u5FC3\u8005\u30D1\u30C3\u30AF\",\"zh-tw\":\"\u65B0\u624B\u7D44\u5408\u5305\",\"pt\":\"PACOTE
+    INICIANTE\",\"fr\":\"PACK D\xC9BUTANT\",\"ko\":\"\uCD08\uBCF4\uC790 \uBC88\uB4E4\",\"es\":\"PAQUETE
+    DE PRINCIPIANTE\",\"it\":\"PACCHETTO PRINCIPIANTE\",\"in\":\"\u0936\u0941\u0930\u0941\u0906\u0924\u0940
+    \u092A\u0948\u0915\u0947\u091C\"},\"shop_bundle_name_5\":{\"vi\":\"G\xF3i Tuy\u1EC7t
+    v\u1EDDi\",\"en\":\"GREAT BUNDLE\",\"id\":\"PAKET HEBAT\",\"ru\":\"\u041E\u0422\u041B\u0418\u0427\u041D\u042B\u0419
+    \u041D\u0410\u0411\u041E\u0420\",\"de\":\"TOLLES PAKET\",\"ja\":\"\u7D20\u6674\u3089\u3057\u3044\u30D1\u30C3\u30AF\",\"zh-tw\":\"\u512A\u60E0\u7D44\u5408\u5305\",\"pt\":\"PACOTE
+    \xD3TIMO\",\"fr\":\"SUPER PACK\",\"ko\":\"\uBA4B\uC9C4 \uBC88\uB4E4\",\"es\":\"PAQUETE
+    GENIAL\",\"it\":\"PACCHETTO FANTASTICO\",\"in\":\"\u0936\u093E\u0928\u0926\u093E\u0930
+    \u092A\u0948\u0915\u0947\u091C\"},\"shop_bundle_name_6\":{\"vi\":\"G\xF3i \u0110\u1EC9nh\",\"en\":\"EPIC
+    BUNDLE\",\"id\":\"PAKET EPIC\",\"ru\":\"\u042D\u041F\u0418\u0427\u0415\u0421\u041A\u0418\u0419
+    \u041D\u0410\u0411\u041E\u0420\",\"de\":\"EPISCHES PAKET\",\"ja\":\"\u30A8\u30D4\u30C3\u30AF\u30D1\u30C3\u30AF\",\"zh-tw\":\"\u53F2\u8A69\u7D44\u5408\u5305\",\"pt\":\"PACOTE
+    \xC9PICO\",\"fr\":\"PACK \xC9PIQUE\",\"ko\":\"\uC5D0\uD53D \uBC88\uB4E4\",\"es\":\"PAQUETE
+    \xC9PICO\",\"it\":\"PACCHETTO EPICO\",\"in\":\"\u092E\u0939\u093E\u0915\u093E\u0935\u094D\u092F
+    \u092A\u0948\u0915\u0947\u091C\"},\"shop_sale_content_90\":{\"vi\":\"Gi\u1EA3m
+    90%\",\"en\":\"90% OFF\",\"id\":\"DISKON 90%\",\"ru\":\"\u0421\u041A\u0418\u0414\u041A\u0410
+    90%\",\"de\":\"90% RABATT\",\"ja\":\"90%\u30AA\u30D5\",\"zh-tw\":\"90%\u6298\u6263\",\"pt\":\"90%
+    DE DESCONTO\",\"fr\":\"90% DE R\xC9DUCTION\",\"ko\":\"90% \uD560\uC778\",\"es\":\"90%
+    DE DESCUENTO\",\"it\":\"SCONTO DEL 90%\",\"in\":\"90% \u0915\u0940 \u091B\u0942\u091F\"},\"tap_to_close\":{\"vi\":\"Ch\u1EA1m
+    \u0111\u1EC3 \u0111\xF3ng\",\"en\":\"Tap to Close\",\"id\":\"Ketuk untuk Tutup\",\"ru\":\"\u041D\u0430\u0436\u043C\u0438\u0442\u0435,
+    \u0447\u0442\u043E\u0431\u044B \u0437\u0430\u043A\u0440\u044B\u0442\u044C\",\"de\":\"Tippen
+    zum Schlie\xDFen\",\"ja\":\"\u9589\u3058\u308B\u306B\u306F\u30BF\u30C3\u30D7\",\"zh-tw\":\"\u9EDE\u64CA\u95DC\u9589\",\"pt\":\"Toque
+    para Fechar\",\"fr\":\"Appuyez pour Fermer\",\"ko\":\"\uB2EB\uC73C\uB824\uBA74
+    \uD130\uCE58\",\"es\":\"Toca para Cerrar\",\"it\":\"Tocca per Chiudere\",\"in\":\"\u092C\u0902\u0926
+    \u0915\u0930\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F \u091F\u0948\u092A \u0915\u0930\u0947\u0902\"},\"tap_to_continue\":{\"vi\":\"Ch\u1EA1m
+    \u0111\u1EC3 ti\u1EBFp t\u1EE5c\",\"en\":\"TAP TO CONTINUE\",\"id\":\"Ketuk untuk
+    Melanjutkan\",\"ru\":\"\u041D\u0430\u0436\u043C\u0438\u0442\u0435, \u0447\u0442\u043E\u0431\u044B
+    \u043F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C\",\"de\":\"Tippen
+    zum Fortfahren\",\"ja\":\"\u7D9A\u3051\u308B\u306B\u306F\u30BF\u30C3\u30D7\",\"zh-tw\":\"\u9EDE\u64CA\u7E7C\u7E8C\",\"pt\":\"Toque
+    para Continuar\",\"fr\":\"Appuyez pour Continuer\",\"ko\":\"\uACC4\uC18D\uD558\uB824\uBA74
+    \uD130\uCE58\",\"es\":\"Toca para Continuar\",\"it\":\"Tocca per Continuare\",\"in\":\"\u091C\u093E\u0930\u0940
+    \u0930\u0916\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F \u091F\u0948\u092A \u0915\u0930\u0947\u0902\"},\"room_repairing\":{\"vi\":\"\u0110ang
+    c\u1EA3i t\u1EA1o\",\"en\":\"Renovation in progress\",\"id\":\"Renovasi sedang
+    berlangsung\",\"ru\":\"\u0420\u0435\u043C\u043E\u043D\u0442 \u0432 \u043F\u0440\u043E\u0446\u0435\u0441\u0441\u0435\",\"de\":\"Renovierung
+    im Gange\",\"ja\":\"\u6539\u88C5\u4E2D\",\"zh-tw\":\"\u6B63\u5728\u7FFB\u65B0\",\"pt\":\"Renova\xE7\xE3o
+    em andamento\",\"fr\":\"R\xE9novation en cours\",\"ko\":\"\uB9AC\uB178\uBCA0\uC774\uC158
+    \uC9C4\uD589 \uC911\",\"es\":\"Renovaci\xF3n en progreso\",\"it\":\"Ristrutturazione
+    in corso\",\"in\":\"\u0928\u0935\u0940\u0928\u0940\u0915\u0930\u0923 \u091A\u0932
+    \u0930\u0939\u093E \u0939\u0948\"},\"decor_hold_to_build\":{\"vi\":\"Gi\u1EEF
+    \u0111\u1EC3 x\xE2y\",\"en\":\"HOLD TO BUILD\",\"id\":\"TAHAN UNTUK MEMBANGUN\",\"ru\":\"\u0423\u0414\u0415\u0420\u0416\u0418\u0412\u0410\u0419\u0422\u0415,
+    \u0427\u0422\u041E\u0411\u042B \u041F\u041E\u0421\u0422\u0420\u041E\u0418\u0422\u042C\",\"de\":\"HALTEN
+    ZUM BAUEN\",\"ja\":\"\u9577\u62BC\u3057\u3057\u3066\u5EFA\u8A2D\",\"zh-tw\":\"\u6309\u4F4F\u5EFA\u9020\",\"pt\":\"SEGURE
+    PARA CONSTRUIR\",\"fr\":\"MAINTENEZ POUR CONSTRUIRE\",\"ko\":\"\uB204\uB974\uACE0
+    \uAC74\uC124\",\"es\":\"MANT\xC9N PARA CONSTRUIR\",\"it\":\"TIENI PREMUTO PER
+    COSTRUIRE\",\"in\":\"\u0928\u093F\u0930\u094D\u092E\u093E\u0923 \u0915\u0947
+    \u0932\u093F\u090F \u0926\u092C\u093E\u090F \u0930\u0916\u0947\u0902\"},\"boost_addhole_name\":{\"vi\":\"Nam
+    ch\xE2m\",\"en\":\"Hole\",\"id\":\"MAGNET\",\"ru\":\"\u041C\u0410\u0413\u041D\u0418\u0422\",\"de\":\"MAGNET\",\"ja\":\"\u30DE\u30B0\u30CD\u30C3\u30C8\",\"zh-tw\":\"\u78C1\u9435\",\"pt\":\"\xCDM\xC3\",\"fr\":\"AIMANT\",\"ko\":\"\uC790\uC11D\",\"es\":\"IM\xC1N\",\"it\":\"MAGNETE\",\"in\":\"\u091A\u0941\u0902\u092C\u0915\"},\"boost_addhole_des\":{\"vi\":\"H\xFAt
+    \u1ED1c\",\"en\":\"Create another Hole\",\"id\":\"Menarik sekrup\",\"ru\":\"\u041F\u0440\u0438\u0432\u043B\u0435\u0447\u044C
+    \u0432\u0438\u043D\u0442\",\"de\":\"Schraube anziehen\",\"ja\":\"\u306D\u3058\u3092\u5F15\u304D\u5BC4\u305B\u308B\",\"zh-tw\":\"\u5438\u5F15\u87BA\u7D72\",\"pt\":\"Atraia
+    um parafuso\",\"fr\":\"Attirer une vis\",\"ko\":\"\uB098\uC0AC\uB97C \uB04C\uC5B4\uB2F9\uAE30\uAE30\",\"es\":\"Atraer
+    un tornillo\",\"it\":\"Attira una vite\",\"in\":\"\u0938\u094D\u0915\u094D\u0930\u0942
+    \u0915\u094B \u0906\u0915\u0930\u094D\u0937\u093F\u0924 \u0915\u0930\u0947\u0902\"},\"help_guide_first_level\":{\"vi\":\"\u0110i\u1EC1n
+    h\u1ED9p c\xF4ng c\u1EE5 v\u1EDBi c\xE1c \u1ED1c ph\xF9 h\u1EE3p\",\"en\":\"Fill
+    toolboxes with matching screws\",\"id\":\"Isi kotak alat dengan sekrup yang cocok\",\"ru\":\"\u0417\u0430\u043F\u043E\u043B\u043D\u0438\u0442\u0435
+    \u044F\u0449\u0438\u043A\u0438 \u0434\u043B\u044F \u0438\u043D\u0441\u0442\u0440\u0443\u043C\u0435\u043D\u0442\u043E\u0432
+    \u043F\u043E\u0434\u0445\u043E\u0434\u044F\u0449\u0438\u043C\u0438 \u0432\u0438\u043D\u0442\u0430\u043C\u0438\",\"de\":\"F\xFClle
+    die Werkzeugk\xE4sten mit passenden Schrauben\",\"ja\":\"\u4E00\u81F4\u3059\u308B\u306D\u3058\u3067\u30C4\u30FC\u30EB\u30DC\u30C3\u30AF\u30B9\u3092\u6E80\u305F\u3059\",\"zh-tw\":\"\u5C07\u5339\u914D\u7684\u87BA\u7D72\u586B\u6EFF\u5DE5\u5177\u7BB1\",\"pt\":\"Preencha
+    as caixas de ferramentas com parafusos correspondentes\",\"fr\":\"Remplissez
+    les bo\xEEtes \xE0 outils avec des vis assorties\",\"ko\":\"\uC77C\uCE58\uD558\uB294
+    \uB098\uC0AC\uB85C \uACF5\uAD6C \uC0C1\uC790\uB97C \uCC44\uC6B0\uC138\uC694\",\"es\":\"Llena
+    las cajas de herramientas con tornillos coincidentes\",\"it\":\"Riempi le cassette
+    degli attrezzi con viti abbinate\",\"in\":\"\u092E\u0947\u0932 \u0916\u093E\u0924\u0947
+    \u0938\u094D\u0915\u094D\u0930\u0942 \u0938\u0947 \u091F\u0942\u0932\u092C\u0949\u0915\u094D\u0938
+    \u092D\u0930\u0947\u0902\"},\"help_guide_star_screw\":{\"vi\":\"S\u1EED d\u1EE5ng
+    \u1ED1c h\xECnh <color=#FFFF00>ng\xF4i sao</color> khi c\u1EA7n\",\"en\":\"Use
+    <color=#FFFF00>star</color> shaped screws when needed\",\"id\":\"Gunakan sekrup
+    berbentuk <color=#FFFF00>bintang</color> saat dibutuhkan\",\"ru\":\"\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u0443\u0439\u0442\u0435
+    \u0432\u0438\u043D\u0442\u044B \u0432 \u0444\u043E\u0440\u043C\u0435 <color=#FFFF00>\u0437\u0432\u0435\u0437\u0434\u044B</color>,
+    \u043A\u043E\u0433\u0434\u0430 \u043D\u0443\u0436\u043D\u043E\",\"de\":\"Verwende
+    <color=#FFFF00>sternf\xF6rmige</color> Schrauben, wenn n\xF6tig\",\"ja\":\"\u5FC5\u8981\u306B\u5FDC\u3058\u3066<color=#FFFF00>\u661F\u5F62</color>\u306E\u306D\u3058\u3092\u4F7F\u7528\u3059\u308B\",\"zh-tw\":\"\u7576\u9700\u8981\u6642\u4F7F\u7528<color=#FFFF00>\u661F\u5F62</color>\u87BA\u7D72\",\"pt\":\"Use
+    parafusos em forma de <color=#FFFF00>estrela</color> quando necess\xE1rio\",\"fr\":\"Utilisez
+    des vis en forme d'\xE9toile <color=#FFFF00>\xE9toile</color> lorsque n\xE9cessaire\",\"ko\":\"\uD544\uC694\uD560
+    \uB54C <color=#FFFF00>\uBCC4 \uBAA8\uC591</color> \uB098\uC0AC\uB97C \uC0AC\uC6A9\uD558\uC138\uC694\",\"es\":\"Usa
+    tornillos con forma de <color=#FFFF00>estrella</color> cuando sea necesario\",\"it\":\"Usa
+    viti a forma di <color=#FFFF00>stella</color> quando necessario\",\"in\":\"\u0906\u0935\u0936\u094D\u092F\u0915
+    \u0939\u094B\u0928\u0947 \u092A\u0930 <color=#FFFF00>\u0924\u093E\u0930\u094B\u0902
+    \u0915\u0947 \u0906\u0915\u093E\u0930</color> \u0935\u093E\u0932\u0947 \u0938\u094D\u0915\u094D\u0930\u0942
+    \u0915\u093E \u0909\u092A\u092F\u094B\u0917 \u0915\u0930\u0947\u0902\"},\"help_guide_link_screw\":{\"vi\":\"C\xE1c
+    \u1ED1c \u0111\u01B0\u1EE3c k\u1EBFt n\u1ED1i s\u1EBD di chuy\u1EC3n c\xF9ng
+    nhau\",\"en\":\"Connected screws move together\",\"id\":\"Sekrup yang terhubung
+    bergerak bersama\",\"ru\":\"\u0421\u0432\u044F\u0437\u0430\u043D\u043D\u044B\u0435
+    \u0432\u0438\u043D\u0442\u044B \u0434\u0432\u0438\u0433\u0430\u044E\u0442\u0441\u044F
+    \u0432\u043C\u0435\u0441\u0442\u0435\",\"de\":\"Verbundene Schrauben bewegen
+    sich zusammen\",\"ja\":\"\u63A5\u7D9A\u3055\u308C\u305F\u306D\u3058\u306F\u4E00\u7DD2\u306B\u52D5\u304F\",\"zh-tw\":\"\u9023\u63A5\u7684\u87BA\u7D72\u4E00\u8D77\u79FB\u52D5\",\"pt\":\"Parafusos
+    conectados se movem juntos\",\"fr\":\"Les vis connect\xE9es se d\xE9placent ensemble\",\"ko\":\"\uC5F0\uACB0\uB41C
+    \uB098\uC0AC\uB294 \uD568\uAED8 \uC6C0\uC9C1\uC785\uB2C8\uB2E4\",\"es\":\"Los
+    tornillos conectados se mueven juntos\",\"it\":\"Le viti connesse si muovono
+    insieme\",\"in\":\"\u091C\u0941\u0921\u093C\u0947 \u0939\u0941\u090F \u0938\u094D\u0915\u094D\u0930\u0942
+    \u090F\u0915 \u0938\u093E\u0925 \u091A\u0932\u0924\u0947 \u0939\u0948\u0902\"},\"help_guide_ice_screw\":{\"vi\":\"Ph\xE1
+    <color=#00FFFF>B\u0102NG</color> b\u1EB1ng c\xE1ch thu th\u1EADp b\u1EA5t k\u1EF3
+    3 \u1ED1c\",\"en\":\"Break the <color=#00FFFF>ICE</color> by collecting any 3
+    screws\",\"id\":\"Hancurkan <color=#00FFFF>ES</color> dengan mengumpulkan 3 sekrup
+    apa saja\",\"ru\":\"\u0420\u0430\u0437\u0431\u0435\u0439\u0442\u0435 <color=#00FFFF>\u041B\u0401\u0414</color>,
+    \u0441\u043E\u0431\u0440\u0430\u0432 \u043B\u044E\u0431\u044B\u0435 3 \u0432\u0438\u043D\u0442\u0430\",\"de\":\"Brich
+    das <color=#00FFFF>EIS</color>, indem du 3 beliebige Schrauben sammelst\",\"ja\":\"\u4EFB\u610F\u306E3\u3064\u306E\u306D\u3058\u3092\u96C6\u3081\u3066<color=#00FFFF>\u6C37</color>\u3092\u58CA\u3059\",\"zh-tw\":\"\u6536\u96C6\u4EFB\u610F
+    3 \u9846\u87BA\u7D72\u4EE5\u6253\u7834<color=#00FFFF>\u51B0\u584A</color>\",\"pt\":\"Quebre
+    o <color=#00FFFF>GELO</color> coletando 3 parafusos\",\"fr\":\"Brisez la <color=#00FFFF>GLACE</color>
+    en collectant 3 vis\",\"ko\":\"\uB098\uC0AC 3\uAC1C\uB97C \uBAA8\uC544 <color=#00FFFF>\uC5BC\uC74C</color>\uC744
+    \uAE68\uC138\uC694\",\"es\":\"Rompe el <color=#00FFFF>HIELO</color> recolectando
+    3 tornillos\",\"it\":\"Rompi il <color=#00FFFF>GHIACCIO</color> raccogliendo
+    3 viti qualsiasi\",\"in\":\"\u0915\u093F\u0938\u0940 \u092D\u0940 3 \u0938\u094D\u0915\u094D\u0930\u0942
+    \u0907\u0915\u091F\u094D\u0920\u093E \u0915\u0930\u0915\u0947 <color=#00FFFF>\u092C\u0930\u094D\u092B</color>
+    \u0915\u094B \u0924\u094B\u0921\u093C\u0947\u0902\"},\"help_guide_toggle_screw\":{\"vi\":\"C\u1EEDa
+    ch\u1EDBp m\u1EDF ho\u1EB7c \u0111\xF3ng m\u1ED7i l\u01B0\u1EE3t di chuy\u1EC3n\",\"en\":\"Shutter
+    opens or closes with each move\",\"id\":\"Jendela tertutup atau terbuka setiap
+    kali bergerak\",\"ru\":\"\u0416\u0430\u043B\u044E\u0437\u0438 \u043E\u0442\u043A\u0440\u044B\u0432\u0430\u044E\u0442\u0441\u044F
+    \u0438\u043B\u0438 \u0437\u0430\u043A\u0440\u044B\u0432\u0430\u044E\u0442\u0441\u044F
+    \u0441 \u043A\u0430\u0436\u0434\u044B\u043C \u0445\u043E\u0434\u043E\u043C\",\"de\":\"Der
+    Rollladen \xF6ffnet oder schlie\xDFt sich bei jedem Zug\",\"ja\":\"\u30B7\u30E3\u30C3\u30BF\u30FC\u306F\u79FB\u52D5\u3054\u3068\u306B\u958B\u9589\u3059\u308B\",\"zh-tw\":\"\u6BCF\u6B21\u79FB\u52D5\u6642\u5FEB\u9580\u6703\u958B\u95DC\",\"pt\":\"O
+    obturador abre ou fecha a cada movimento\",\"fr\":\"Le volet s'ouvre ou se ferme
+    \xE0 chaque mouvement\",\"ko\":\"\uD55C \uBC88 \uC6C0\uC9C1\uC77C \uB54C\uB9C8\uB2E4
+    \uC154\uD130\uAC00 \uC5F4\uB9AC\uACE0 \uB2EB\uD799\uB2C8\uB2E4\",\"es\":\"La
+    persiana se abre o se cierra con cada movimiento\",\"it\":\"L'otturatore si apre
+    o si chiude con ogni mossa\",\"in\":\"\u092A\u094D\u0930\u0924\u094D\u092F\u0947\u0915
+    \u091A\u093E\u0932 \u0915\u0947 \u0938\u093E\u0925 \u0936\u091F\u0930 \u0916\u0941\u0932\u0924\u093E
+    \u092F\u093E \u092C\u0902\u0926 \u0939\u094B\u0924\u093E \u0939\u0948\"},\"help_guide_bomb_screw\":{\"vi\":\"G\u1EE1
+    bom tr\u01B0\u1EDBc khi h\u1EBFt l\u01B0\u1EE3t di chuy\u1EC3n\",\"en\":\"Clear
+    the bomb before running out of its moves\",\"id\":\"Hapus bom sebelum kehabisan
+    langkah\",\"ru\":\"\u041E\u0431\u0435\u0437\u0432\u0440\u0435\u0434\u044C\u0442\u0435
+    \u0431\u043E\u043C\u0431\u0443, \u043F\u043E\u043A\u0430 \u043D\u0435 \u0437\u0430\u043A\u043E\u043D\u0447\u0438\u043B\u0438\u0441\u044C
+    \u0445\u043E\u0434\u044B\",\"de\":\"Entsch\xE4rfe die Bombe, bevor die Z\xFCge
+    ausgehen\",\"ja\":\"\u7206\u5F3E\u304C\u52D5\u304D\u5207\u308B\u524D\u306B\u89E3\u9664\u3059\u308B\",\"zh-tw\":\"\u5728\u70B8\u5F48\u6B65\u6578\u7528\u5B8C\u4E4B\u524D\u6E05\u9664\u5B83\",\"pt\":\"Desarme
+    a bomba antes de acabar os movimentos\",\"fr\":\"D\xE9samorcez la bombe avant
+    d'\xE9puiser les mouvements\",\"ko\":\"\uB0A8\uC740 \uC774\uB3D9 \uD69F\uC218
+    \uC804\uC5D0 \uD3ED\uD0C4\uC744 \uC81C\uAC70\uD558\uC138\uC694\",\"es\":\"Desactiva
+    la bomba antes de quedarte sin movimientos\",\"it\":\"Disinnesca la bomba prima
+    che finisca i movimenti\",\"in\":\"\u0909\u0938\u0915\u0947 \u091A\u093E\u0932\u0947\u0902
+    \u0938\u092E\u093E\u092A\u094D\u0924 \u0939\u094B\u0928\u0947 \u0938\u0947 \u092A\u0939\u0932\u0947
+    \u092C\u092E \u0915\u094B \u0938\u093E\u092B \u0915\u0930\u0947\u0902\"},\"help_guide_chain_screw\":{\"vi\":\"Lo\u1EA1i
+    b\u1ECF d\xE2y x\xEDch \u0111\u1EC3 gi\u1EA3i ph\xF3ng \u1ED1c b\u1ECB x\xEDch\",\"en\":\"Remove
+    connected chains to free the chained screw\",\"id\":\"Hapus rantai yang terhubung
+    untuk membebaskan sekrup yang terikat\",\"ru\":\"\u0423\u0434\u0430\u043B\u0438\u0442\u0435
+    \u0441\u043E\u0435\u0434\u0438\u043D\u0435\u043D\u043D\u044B\u0435 \u0446\u0435\u043F\u0438,
+    \u0447\u0442\u043E\u0431\u044B \u043E\u0441\u0432\u043E\u0431\u043E\u0434\u0438\u0442\u044C
+    \u0432\u0438\u043D\u0442\",\"de\":\"Entferne die verbundenen Ketten, um die gefangene
+    Schraube zu befreien\",\"ja\":\"\u63A5\u7D9A\u3055\u308C\u305F\u9396\u3092\u5916\u3057\u3066\u7E1B\u3089\u308C\u305F\u306D\u3058\u3092\u89E3\u653E\u3059\u308B\",\"zh-tw\":\"\u79FB\u9664\u9023\u63A5\u7684\u93C8\u689D\u4EE5\u89E3\u653E\u9396\u4F4F\u7684\u87BA\u7D72\",\"pt\":\"Remova
+    as correntes conectadas para liberar o parafuso preso\",\"fr\":\"Retirez les
+    cha\xEEnes connect\xE9es pour lib\xE9rer la vis encha\xEEn\xE9e\",\"ko\":\"\uC5F0\uACB0\uB41C
+    \uCCB4\uC778\uC744 \uC81C\uAC70\uD558\uC5EC \uBB36\uC778 \uB098\uC0AC\uB97C \uD480\uC5B4\uC8FC\uC138\uC694\",\"es\":\"Elimina
+    las cadenas conectadas para liberar el tornillo encadenado\",\"it\":\"Rimuovi
+    le catene connesse per liberare la vite incatenata\",\"in\":\"\u0936\u094D\u0930\u0943\u0902\u0916\u0932\u093E\u0913\u0902
+    \u0915\u094B \u0939\u091F\u093E \u0926\u0947\u0902 \u0924\u093E\u0915\u093F \u0936\u094D\u0930\u0943\u0902\u0916\u0932\u093E
+    \u0938\u0947 \u092C\u0902\u0927\u093E \u0938\u094D\u0915\u094D\u0930\u0942 \u092E\u0941\u0915\u094D\u0924
+    \u0939\u094B \u091C\u093E\u090F\"},\"help_guide_lockkit_screw\":{\"vi\":\"Gi\u1EA3i
+    ph\xF3ng ch\xECa kh\xF3a \u0111\u1EC3 m\u1EDF kh\xF3a\",\"en\":\"Free the key
+    to unlock the lock\",\"id\":\"Bebaskan kunci untuk membuka gembok\",\"ru\":\"\u041E\u0441\u0432\u043E\u0431\u043E\u0434\u0438\u0442\u0435
+    \u043A\u043B\u044E\u0447, \u0447\u0442\u043E\u0431\u044B \u043E\u0442\u043A\u0440\u044B\u0442\u044C
+    \u0437\u0430\u043C\u043E\u043A\",\"de\":\"Befreie den Schl\xFCssel, um das Schloss
+    zu \xF6ffnen\",\"ja\":\"\u9375\u3092\u89E3\u653E\u3057\u3066\u30ED\u30C3\u30AF\u3092\u89E3\u9664\u3059\u308B\",\"zh-tw\":\"\u89E3\u653E\u9470\u5319\u4EE5\u89E3\u9396\u9396\u982D\",\"pt\":\"Libere
+    a chave para destrancar a fechadura\",\"fr\":\"Lib\xE9rez la cl\xE9 pour d\xE9verrouiller
+    la serrure\",\"ko\":\"\uC790\uBB3C\uC1E0\uB97C \uD480\uB824\uBA74 \uC5F4\uC1E0\uB97C
+    \uD574\uBC29\uD558\uC138\uC694\",\"es\":\"Libera la llave para desbloquear el
+    candado\",\"it\":\"Libera la chiave per sbloccare la serratura\",\"in\":\"\u0924\u093E\u0932\u093E
+    \u0916\u094B\u0932\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F \u091A\u093E\u092C\u0940
+    \u0915\u094B \u092E\u0941\u0915\u094D\u0924 \u0915\u0930\u0947\u0902\"},\"no_more_life\":{\"vi\":\"H\u1EBET
+    M\u1EA0NG!\",\"en\":\"NO MORE LIVES!\",\"id\":\"TIDAK ADA NYAWA LAGI!\",\"ru\":\"\u0411\u041E\u041B\u042C\u0428\u0415
+    \u041D\u0415\u0422 \u0416\u0418\u0417\u041D\u0415\u0419!\",\"de\":\"KEINE LEBEN
+    MEHR!\",\"ja\":\"\u30E9\u30A4\u30D5\u304C\u3082\u3046\u3042\u308A\u307E\u305B\u3093\uFF01\",\"zh-tw\":\"\u6C92\u6709\u66F4\u591A\u751F\u547D\uFF01\",\"pt\":\"SEM
+    MAIS VIDAS!\",\"fr\":\"PLUS DE VIES !\",\"ko\":\"\uC0DD\uBA85\uC774 \uB354 \uC774\uC0C1
+    \uC5C6\uC2B5\uB2C8\uB2E4!\",\"es\":\"\xA1NO QUEDAN VIDAS!\",\"it\":\"NIENTE PI\xD9
+    VITE!\",\"in\":\"\u0915\u094B\u0908 \u0914\u0930 \u091C\u0940\u0935\u0928 \u0928\u0939\u0940\u0902!\"},\"keep_play\":{\"vi\":\"TI\u1EBEP
+    T\u1EE4C CH\u01A0I\",\"en\":\"KEEP PLAYING\",\"id\":\"TERUS BERMAIN\",\"ru\":\"\u041F\u0420\u041E\u0414\u041E\u041B\u0416\u0410\u0419\u0422\u0415
+    \u0418\u0413\u0420\u0410\u0422\u042C\",\"de\":\"WEITERSPIELEN\",\"ja\":\"\u7D9A\u3051\u3066\u30D7\u30EC\u30A4\u3059\u308B\",\"zh-tw\":\"\u7E7C\u7E8C\u904A\u6232\",\"pt\":\"CONTINUE
+    JOGANDO\",\"fr\":\"CONTINUEZ \xC0 JOUER\",\"ko\":\"\uACC4\uC18D \uD50C\uB808\uC774\",\"es\":\"SIGUE
+    JUGANDO\",\"it\":\"CONTINUA A GIOCARE\",\"in\":\"\u0916\u0947\u0932\u0924\u0947
+    \u0930\u0939\u0947\u0902\"},\"get_now\":{\"vi\":\"MUA NGAY\",\"en\":\"GET NOW\",\"id\":\"DAPATKAN
+    SEKARANG\",\"ru\":\"\u041F\u041E\u041B\u0423\u0427\u0418\u0422\u0415 \u0421\u0415\u0419\u0427\u0410\u0421\",\"de\":\"JETZT
+    HOLEN\",\"ja\":\"\u4ECA\u3059\u3050\u5165\u624B\",\"zh-tw\":\"\u7ACB\u5373\u7372\u5F97\",\"pt\":\"PEGUE
+    AGORA\",\"fr\":\"OBTENIR MAINTENANT\",\"ko\":\"\uC9C0\uAE08 \uBC1B\uAE30\",\"es\":\"OBTENER
+    AHORA\",\"it\":\"OTTIENI ORA\",\"in\":\"\u0905\u092D\u0940 \u092A\u094D\u0930\u093E\u092A\u094D\u0924
+    \u0915\u0930\u0947\u0902\"},\"remove_ads\":{\"vi\":\"G\u1EE0 QU\u1EA2NG C\xC1O\",\"en\":\"REMOVE
+    ADS\",\"id\":\"HILANGKAN IKLAN\",\"ru\":\"\u0423\u0411\u0420\u0410\u0422\u042C
+    \u0420\u0415\u041A\u041B\u0410\u041C\u0423\",\"de\":\"WERBUNG ENTFERNEN\",\"ja\":\"\u5E83\u544A\u3092\u524A\u9664\",\"zh-tw\":\"\u79FB\u9664\u5EE3\u544A\",\"pt\":\"REMOVER
+    AN\xDANCIOS\",\"fr\":\"SUPPRIMER LES PUBS\",\"ko\":\"\uAD11\uACE0 \uC81C\uAC70\",\"es\":\"ELIMINAR
+    ANUNCIOS\",\"it\":\"RIMUOVI ANNUNCI\",\"in\":\"\u0935\u093F\u091C\u094D\u091E\u093E\u092A\u0928
+    \u0939\u091F\u093E\u090F\u0902\"},\"level_completed\":{\"vi\":\"HO\xC0N TH\xC0NH\",\"en\":\"LEVEL
+    COMPLETE\",\"id\":\"LEVEL SELESAI\",\"ru\":\"\u0423\u0420\u041E\u0412\u0415\u041D\u042C
+    \u0417\u0410\u0412\u0415\u0420\u0428\u0415\u041D\",\"de\":\"LEVEL ABGESCHLOSSEN\",\"ja\":\"\u30EC\u30D9\u30EB\u30AF\u30EA\u30A2\",\"zh-tw\":\"\u95DC\u5361\u5B8C\u6210\",\"pt\":\"N\xCDVEL
+    COMPLETO\",\"fr\":\"NIVEAU TERMIN\xC9\",\"ko\":\"\uB808\uBCA8 \uC644\uB8CC\",\"es\":\"NIVEL
+    COMPLETADO\",\"it\":\"LIVELLO COMPLETATO\",\"in\":\"\u0938\u094D\u0924\u0930
+    \u092A\u0942\u0930\u093E\"},\"new_feature\":{\"vi\":\"T\xCDNH N\u0102NG M\u1EDAI\",\"en\":\"NEW
+    FEATURE\",\"id\":\"FITUR BARU\",\"ru\":\"\u041D\u041E\u0412\u0410\u042F \u0424\u0423\u041D\u041A\u0426\u0418\u042F\",\"de\":\"NEUE
+    FUNKTION\",\"ja\":\"\u65B0\u6A5F\u80FD\",\"zh-tw\":\"\u65B0\u529F\u80FD\",\"pt\":\"NOVO
+    RECURSO\",\"fr\":\"NOUVELLE FONCTIONNALIT\xC9\",\"ko\":\"\uC0C8 \uAE30\uB2A5\",\"es\":\"NUEVA
+    FUNCI\xD3N\",\"it\":\"NUOVA FUNZIONE\",\"in\":\"\u0928\u092F\u093E \u092B\u0940\u091A\u0930\"},\"continue\":{\"vi\":\"Ti\u1EBFp
+    t\u1EE5c\",\"en\":\"Continue\",\"id\":\"Lanjutkan\",\"ru\":\"\u041F\u0440\u043E\u0434\u043E\u043B\u0436\u0438\u0442\u044C\",\"de\":\"Fortsetzen\",\"ja\":\"\u7D9A\u884C\",\"zh-tw\":\"\u7E7C\u7E8C\",\"pt\":\"Continuar\",\"fr\":\"Continuer\",\"ko\":\"\uACC4\uC18D\uD558\uAE30\",\"es\":\"Continuar\",\"it\":\"Continua\",\"in\":\"\u091C\u093E\u0930\u0940
+    \u0930\u0916\u0947\u0902\"},\"booster_unlock\":{\"vi\":\"M\u1EDF kh\xF3a Tr\u1EE3
+    l\u1EF1c\",\"en\":\"BOOSTER UNLOCK\",\"id\":\"BOOSTER TERBUKA\",\"ru\":\"\u0411\u0423\u0421\u0422\u0415\u0420
+    \u0420\u0410\u0417\u0411\u041B\u041E\u041A\u0418\u0420\u041E\u0412\u0410\u041D\",\"de\":\"BOOSTER
+    FREIGESCHALTET\",\"ja\":\"\u30D6\u30FC\u30B9\u30BF\u30FC\u89E3\u9664\",\"zh-tw\":\"\u89E3\u9396\u52A9\u63A8\u5668\",\"pt\":\"BOOSTER
+    DESBLOQUEADO\",\"fr\":\"BOOSTER D\xC9VERROUILL\xC9\",\"ko\":\"\uBD80\uC2A4\uD130
+    \uC7A0\uAE08 \uD574\uC81C\",\"es\":\"POTENCIADOR DESBLOQUEADO\",\"it\":\"BOOSTER
+    SBLOCCATO\",\"in\":\"\u092C\u0942\u0938\u094D\u091F\u0930 \u0905\u0928\u0932\u0949\u0915\"},\"try_again\":{\"vi\":\"Th\u1EED
+    L\u1EA1i\",\"en\":\"Try Again\",\"id\":\"Coba Lagi\",\"ru\":\"\u041F\u043E\u043F\u0440\u043E\u0431\u043E\u0432\u0430\u0442\u044C
+    \u0441\u043D\u043E\u0432\u0430\",\"de\":\"Erneut versuchen\",\"ja\":\"\u518D\u6311\u6226\",\"zh-tw\":\"\u518D\u8A66\u4E00\u6B21\",\"pt\":\"Tente
+    Novamente\",\"fr\":\"R\xE9essayer\",\"ko\":\"\uB2E4\uC2DC \uC2DC\uB3C4\",\"es\":\"Intenta
+    de nuevo\",\"it\":\"Riprova\",\"in\":\"\u092A\u0941\u0928\u0903 \u092A\u094D\u0930\u092F\u093E\u0938
+    \u0915\u0930\u0947\u0902\"},\"remove_ads_des_1\":{\"vi\":\"G\u1EE1 qu\u1EA3ng
+    c\xE1o gi\u1EEFa c\xE1c m\xE0n\",\"en\":\"Remove ads between levels and also
+    banner ads.\",\"id\":\"Hapus iklan antara level\",\"ru\":\"\u0423\u0434\u0430\u043B\u0438\u0442\u044C
+    \u0440\u0435\u043A\u043B\u0430\u043C\u0443 \u043C\u0435\u0436\u0434\u0443 \u0443\u0440\u043E\u0432\u043D\u044F\u043C\u0438\",\"de\":\"Werbung
+    zwischen den Leveln entfernen\",\"ja\":\"\u30EC\u30D9\u30EB\u9593\u306E\u5E83\u544A\u3092\u524A\u9664\u3059\u308B\",\"zh-tw\":\"\u79FB\u9664\u95DC\u5361\u9593\u7684\u5EE3\u544A\",\"pt\":\"Remova
+    an\xFAncios entre os n\xEDveis\",\"fr\":\"Supprimer les publicit\xE9s entre les
+    niveaux\",\"ko\":\"\uB808\uBCA8 \uC0AC\uC774 \uAD11\uACE0 \uC81C\uAC70\",\"es\":\"Eliminar
+    anuncios entre niveles\",\"it\":\"Rimuovi gli annunci tra i livelli\",\"in\":\"\u0938\u094D\u0924\u0930\u094B\u0902
+    \u0915\u0947 \u092C\u0940\u091A \u0935\u093F\u091C\u094D\u091E\u093E\u092A\u0928
+    \u0939\u091F\u093E\u090F\u0902\"},\"remove_ads_des_2\":{\"vi\":\"G\u1EE1 qu\u1EA3ng
+    c\xE1o b\u0103ng r\xF4n\",\"en\":\"Remove banner ads\",\"id\":\"Hapus iklan banner\",\"ru\":\"\u0423\u0434\u0430\u043B\u0438\u0442\u044C
+    \u0431\u0430\u043D\u043D\u0435\u0440\u043D\u0443\u044E \u0440\u0435\u043A\u043B\u0430\u043C\u0443\",\"de\":\"Bannerwerbung
+    entfernen\",\"ja\":\"\u30D0\u30CA\u30FC\u5E83\u544A\u3092\u524A\u9664\u3059\u308B\",\"zh-tw\":\"\u79FB\u9664\u6A6B\u5E45\u5EE3\u544A\",\"pt\":\"Remova
+    os an\xFAncios de banner\",\"fr\":\"Supprimer les publicit\xE9s banni\xE8res\",\"ko\":\"\uBC30\uB108
+    \uAD11\uACE0 \uC81C\uAC70\",\"es\":\"Eliminar anuncios de banner\",\"it\":\"Rimuovi
+    gli annunci a banner\",\"in\":\"\u092C\u0948\u0928\u0930 \u0935\u093F\u091C\u094D\u091E\u093E\u092A\u0928
+    \u0939\u091F\u093E\u090F\u0902\"},\"remove_ads_des_3\":{\"vi\":\"*Qu\u1EA3ng
+    c\xE1o t\xF9y ch\u1ECDn \u0111\u1EC3 nh\u1EADn th\u01B0\u1EDFng s\u1EBD v\u1EABn
+    c\xF2n\",\"en\":\"Optional ads for rewards will stay.\",\"id\":\"*Iklan opsional
+    untuk hadiah akan tetap ada\",\"ru\":\"*\u0420\u0435\u043A\u043B\u0430\u043C\u044B
+    \u0434\u043B\u044F \u043D\u0430\u0433\u0440\u0430\u0434 \u043E\u0441\u0442\u0430\u044E\u0442\u0441\u044F\",\"de\":\"*Optionale
+    Werbung f\xFCr Belohnungen bleibt bestehen\",\"ja\":\"*\u5831\u916C\u5E83\u544A\u306F\u6B8B\u308A\u307E\u3059\",\"zh-tw\":\"*\u4FDD\u7559\u53EF\u9078\u5EE3\u544A\u4EE5\u7372\u53D6\u734E\u52F5\",\"pt\":\"*An\xFAncios
+    opcionais para recompensas permanecer\xE3o\",\"fr\":\"*Les pubs optionnelles
+    pour des r\xE9compenses resteront\",\"ko\":\"*\uBCF4\uC0C1\uC744 \uC704\uD55C
+    \uC120\uD0DD\uC801 \uAD11\uACE0\uB294 \uB0A8\uC544\uC788\uC2B5\uB2C8\uB2E4\",\"es\":\"*Los
+    anuncios opcionales para recompensas se mantendr\xE1n\",\"it\":\"*Gli annunci
+    opzionali per le ricompense rimarranno\",\"in\":\"*\u0907\u0928\u093E\u092E \u0915\u0947
+    \u0932\u093F\u090F \u0935\u0948\u0915\u0932\u094D\u092A\u093F\u0915 \u0935\u093F\u091C\u094D\u091E\u093E\u092A\u0928
+    \u0930\u0939\u0947\u0902\u0917\u0947\"},\"loading_preloader\":{\"vi\":\"\u0110ang
+    t\u1EA3i..{0}%\",\"en\":\"Loading..{0}%\",\"id\":\"Memuat..{0}%\",\"ru\":\"\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430..{0}%\",\"de\":\"L\xE4dt..{0}%\",\"ja\":\"\u8AAD\u307F\u8FBC\u307F\u4E2D..{0}%\",\"zh-tw\":\"\u52A0\u8F09\u4E2D..{0}%\",\"pt\":\"Carregando..{0}%\",\"fr\":\"Chargement..{0}%\",\"ko\":\"\uB85C\uB529
+    \uC911..{0}%\",\"es\":\"Cargando..{0}%\",\"it\":\"Caricamento..{0}%\",\"in\":\"\u0932\u094B\u0921
+    \u0939\u094B \u0930\u0939\u093E \u0939\u0948..{0}%\"},\"full_life\":{\"vi\":\"\u0110\u1EA7y\",\"en\":\"Full\",\"id\":\"Penuh\",\"ru\":\"\u041F\u043E\u043B\u043D\u044B\u0439\",\"de\":\"Voll\",\"ja\":\"\u6E80\u30BF\u30F3\",\"zh-tw\":\"\u5DF2\u6EFF\",\"pt\":\"Cheio\",\"fr\":\"Plein\",\"ko\":\"\uAC00\uB4DD
+    \uCC38\",\"es\":\"Completo\",\"it\":\"Pieno\",\"in\":\"\u092A\u0942\u0930\u093E\"},\"coming_soon\":{\"vi\":\"S\u1EAFp
+    ra m\u1EAFt\",\"en\":\"COMING SOON\",\"id\":\"Segera hadir\",\"ru\":\"\u0421\u043A\u043E\u0440\u043E\",\"de\":\"Demn\xE4chst\",\"ja\":\"\u8FD1\u65E5\u516C\u958B\",\"zh-tw\":\"\u5373\u5C07\u63A8\u51FA\",\"pt\":\"Em
+    breve\",\"fr\":\"Bient\xF4t disponible\",\"ko\":\"\uACE7 \uCD9C\uC2DC\",\"es\":\"Pr\xF3ximamente\",\"it\":\"In
+    arrivo\",\"in\":\"\u091C\u0932\u094D\u0926 \u0906 \u0930\u0939\u093E \u0939\u0948\"},\"character_not_support\":{\"vi\":\"K\xFD
+    t\u1EF1 kh\xF4ng \u0111\u01B0\u1EE3c h\u1ED7 tr\u1EE3.\",\"en\":\"Character not
+    supported.\",\"id\":\"Karakter tidak didukung.\",\"ru\":\"\u0421\u0438\u043C\u0432\u043E\u043B
+    \u043D\u0435 \u043F\u043E\u0434\u0434\u0435\u0440\u0436\u0438\u0432\u0430\u0435\u0442\u0441\u044F.\",\"de\":\"Zeichen
+    wird nicht unterst\xFCtzt.\",\"ja\":\"\u30B5\u30DD\u30FC\u30C8\u3055\u308C\u3066\u3044\u306A\u3044\u6587\u5B57\u3067\u3059\u3002\",\"zh-tw\":\"\u4E0D\u652F\u63F4\u7684\u5B57\u7B26\u3002\",\"pt\":\"Caractere
+    n\xE3o suportado.\",\"fr\":\"Caract\xE8re non pris en charge.\",\"ko\":\"\uC9C0\uC6D0\uB418\uC9C0
+    \uC54A\uB294 \uBB38\uC790\uC785\uB2C8\uB2E4.\",\"es\":\"Car\xE1cter no compatible.\",\"it\":\"Carattere
+    non supportato.\",\"in\":\"\u0905\u0915\u094D\u0937\u0930 \u0938\u092E\u0930\u094D\u0925\u093F\u0924
+    \u0928\u0939\u0940\u0902 \u0939\u0948\u0964\"},\"rule_character_name\":{\"vi\":\"Nh\u1EADp
+    t\u1EEB 3-15 k\xFD t\u1EF1\",\"en\":\"Enter 3-15 characters\",\"id\":\"Masukkan
+    3-15 karakter\",\"ru\":\"\u0412\u0432\u0435\u0434\u0438\u0442\u0435 3-15 \u0441\u0438\u043C\u0432\u043E\u043B\u043E\u0432\",\"de\":\"Geben
+    Sie 3-15 Zeichen ein\",\"ja\":\"3\uFF5E15\u6587\u5B57\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044\",\"zh-tw\":\"\u8ACB\u8F38\u5165
+    3-15 \u500B\u5B57\u7B26\",\"pt\":\"Insira 3-15 caracteres\",\"fr\":\"Entrez 3-15
+    caract\xE8res\",\"ko\":\"3~15\uC790\uC758 \uBB38\uC790\uB97C \uC785\uB825\uD558\uC138\uC694\",\"es\":\"Ingresa
+    entre 3 y 15 caracteres\",\"it\":\"Inserisci 3-15 caratteri\",\"in\":\"3-15 \u0905\u0915\u094D\u0937\u0930
+    \u0926\u0930\u094D\u091C \u0915\u0930\u0947\u0902\"},\"alert_not_enough_gold\":{\"vi\":\"B\u1EA1n
+    kh\xF4ng c\xF3 \u0111\u1EE7 v\xE0ng!\",\"en\":\"You don't have enough gold!\",\"id\":\"Kamu
+    tidak memiliki cukup emas!\",\"ru\":\"\u0423 \u0432\u0430\u0441 \u043D\u0435\u0434\u043E\u0441\u0442\u0430\u0442\u043E\u0447\u043D\u043E
+    \u0437\u043E\u043B\u043E\u0442\u0430!\",\"de\":\"Du hast nicht genug Gold!\",\"ja\":\"\u30B4\u30FC\u30EB\u30C9\u304C\u8DB3\u308A\u307E\u305B\u3093\uFF01\",\"zh-tw\":\"\u4F60\u7684\u91D1\u5E63\u4E0D\u8DB3\uFF01\",\"pt\":\"Voc\xEA
+    n\xE3o tem ouro suficiente!\",\"fr\":\"Vous n'avez pas assez d'or !\",\"ko\":\"\uACE8\uB4DC\uAC00
+    \uCDA9\uBD84\uD558\uC9C0 \uC54A\uC2B5\uB2C8\uB2E4!\",\"es\":\"\xA1No tienes suficiente
+    oro!\",\"it\":\"Non hai abbastanza oro!\",\"in\":\"\u0906\u092A\u0915\u0947 \u092A\u093E\u0938
+    \u092A\u0930\u094D\u092F\u093E\u092A\u094D\u0924 \u0938\u094B\u0928\u093E \u0928\u0939\u0940\u0902
+    \u0939\u0948!\"},\"home_pin_ball\":{\"vi\":\"DU H\xC0NH V\u0168 TR\u1EE4\",\"en\":\"SPACE
+    TRIP\",\"id\":\"PERJALANAN LUAR ANGKASA\",\"ru\":\"\u041A\u041E\u0421\u041C\u0418\u0427\u0415\u0421\u041A\u041E\u0415
+    \u041F\u0423\u0422\u0415\u0428\u0415\u0421\u0422\u0412\u0418\u0415\",\"de\":\"RAUMREISE\",\"ja\":\"\u5B87\u5B99\u65C5\u884C\",\"zh-tw\":\"\u592A\u7A7A\u65C5\u884C\",\"pt\":\"VIAGEM
+    ESPACIAL\",\"fr\":\"VOYAGE DANS L'ESPACE\",\"ko\":\"\uC6B0\uC8FC \uC5EC\uD589\",\"es\":\"VIAJE
+    ESPACIAL\",\"it\":\"VIAGGIO SPAZIALE\",\"in\":\"\u0905\u0902\u0924\u0930\u093F\u0915\u094D\u0937
+    \u092F\u093E\u0924\u094D\u0930\u093E\"},\"bonus\":{\"vi\":\"Th\u01B0\u1EDFng\",\"en\":\"Bonus\",\"id\":\"Bonus\",\"ru\":\"\u0411\u043E\u043D\u0443\u0441\",\"de\":\"Bonus\",\"ja\":\"\u30DC\u30FC\u30CA\u30B9\",\"zh-tw\":\"\u734E\u52F5\",\"pt\":\"B\xF4nus\",\"fr\":\"Bonus\",\"ko\":\"\uBCF4\uB108\uC2A4\",\"es\":\"Bonificaci\xF3n\",\"it\":\"Bonus\",\"in\":\"\u092C\u094B\u0928\u0938\"},\"tournament_title\":{\"vi\":\"Gi\u1EA3i
+    \u0111\u1EA5u\",\"en\":\"Tournament\",\"id\":\"Turnamen\",\"ru\":\"\u0422\u0443\u0440\u043D\u0438\u0440\",\"de\":\"Turnier\",\"ja\":\"\u30C8\u30FC\u30CA\u30E1\u30F3\u30C8\",\"zh-tw\":\"\u9326\u6A19\u8CFD\",\"pt\":\"Torneio\",\"fr\":\"Tournoi\",\"ko\":\"\uD1A0\uB108\uBA3C\uD2B8\",\"es\":\"Torneo\",\"it\":\"Torneo\",\"in\":\"\u091F\u0942\u0930\u094D\u0928\u093E\u092E\u0947\u0902\u091F\"},\"tournament_des\":{\"vi\":\"Th\u1EAFng
+    li\xEAn t\u1EE5c \u0111\u1EC3 t\u0103ng h\u1EC7 s\u1ED1 \u0111i\u1EC3m!\",\"en\":\"Win
+    levels without failing to increase the score multiplier!\",\"id\":\"Menangkan
+    level tanpa kalah untuk meningkatkan pengganda skor!\",\"ru\":\"\u0412\u044B\u0438\u0433\u0440\u044B\u0432\u0430\u0439\u0442\u0435
+    \u0443\u0440\u043E\u0432\u043D\u0438 \u0431\u0435\u0437 \u043F\u043E\u0440\u0430\u0436\u0435\u043D\u0438\u0439,
+    \u0447\u0442\u043E\u0431\u044B \u0443\u0432\u0435\u043B\u0438\u0447\u0438\u0442\u044C
+    \u043C\u043D\u043E\u0436\u0438\u0442\u0435\u043B\u044C \u043E\u0447\u043A\u043E\u0432!\",\"de\":\"Gewinne
+    Level ohne zu verlieren, um den Punktmultiplikator zu erh\xF6hen!\",\"ja\":\"\u5931\u6557\u305B\u305A\u306B\u30EC\u30D9\u30EB\u3092\u30AF\u30EA\u30A2\u3057\u3066\u3001
+    \u30B9\u30B3\u30A2\u500D\u7387\u3092\u5897\u3084\u305D\u3046\uFF01\",\"zh-tw\":\"\u4E0D\u5931\u6557\u5730\u8D0F\u5F97\u95DC\u5361\u4F86\u589E\u52A0\u5206\u6578\u52A0\u4E58\uFF01\",\"pt\":\"Ven\xE7a
+    n\xEDveis sem falhar para aumentar o multiplicador de pontua\xE7\xE3o!\",\"fr\":\"Gagnez
+    des niveaux sans \xE9chouer pour augmenter le multiplicateur de score !\",\"ko\":\"\uC2E4\uD328
+    \uC5C6\uC774 \uB808\uBCA8\uC744 \uC2B9\uB9AC\uD558\uC5EC \uC810\uC218 \uBC30\uC218\uB97C
+    \uC99D\uAC00\uC2DC\uD0A4\uC138\uC694!\",\"es\":\"\xA1Gana niveles sin fallar
+    para aumentar el multiplicador de puntuaci\xF3n!\",\"it\":\"Vinci i livelli senza
+    fallire per aumentare il moltiplicatore di punteggio!\",\"in\":\"\u0905\u0902\u0915
+    \u0917\u0941\u0923\u0915 \u092C\u0922\u093C\u093E\u0928\u0947 \u0915\u0947 \u0932\u093F\u090F
+    \u092C\u093F\u0928\u093E \u0939\u093E\u0930\u0947 \u0938\u094D\u0924\u0930\u094B\u0902
+    \u0915\u094B \u091C\u0940\u0924\u0947\u0902!\"},\"win_streak_warning\":{\"vi\":\"\u1ED0i!
+    Thua s\u1EBD \u0111\u1EB7t l\u1EA1i h\u1EC7 s\u1ED1 \u0111i\u1EC3m c\u1EE7a b\u1EA1n!\",\"en\":\"Oops!
+    Losing will reset your score multiplier!\",\"id\":\"Ups! Kalah akan mengatur
+    ulang pengganda skor Anda!\",\"ru\":\"\u041E\u0439! \u041F\u043E\u0440\u0430\u0436\u0435\u043D\u0438\u0435
+    \u0441\u0431\u0440\u043E\u0441\u0438\u0442 \u0432\u0430\u0448 \u043C\u043D\u043E\u0436\u0438\u0442\u0435\u043B\u044C
+    \u043E\u0447\u043A\u043E\u0432!\",\"de\":\"Ups! Eine Niederlage setzt deinen
+    Punktmultiplikator zur\xFCck!\",\"ja\":\"\u304A\u3063\u3068\uFF01 \u8CA0\u3051\u308B\u3068\u30B9\u30B3\u30A2\u500D\u7387\u304C\u30EA\u30BB\u30C3\u30C8\u3055\u308C\u307E\u3059\uFF01\",\"zh-tw\":\"\u54CE\u5440\uFF01
+    \u5931\u6557\u6703\u91CD\u7F6E\u4F60\u7684\u5206\u6578\u52A0\u4E58\uFF01\",\"pt\":\"Ops!
+    Perder ir\xE1 redefinir o seu multiplicador de pontua\xE7\xE3o!\",\"fr\":\"Oups
+    ! Perdre r\xE9initialisera votre multiplicateur de score !\",\"ko\":\"\uC774\uB7F0!
+    \uD328\uBC30\uD558\uBA74 \uC810\uC218 \uBC30\uC218\uAC00 \uCD08\uAE30\uD654\uB429\uB2C8\uB2E4!\",\"es\":\"\xA1Ups!
+    Perder reiniciar\xE1 tu multiplicador de puntuaci\xF3n.\",\"it\":\"Ops! La sconfitta
+    azzerer\xE0 il moltiplicatore di punteggio!\",\"in\":\"\u0913\u0939! \u0939\u093E\u0930\u0928\u0947
+    \u0938\u0947 \u0906\u092A\u0915\u093E \u0905\u0902\u0915 \u0917\u0941\u0923\u0915
+    \u0930\u0940\u0938\u0947\u091F \u0939\u094B \u091C\u093E\u090F\u0917\u093E!\"},\"play_again\":{\"vi\":\"CH\u01A0I
+    L\u1EA0I\",\"en\":\"PLAY AGAIN\",\"id\":\"MAIN LAGI\",\"ru\":\"\u0418\u0413\u0420\u0410\u0422\u042C
+    \u0421\u041D\u041E\u0412\u0410\",\"de\":\"NOCH EINMAL SPIELEN\",\"ja\":\"\u3082\u3046\u4E00\u5EA6\u30D7\u30EC\u30A4\",\"zh-tw\":\"\u518D\u73A9\u4E00\u6B21\",\"pt\":\"JOGAR
+    NOVAMENTE\",\"fr\":\"REJOUER\",\"ko\":\"\uB2E4\uC2DC \uD558\uAE30\",\"es\":\"JUGAR
+    DE NUEVO\",\"it\":\"GIOCA ANCORA\",\"in\":\"\u092B\u093F\u0930 \u0938\u0947 \u0916\u0947\u0932\u0947\u0902\"},\"what_your_name\":{\"vi\":\"T\xEAn
+    c\u1EE7a b\u1EA1n l\xE0 g\xEC?\",\"en\":\"What is your name?\",\"id\":\"Siapa
+    nama kamu?\",\"ru\":\"\u041A\u0430\u043A \u0432\u0430\u0441 \u0437\u043E\u0432\u0443\u0442?\",\"de\":\"Wie
+    hei\xDFt du?\",\"ja\":\"\u3042\u306A\u305F\u306E\u540D\u524D\u306F\uFF1F\",\"zh-tw\":\"\u4F60\u7684\u540D\u5B57\u662F\u4EC0\u9EBC\uFF1F\",\"pt\":\"Qual
+    \xE9 o seu nome?\",\"fr\":\"Quel est votre nom ?\",\"ko\":\"\uB2F9\uC2E0\uC758
+    \uC774\uB984\uC740 \uBB34\uC5C7\uC778\uAC00\uC694?\",\"es\":\"\xBFC\xF3mo te
+    llamas?\",\"it\":\"Come ti chiami?\",\"in\":\"\u0906\u092A\u0915\u093E \u0928\u093E\u092E
+    \u0915\u094D\u092F\u093E \u0939\u0948?\"},\"type_your_name\":{\"vi\":\"Nh\u1EADp
+    t\xEAn c\u1EE7a b\u1EA1n...\",\"en\":\"Type your name...\",\"id\":\"Ketik nama
+    Anda...\",\"ru\":\"\u0412\u0432\u0435\u0434\u0438\u0442\u0435 \u0432\u0430\u0448\u0435
+    \u0438\u043C\u044F...\",\"de\":\"Gib deinen Namen ein...\",\"ja\":\"\u540D\u524D\u3092\u5165\u529B\u3057\u3066\u304F\u3060\u3055\u3044...\",\"zh-tw\":\"\u8F38\u5165\u4F60\u7684\u540D\u5B57...\",\"pt\":\"Digite
+    seu nome...\",\"fr\":\"Entrez votre nom...\",\"ko\":\"\uC774\uB984\uC744 \uC785\uB825\uD558\uC138\uC694...\",\"es\":\"Escribe
+    tu nombre...\",\"it\":\"Digita il tuo nome...\",\"in\":\"\u0905\u092A\u0928\u093E
+    \u0928\u093E\u092E \u091F\u093E\u0907\u092A \u0915\u0930\u0947\u0902...\"},\"rename_first_alert\":{\"vi\":\"Ch\u1EC9
+    mi\u1EC5n ph\xED m\u1ED9t l\u1EA7n!\",\"en\":\"It's free only for once!\",\"id\":\"Gratis
+    hanya sekali!\",\"ru\":\"\u0411\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u043E
+    \u0442\u043E\u043B\u044C\u043A\u043E \u043E\u0434\u0438\u043D \u0440\u0430\u0437!\",\"de\":\"Nur
+    einmal kostenlos!\",\"ja\":\"\u4E00\u5EA6\u3060\u3051\u7121\u6599\u3067\u3059\uFF01\",\"zh-tw\":\"\u53EA\u514D\u8CBB\u4E00\u6B21\uFF01\",\"pt\":\"\xC9
+    gr\xE1tis apenas uma vez!\",\"fr\":\"C'est gratuit une seule fois !\",\"ko\":\"\uD55C
+    \uBC88\uB9CC \uBB34\uB8CC\uC785\uB2C8\uB2E4!\",\"es\":\"\xA1Es gratis solo una
+    vez!\",\"it\":\"\xC8 gratuito solo una volta!\",\"in\":\"\u0915\u0947\u0935\u0932
+    \u090F\u0915 \u092C\u093E\u0930 \u092E\u0941\u092B\u094D\u0924 \u0939\u0948!\"},\"enter_name\":{\"vi\":\"Nh\u1EADp
+    T\xEAn\",\"en\":\"Enter Name\",\"id\":\"Masukkan Nama\",\"ru\":\"\u0412\u0432\u0435\u0434\u0438\u0442\u0435
+    \u0418\u043C\u044F\",\"de\":\"Namen eingeben\",\"ja\":\"\u540D\u524D\u3092\u5165\u529B\",\"zh-tw\":\"\u8F38\u5165\u540D\u5B57\",\"pt\":\"Inserir
+    Nome\",\"fr\":\"Entrez le nom\",\"ko\":\"\uC774\uB984 \uC785\uB825\",\"es\":\"Ingresar
+    Nombre\",\"it\":\"Inserisci Nome\",\"in\":\"\u0928\u093E\u092E \u0926\u0930\u094D\u091C
+    \u0915\u0930\u0947\u0902\"},\"your_rank_with_num\":{\"vi\":\"H\u1EA0NG C\u1EE6A
+    B\u1EA0N {0}\",\"en\":\"YOUR RANK {0}\",\"id\":\"PERINGKAT ANDA {0}\",\"ru\":\"\u0412\u0410\u0428
+    \u0420\u0410\u041D\u0413 {0}\",\"de\":\"DEIN RANG {0}\",\"ja\":\"\u3042\u306A\u305F\u306E\u30E9\u30F3\u30AF
+    {0}\",\"zh-tw\":\"\u4F60\u7684\u6392\u540D {0}\",\"pt\":\"SUA CLASSIFICA\xC7\xC3O
+    {0}\",\"fr\":\"VOTRE CLASSEMENT {0}\",\"ko\":\"\uB2F9\uC2E0\uC758 \uC21C\uC704
+    {0}\",\"es\":\"TU CLASIFICACI\xD3N {0}\",\"it\":\"IL TUO RANGO {0}\",\"in\":\"\u0906\u092A\u0915\u0940
+    \u0930\u0948\u0902\u0915 {0}\"},\"pinball_welcome\":{\"vi\":\"CH\xC0O M\u1EEANG
+    \u0110\u1EBEN V\u1EDAI CHUY\u1EBEN DU H\xC0NH V\u0168 TR\u1EE4\",\"en\":\"WELCOME
+    SPACE TRIP\",\"id\":\"SELAMAT DATANG DI PERJALANAN LUAR ANGKASA\",\"ru\":\"\u0414\u041E\u0411\u0420\u041E
+    \u041F\u041E\u0416\u0410\u041B\u041E\u0412\u0410\u0422\u042C \u0412 \u041A\u041E\u0421\u041C\u0418\u0427\u0415\u0421\u041A\u041E\u0415
+    \u041F\u0423\u0422\u0415\u0428\u0415\u0421\u0422\u0412\u0418\u0415\",\"de\":\"WILLKOMMEN
+    BEI DER WELTRAUMREISE\",\"ja\":\"\u3088\u3046\u3053\u305D\u3001 \u5B87\u5B99\u65C5\u884C\u3078\",\"zh-tw\":\"\u6B61\u8FCE\u4F86\u5230\u592A\u7A7A\u4E4B\u65C5\",\"pt\":\"BEM-VINDO
+    \xC0 VIAGEM ESPACIAL\",\"fr\":\"BIENVENUE AU VOYAGE SPATIAL\",\"ko\":\"\uC6B0\uC8FC
+    \uC5EC\uD589\uC5D0 \uC624\uC2E0 \uAC83\uC744 \uD658\uC601\uD569\uB2C8\uB2E4\",\"es\":\"BIENVENIDO
+    AL VIAJE ESPACIAL\",\"it\":\"BENVENUTO NEL VIAGGIO SPAZIALE\",\"in\":\"\u0905\u0902\u0924\u0930\u093F\u0915\u094D\u0937
+    \u092F\u093E\u0924\u094D\u0930\u093E \u092E\u0947\u0902 \u0906\u092A\u0915\u093E
+    \u0938\u094D\u0935\u093E\u0917\u0924 \u0939\u0948\"},\"pinball_help\":{\"vi\":\"S\u1EF1
+    ki\u1EC7n Chuy\u1EBFn Du H\xE0nh V\u0169 Tr\u1EE5 di\u1EC5n ra sau khi b\u1EA1n
+    ho\xE0n th\xE0nh m\u1ED9t c\u1EA5p \u0111\u1ED9 kh\xF3. K\xE9o c\u1EA7n g\u1EA1t
+    v\xE0 \u0111\u1EA9y qu\u1EA3 c\u1EA7u va ch\u1EA1m v\u1EDBi c\xE1c y\u1EBFu t\u1ED1,
+    ki\u1EBFm \u0111i\u1EC3m v\xE0 chuy\u1EC3n \u0111\u1ED5i th\xE0nh V\xE0ng.\",\"en\":\"The
+    Space Trip event takes place after you complete a hard level.\\nPull the lever
+    and push the orb to collide with elements, earning points that convert to Gold.\",\"id\":\"Acara
+    Perjalanan Luar Angkasa berlangsung setelah Anda menyelesaikan level sulit. Tarik
+    tuas dan dorong bola untuk bertabrakan dengan elemen, mendapatkan poin yang dikonversi
+    menjadi Emas.\",\"ru\":\"\u0421\u043E\u0431\u044B\u0442\u0438\u0435 \u041A\u043E\u0441\u043C\u0438\u0447\u0435\u0441\u043A\u043E\u0435
+    \u041F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0438\u0435 \u043D\u0430\u0447\u0438\u043D\u0430\u0435\u0442\u0441\u044F
+    \u043F\u043E\u0441\u043B\u0435 \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043D\u0438\u044F
+    \u0441\u043B\u043E\u0436\u043D\u043E\u0433\u043E \u0443\u0440\u043E\u0432\u043D\u044F.
+    \u041F\u043E\u0442\u044F\u043D\u0438\u0442\u0435 \u0437\u0430 \u0440\u044B\u0447\u0430\u0433
+    \u0438 \u0442\u043E\u043B\u043A\u043D\u0438\u0442\u0435 \u0448\u0430\u0440, \u0447\u0442\u043E\u0431\u044B
+    \u043E\u043D \u0441\u0442\u043E\u043B\u043A\u043D\u0443\u043B\u0441\u044F \u0441
+    \u044D\u043B\u0435\u043C\u0435\u043D\u0442\u0430\u043C\u0438, \u0437\u0430\u0440\u0430\u0431\u0430\u0442\u044B\u0432\u0430\u044F
+    \u043E\u0447\u043A\u0438, \u043A\u043E\u0442\u043E\u0440\u044B\u0435 \u043A\u043E\u043D\u0432\u0435\u0440\u0442\u0438\u0440\u0443\u044E\u0442\u0441\u044F
+    \u0432 \u0437\u043E\u043B\u043E\u0442\u043E.\",\"de\":\"Das Weltraumreise-Event
+    findet statt, nachdem du ein schweres Level abgeschlossen hast. Ziehe den Hebel
+    und sto\xDFe die Kugel an, damit sie mit Elementen kollidiert, um Punkte zu sammeln,
+    die in Gold umgewandelt werden.\",\"ja\":\"\u5B87\u5B99\u65C5\u884C\u30A4\u30D9\u30F3\u30C8\u306F\u3001
+    \u96E3\u3057\u3044\u30EC\u30D9\u30EB\u3092\u30AF\u30EA\u30A2\u3057\u305F\u5F8C\u306B\u884C\u308F\u308C\u307E\u3059\u3002
+    \u30EC\u30D0\u30FC\u3092\u5F15\u3044\u3066\u3001 \u30AA\u30FC\u30D6\u3092\u8981\u7D20\u306B\u3076\u3064\u3051\u3066\u30DD\u30A4\u30F3\u30C8\u3092\u7372\u5F97\u3057\u3001
+    \u305D\u308C\u3092\u30B4\u30FC\u30EB\u30C9\u306B\u5909\u63DB\u3057\u307E\u3059\u3002\",\"zh-tw\":\"\u592A\u7A7A\u4E4B\u65C5\u6D3B\u52D5\u5728\u4F60\u5B8C\u6210\u4E00\u500B\u56F0\u96E3\u95DC\u5361\u5F8C\u958B\u59CB\u3002
+    \u62C9\u52D5\u69D3\u687F\u4E26\u63A8\u52D5\u7403\u9AD4\u8207\u5143\u7D20\u78B0\u649E\uFF0C\u7372\u53D6\u8F49\u63DB\u70BA\u91D1\u5E63\u7684\u9EDE\u6578\u3002\",\"pt\":\"O
+    evento Viagem Espacial acontece ap\xF3s voc\xEA completar um n\xEDvel dif\xEDcil.
+    Puxe a alavanca e empurre o orbe para colidir com os elementos, ganhando pontos
+    que s\xE3o convertidos em Ouro.\",\"fr\":\"L'\xE9v\xE9nement Voyage Spatial a
+    lieu apr\xE8s avoir compl\xE9t\xE9 un niveau difficile. Tirez le levier et poussez
+    l'orbe pour entrer en collision avec des \xE9l\xE9ments, en gagnant des points
+    convertis en or.\",\"ko\":\"\uC6B0\uC8FC \uC5EC\uD589 \uC774\uBCA4\uD2B8\uB294
+    \uC5B4\uB824\uC6B4 \uB808\uBCA8\uC744 \uC644\uB8CC\uD55C \uD6C4\uC5D0 \uC9C4\uD589\uB429\uB2C8\uB2E4.
+    \uB808\uBC84\uB97C \uB2F9\uAE30\uACE0 \uAD6C\uCCB4\uB97C \uBC00\uC5B4 \uC694\uC18C\uC640
+    \uCDA9\uB3CC\uC2DC\uCF1C \uC810\uC218\uB97C \uC5BB\uACE0, \uC774\uB97C \uACE8\uB4DC\uB85C
+    \uC804\uD658\uD558\uC138\uC694.\",\"es\":\"El evento Viaje Espacial ocurre despu\xE9s
+    de que completes un nivel dif\xEDcil. Tira de la palanca y empuja el orbe para
+    chocar con los elementos, ganando puntos que se convierten en Oro.\",\"it\":\"L'evento
+    Viaggio Spaziale si svolge dopo aver completato un livello difficile. Tira la
+    leva e spingi l'orbo per farlo scontrare con gli elementi, guadagnando punti
+    convertiti in Oro.\",\"in\":\"\u0905\u0902\u0924\u0930\u093F\u0915\u094D\u0937
+    \u092F\u093E\u0924\u094D\u0930\u093E \u0915\u093E\u0930\u094D\u092F\u0915\u094D\u0930\u092E
+    \u0915\u0920\u093F\u0928 \u0938\u094D\u0924\u0930 \u092A\u0942\u0930\u093E \u0915\u0930\u0928\u0947
+    \u0915\u0947 \u092C\u093E\u0926 \u0939\u094B\u0924\u093E \u0939\u0948\u0964 \u0932\u0940\u0935\u0930
+    \u0916\u0940\u0902\u091A\u0947\u0902 \u0914\u0930 \u092C\u0949\u0932 \u0915\u094B
+    \u0924\u0924\u094D\u0935\u094B\u0902 \u0938\u0947 \u091F\u0915\u0930\u093E\u0928\u0947
+    \u0915\u0947 \u0932\u093F\u090F \u0927\u0915\u094D\u0915\u093E \u0926\u0947\u0902,
+    \u0905\u0902\u0915 \u0915\u092E\u093E\u090F\u0902 \u091C\u094B \u0938\u094B\u0928\u0947
+    \u092E\u0947\u0902 \u092A\u0930\u093F\u0935\u0930\u094D\u0924\u093F\u0924 \u0939\u094B\u0924\u0947
+    \u0939\u0948\u0902\u0964\"},\"tuornament_help_title\":{\"vi\":\"\",\"en\":\"TOURNAMENT
+    GUIDE\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"tournament_help_text_1\":{\"vi\":\"\",\"en\":\"BEAT
+    LEVELS!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"tournament_help_text_2\":{\"vi\":\"\",\"en\":\"COLLECT
+    MORE CUPS \\nTHAN OTHER PLAYERS\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"tournament_help_text_3\":{\"vi\":\"\",\"en\":\"WIN
+    REWARDS!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"tournament_help_text_4\":{\"vi\":\"\",\"en\":\"BEAT
+    CONSECUTIVE LEVEL TO INCREASE THE MULTIPLIER!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"tournament_help_text_5\":{\"vi\":\"\",\"en\":\"IF
+    YOU FAIL A LEVEL, THE MULTIPLIER WILL RESET\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"lvl_with_num\":{\"vi\":\"Lvl
+    {0}\",\"en\":\"Lvl {0}\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"home_icon_open_in\":{\"vi\":\"\",\"en\":\"Open
+    in\\n{0}\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"pinball_complete\":{\"vi\":\"\",\"en\":\"SPACETRIP
+    COMPLETED\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"tuornament_popup_des\":{\"vi\":\"\",\"en\":\"Win
+    a level to join Tournament and complete for amazing rewards\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"profile_edit\":{\"vi\":\"\",\"en\":\"PROFILE\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"congratulation\":{\"vi\":\"\",\"en\":\"CONGRATULATIONS!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"racing_help_text_1\":{\"vi\":\"\",\"en\":\"START
+    COMPETING AGAINST OTHER PLAYERS!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"racing_help_text_2\":{\"vi\":\"\",\"en\":\"BEAT
+    LEVELS FASTER\\nTHAN OTHERS\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"racing_help_text_3\":{\"vi\":\"\",\"en\":\"WIN
+    REWARDS!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"racing_lose_des\":{\"vi\":\"\",\"en\":\"Try
+    again and take the lead for prize!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"racing_title\":{\"vi\":\"\",\"en\":\"SPEED
+    RALLY\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"racing_banner_des\":{\"vi\":\"\",\"en\":\"Complete
+    with other player!\\nWhoever get to Level <color=#00FF00>{0}</color> first win
+    the top prize!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"start\":{\"vi\":\"\",\"en\":\"Start\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"racing_finding\":{\"vi\":\"\",\"en\":\"Searching
+    for opponents{0}\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"estimated_time\":{\"vi\":\"\",\"en\":\"Estimated
+    time:{0}\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"you_failed\":{\"vi\":\"\",\"en\":\"You
+    Failed\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"finish\":{\"vi\":\"\",\"en\":\"Finish\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"pinball_no_ball_left\":{\"vi\":\"\",\"en\":\"No
+    balls left!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"pinball_guide\":{\"vi\":\"\",\"en\":\"SPACETRIP
+    GUIDE\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"pinball_help_1\":{\"vi\":\"\",\"en\":\"BEAT
+    LEVELS TO\\nCOLLECT SPACE BALLS!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"pinball_help_2\":{\"vi\":\"\",\"en\":\"SHOOT
+    SPACE BALLS\\nAND GAIN SCORE!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"pinball_help_3\":{\"vi\":\"\",\"en\":\"WIN
+    AMAZING REWARDS!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"max_level\":{\"vi\":\"\",\"en\":\"MAX\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"racing_help_title\":{\"vi\":\"\",\"en\":\"SPEED
+    RALLY GUIDE\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"loading\":{\"vi\":\"\u0110ang
+    t\u1EA3i{0}\",\"en\":\"Loading{0}\",\"id\":\"Memuat{0}\",\"ru\":\"\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430{0}\",\"de\":\"L\xE4dt{0}\",\"ja\":\"\u8AAD\u307F\u8FBC\u307F\u4E2D{0}\",\"zh-tw\":\"\u52A0\u8F09\u4E2D{0}\",\"pt\":\"Carregando{0}\",\"fr\":\"Chargement{0}\",\"ko\":\"\uB85C\uB529
+    \uC911{0}\",\"es\":\"Cargando{0}\",\"it\":\"Caricamento{0}\",\"in\":\"\u0932\u094B\u0921
+    \u0939\u094B \u0930\u0939\u093E \u0939\u0948{0}\"},\"rate_us_des\":{\"vi\":\"\",\"en\":\"If
+    you like our game, please give us 5 stars praise\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"rate_us_title\":{\"vi\":\"\",\"en\":\"RATE
+    US\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"alert_wifi_title\":{\"vi\":\"\",\"en\":\"NO
+    CONNECTION!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"alert_wifi_des\":{\"vi\":\"\",\"en\":\"Please
+    check the internet connection on your device.\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"got_it\":{\"vi\":\"\",\"en\":\"GOT
+    IT\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"alert_update_version_des\":{\"vi\":\"\",\"en\":\"Update
+    now for a better, more exciting game experience!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"alert_update_version_title\":{\"vi\":\"\",\"en\":\"NEW
+    VERSION AVAILABLE!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"box_reward\":{\"vi\":\"\",\"en\":\"BOX
+    REWARD\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"rate\":{\"vi\":\"\",\"en\":\"RATE\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"sweet_journey_title\":{\"vi\":\"\",\"en\":\"SWEET
+    JOURNEY\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"no_reward_video\":{\"vi\":\"\",\"en\":\"There
+    were no ads available.\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"require\":{\"vi\":\"\",\"en\":\"Require\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"shop_sale_content_70\":{\"vi\":\"Gi\u1EA3m
+    90%\",\"en\":\"90% OFF\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"next_level\":{\"vi\":\"\",\"en\":\"Next
+    Level\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"update\":{\"vi\":\"\",\"en\":\"Update\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"revive\":{\"vi\":\"\",\"en\":\"REVIVE\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"ads_rewarded_not_complete\":{\"vi\":\"\",\"en\":\"The
+    rewarded ads was not completed.\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"help_guide_clover\":{\"vi\":\"\",\"en\":\"Collect
+    clovers to earn exciting rewards!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"menu_guild\":{\"vi\":\"\",\"en\":\"Guild\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"leaderboard_unlock\":{\"vi\":\"\",\"en\":\"Reach
+    <color=#fbdf07>Level {0}</color> to unlock <color=#fbdf07>Leaderboard</color>\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"collect_clover_complete\":{\"vi\":\"\",\"en\":\"Complete!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"bundle\":{\"vi\":\"\",\"en\":\"BUNDLE\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"popup_beginner\":{\"vi\":\"\",\"en\":\"BEGINNER'S\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"top_week\":{\"vi\":\"\",\"en\":\"WEEKLY\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"top_world\":{\"vi\":\"\",\"en\":\"WORLD\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"play_to_join\":{\"vi\":\"\",\"en\":\"PLAY
+    TO JOIN\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"weekly_leaderboard_join\":{\"vi\":\"\",\"en\":\"Win
+    a match to join the weekly contest.\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"score\":{\"vi\":\"\",\"en\":\"Score\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"piggy_bank_title\":{\"vi\":\"\",\"en\":\"Piggy
+    Bank\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"piggy_bank_des\":{\"vi\":\"\",\"en\":\"The
+    more you collect, the better the value\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"break_now\":{\"vi\":\"\",\"en\":\"Break
+    Now\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"full\":{\"vi\":\"\u0110\u1EA7y\",\"en\":\"Full\",\"id\":\"Penuh\",\"ru\":\"\u041F\u043E\u043B\u043D\u044B\u0439\",\"de\":\"Voll\",\"ja\":\"\u6E80\u30BF\u30F3\",\"zh-tw\":\"\u5DF2\u6EFF\",\"pt\":\"Cheio\",\"fr\":\"Plein\",\"ko\":\"\uAC00\uB4DD
+    \uCC38\",\"es\":\"Completo\",\"it\":\"Pieno\",\"in\":\"\u092A\u0942\u0930\u093E\"},\"earn_coins\":{\"vi\":\"\",\"en\":\"Earn
+    Coins\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"setting_restore_purchase\":{\"vi\":\"Ph\u1EE5c
+    h\u1ED3i giao d\u1ECBch\",\"en\":\"Restore Purchase\",\"id\":\"Pulihkan Pembelian\",\"ru\":\"\u0412\u043E\u0441\u0441\u0442\u0430\u043D\u043E\u0432\u0438\u0442\u044C
+    \u043F\u043E\u043A\u0443\u043F\u043A\u0443\",\"de\":\"Kauf wiederherstellen\",\"ja\":\"\u8CFC\u5165\u3092\u5FA9\u5143\",\"zh-tw\":\"\u6062\u5FA9\u8CFC\u8CB7\",\"pt\":\"Restaurar
+    Compra\",\"fr\":\"Restaurer l'achat\",\"ko\":\"\uAD6C\uB9E4 \uBCF5\uC6D0\",\"es\":\"Restaurar
+    compra\",\"it\":\"Ripristina acquisto\",\"in\":\"\u0916\u093C\u0930\u0940\u0926\u093E\u0930\u0940
+    \u092A\u0941\u0928\u0903\u0938\u094D\u0925\u093E\u092A\u093F\u0924 \u0915\u0930\u0947\u0902\"},\"your_rank\":{\"vi\":\"\",\"en\":\"YOUR
+    RANK\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"win_streak_des\":{\"vi\":\"\",\"en\":\"Complete
+    levels without failing! \\n\\rIf you fail, you'll fall back down.\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"save\":{\"vi\":\"\",\"en\":\"SAVE\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"next_free_in\":{\"vi\":\"\",\"en\":\"Next
+    free is in {0}\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"fw_daily_spin\":{\"vi\":\"\",\"en\":\"Daily
+    spins: {0}\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"fortune_wheel_title\":{\"vi\":\"\",\"en\":\"LUCKY
+    SPIN\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"shop_bundle_name_13\":{\"vi\":\"\",\"en\":\"FAIL
+    OFFER\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"fw_spin\":{\"vi\":\"\",\"en\":\"SPIN\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"settings_music\":{\"vi\":\"\",\"en\":\"Music\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"settings_sound\":{\"vi\":\"\",\"en\":\"Sounds\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"settings_vibration\":{\"vi\":\"\",\"en\":\"Vibro\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"new_feature_coming_xich\":{\"vi\":\"\",\"en\":\"The
+    <color=#00FF99>Chainy Slither</color> is now available!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"new_feature_des1_xich\":{\"vi\":\"\",\"en\":\"The
+    worm is locked and will be\\n unlocked after a few turns\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"new_feature_des2_xich\":{\"vi\":\"\",\"en\":\"Play
+    a few turns to rescue this worm\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"new_feature_coming_ken\":{\"vi\":\"\",\"en\":\"The
+    <color=#00FF99>Cocoon Slither</color> is now available!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"new_feature_des1_ken\":{\"vi\":\"\",\"en\":\"You
+    have rescued the Cocoon Slither\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"new_feature_des2_ken\":{\"vi\":\"\",\"en\":\"Send
+    a slither to crack open the cocoon and wake it up!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"new_feature_coming_pair\":{\"vi\":\"\",\"en\":\"The
+    <color=#00FF99>Linked Slither</color> is now available!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"new_feature_des1_pair\":{\"vi\":\"\",\"en\":\"These
+    slithers are linked \\nOne can't go without the other\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"new_feature_des2_pair\":{\"vi\":\"\",\"en\":\"They
+    can only go in when two holes open\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"new_feature_coming_bomb\":{\"vi\":\"\",\"en\":\"The
+    <color=#00FF99>Bomb Slither</color> is now available!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"new_feature_des1_bomb\":{\"vi\":\"\",\"en\":\"The
+    slither is carrying a ticking bomb!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"new_feature_des2_bomb\":{\"vi\":\"\",\"en\":\"Move
+    it before the countdown ends\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"new_feature_coming_secret_hole\":{\"vi\":\"\",\"en\":\"The
+    <color=#00FF99>Covered Hole</color> is now available!\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"new_feature_des1_secret_hole\":{\"vi\":\"\",\"en\":\"This
+    hole is blocked by rocks\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"},\"new_feature_des2_secret_hole\":{\"vi\":\"\",\"en\":\"It
+    will reopen after a few turns\",\"id\":\"\",\"ru\":\"\",\"de\":\"\",\"ja\":\"\",\"zh-tw\":\"\",\"pt\":\"\",\"fr\":\"\",\"ko\":\"\",\"es\":\"\",\"it\":\"\",\"in\":\"\"}}"
+  Sheets:
+  - Name: MenuTest
+    Id: 1414618757
+    TextAsset: {fileID: 4900000, guid: 932c52d8371692345b0e654f368b8854, type: 3}
+  SaveFolder: {fileID: 102900000, guid: c392831e85f928548b8494fefd912562, type: 3}
+  TargetFile: {fileID: 4900000, guid: a7c4bcf2c2c6e9345ab7ca6512c95632, type: 3}

@@ -1,0 +1,183 @@
+language,Tiếng Việt - vi,English - En,Indonesian - Indo,(ภาษาไทย) - Thai,Pусский - Russian,Deutsch - German,日本語 - Japanese,(简体字) - Chinese (Simplified),繁體漢字 - Chinese (Phồn thể),(Português Brasileiro) - Portuguese (Brazil),Português - Portuguese,Français - French,(français) - French (Canada),한국어 - Korean,Español - Spanish,Italiano - Italian,Hindi - India
+level_with_num,Màn {0},Level {0},Level {0},,Уровень {0},Level {0},レベル {0},,關卡 {0},,Nível {0},Niveau {0},,레벨 {0},Nivel {0},Livello {0},स्तर {0}
+home_play,Chơi,Play,Main,,Играть,Spielen,プレイ,,開始遊戲,,Jogar,Jouer,,플레이,Jugar,Gioca,खेलें
+keep_playing,Tiếp tục,Keep Playing,Terus Main,,Продолжить играть,Weiterspielen,続けてプレイ,,繼續遊戲,,Continuar Jogando,Continuer à jouer,,계속 플레이,Seguir Jugando,Continua a giocare,खेलते रहें
+give_up,Bỏ cuộc,Give Up,Menyerah,,Сдаться,Aufgeben,あきらめる,,放棄,,Desistir,Abandonner,,포기,Rendirse,Arrendersi,हार मान लें
+out_of_space,Hết chỗ,NO MORE SPACE!,Ruang Habis,,Нет места,Kein Platz mehr,スペース不足,,沒有空間,,Sem Espaço,Plus de place,,공간 부족,Sin Espacio,Spazio esaurito,स्थान समाप्त
+out_of_space_content,Bạn đã hết chỗ. Hãy lấp đầy hộp dụng cụ với vít đúng và tiếp tục chơi!,Open new hole,Ruang habis. Isi kotak peralatan dengan sekrup yang benar dan lanjutkan bermain!,,Нет места. Заполните ящики правильными винтами и продолжайте играть!,Kein Platz mehr. Fülle die Werkzeugkisten mit den richtigen Schrauben und spiele weiter!,スペースが不足しています。正しいネジでツールボックスを満たし、ゲームを続けてください！,,沒有空間了。填滿工具箱後繼續遊戲！,,Você está sem espaço. Preencha as caixas de ferramentas com os parafusos corretos e continue jogando!,Vous n'avez plus de place. Remplissez les boîtes à outils avec les bonnes vis et continuez à jouer !,,공간이 부족합니다. 올바른 나사로 도구 상자를 채우고 계속 플레이하세요!,No tienes espacio. Llena las cajas de herramientas con los tornillos correctos y sigue jugando!,Spazio esaurito. Riempire le cassette degli attrezzi con le viti corrette e continuare a giocare!,आपका स्थान समाप्त हो गया है। सही स्क्रू से टूलबॉक्स भरें और खेलते रहें!
+bomb,,EXPLOSION!,,,,,,,,,,,,,,,
+bomb_content,,PLAY ON to revive,,,,,,,,,,,,,,,
+are_you_sure_content,Bạn sẽ mất một mạng!,You will lose a life!,Kamu akan kehilangan satu nyawa!,,Вы потеряете жизнь!,Du verlierst ein Leben!,ライフを失います！,,你將失去一條生命！,,Você vai perder uma vida!,Vous allez perdre une vie !,,목숨을 잃게 됩니다!,¡Perderás una vida!,Perderai una vita!,आप एक जीवन खो देंगे!
+are_you_sure,Bạn có chắc không?,Are you sure?,Apakah kamu yakin?,,Вы уверены?,Bist du sicher?,確認しますか？,,你確定嗎？,,Você tem certeza?,Êtes-vous sûr ?,,확실합니까?,¿Estás seguro?,Sei sicuro?,क्या आप सुनिश्चित हैं?
+leave,Thoát,Leave,Keluar,,Выйти,Verlassen,離脱,,離開,,Sair,Quitter,,나가기,Salir,Esci,छोड़ें
+completed,Hoàn thành,Completed,Selesai,,Завершено,Abgeschlossen,完了,,已完成,,Concluído,Terminé,,완료됨,Completado,Completato,पूर्ण
+level,Màn chơi,Level,Level,,Уровень,Level,レベル,,關卡,,Nível,Niveau,,레벨,Nivel,Livello,स्तर
+menu_home,Trang chủ,HOME,BERANDA,,ГЛАВНАЯ,STARTSEITE,ホーム,,主頁,,INÍCIO,ACCUEIL,,홈,INICIO,CASA,घर
+menu_shop,Cửa hàng,SHOP,TOKO,,МАГАЗИН,SHOP,ショップ,,商店,,LOJA,BOUTIQUE,,상점,TIENDA,NEGOZIO,दुकान
+menu_top,Bảng Xếp Hạng,LEADERBOARD,Papan Skor,,ТАБЛИЦА ЛИДЕРОВ,BESTENLISTE,リーダーボード,,排行榜,,CLASSIFICAÇÃO,CLASSEMENT,,리더보드,TABLA DE LÍDERES,CLASSIFICA,लीडरबोर्ड
+boost_hammer_guide,Chạm vào kính để phá vỡ,Tap on the glass to break ,Ketuk kaca untuk memecahkan,,"Нажмите на стекло, чтобы разбить","Tippe auf das Glas, um es zu zerbrechen",ガラスをタップして壊す,,點擊玻璃以打破,,Toque no vidro para quebrar,Tapez sur le verre pour casser,,유리를 깨기 위해 탭하세요,Toca el vidrio para romperlo,Tocca il vetro per romperlo,तोड़ने के लिए कांच पर टैप करें
+boost_freeze_name,Búa,Freeze Timer,PALU,,МОЛОТОК,HAMMER,ハンマー,,錘子,,MARTELO,MARTEAU,,망치,MARTILLO,MARTELLO,हथौड़ा
+boost_freeze_des,Phá kính,Freezes time for \n10 seconds,Pecahkan kaca,,Разбейте стекло,Zerbrich das Glas,ガラスを壊す,,打破玻璃,,Quebre o vidro,Casser un verre,,유리 깨기,Romper un vidrio,Rompi un vetro,एक कांच तोड़ो
+boost_ghost_name,Lỗ thêm,Ghost Jelly,Lubang Tambahan,,Дополнительное отверстие,Extra Loch,追加の穴,,額外的孔,,Buraco Extra,Trou supplémentaire,,추가 구멍,Agujero Extra,Foro Extra,अतिरिक्त छेद
+boost_ghost_des,Tạo lỗ mới,Move through any \nworm or obstacle!,Dapatkan lubang baru,,Получите новое отверстие,Neues Loch erhalten,新しい穴を取得,,獲取新孔,,Obtenha um novo buraco,Obtenez un nouveau trou,,새 구멍 얻기,Conseguir un nuevo agujero,Ottieni un nuovo foro,एक नया छेद प्राप्त करें
+boost_ghost_guide,Hộp dụng cụ đôi,Tap any worm to go the hole,Kotak Alat Ganda,,Двойной ящик,Doppel-Werkzeugkiste,ダブルツールボックス,,雙工具箱,,Caixa de Ferramentas Dupla,Boîte à outils double,,더블 도구 상자,Caja de herramientas doble,Doppia cassetta degli attrezzi,डबल टूलबॉक्स
+settings_change_name,Đổi tên,CHANGE NAME,GANTI NAMA,,СМЕНИТЬ ИМЯ,NAMEN ÄNDERN,名前を変更,,更改名稱,,ALTERAR NOME,CHANGER DE NOM,,이름 변경,CAMBIAR NOMBRE,CAMBIA NOME,नाम बदलें
+settings_privacy,Quyền riêng tư,PRIVACY,PRIVASI,,КОНФИДЕНЦИАЛЬНОСТЬ,DATENSCHUTZ,プライバシー,,隱私,,PRIVACIDADE,CONFIDENTIALITÉ,,개인정보 보호,PRIVACIDAD,PRIVACY,गोपनीयता
+settings,Cài đặt,SETTINGS,PENGATURAN,,НАСТРОЙКИ,EINSTELLUNGEN,設定,,設定,,CONFIGURAÇÕES,PARAMÈTRES,,설정,AJUSTES,IMPOSTAZIONI,सेटिंग्स
+no_more_move,Hết nước đi,NO MORE MOVES,TIDAK ADA LAGI LANGKAH,,БОЛЬШЕ НЕТ ХОДОВ,KEINE ZÜGE MEHR,移動できない,,沒有更多步數,,SEM MAIS MOVIMENTOS,PLUS DE COUPS,,더 이상 이동할 수 없음,SIN MÁS MOVIMIENTOS,NESSUNA MOSSA DISPONIBILE,कोई और चाल नहीं
+stuck_ice_content,Ốc bị kẹt trong băng! Tiếp tục chơi để phá băng.,Screw stuck in ice! Keep playing to break all the ice.,Sekrup terjebak di es! Terus bermain untuk memecahkan semua es.,,"Винт застрял в льду! Продолжайте играть, чтобы разбить весь лёд.","Schraube im Eis festgefroren! Spiele weiter, um alles Eis zu brechen.",ネジが氷に閉じ込められた！氷をすべて壊すためにプレイし続けてください。,,螺絲卡在冰中！繼續玩以打破所有的冰。,,Parafuso preso no gelo! Continue jogando para quebrar todo o gelo.,Vis coincée dans la glace ! Continuez à jouer pour briser toute la glace.,,나사가 얼음에 갇혔어요! 계속해서 얼음을 모두 깨세요.,Tornillo atascado en el hielo! Sigue jugando para romper todo el hielo.,Vite bloccata nel ghiaccio! Continua a giocare per rompere tutto il ghiaccio.,स्क्रू बर्फ में फंसा है! सारी बर्फ तोड़ने के लिए खेलते रहें।
+stuck_toggle_content,Cửa chớp bị đóng! Tiếp tục chơi để mở cửa chớp.,Shutter is closed! Keep playing to remove all the shutters.,Jendela tertutup! Terus bermain untuk membuka semua jendela.,,"Жалюзи закрыты! Продолжайте играть, чтобы снять все жалюзи.","Der Rollladen ist geschlossen! Spiele weiter, um alle Rollläden zu entfernen.",シャッターが閉じています！シャッターをすべて取り除くためにプレイし続けてください。,,百葉窗關閉了！繼續玩以移除所有百葉窗。,,Persiana fechada! Continue jogando para remover todas as persianas.,Volet fermé ! Continuez à jouer pour enlever tous les volets.,,셔터가 닫혔어요! 계속해서 셔터를 모두 제거하세요.,Persiana cerrada! Sigue jugando para quitar todas las persianas.,Tapparella chiusa! Continua a giocare per rimuovere tutte le tapparelle.,शटर बंद है! सभी शटर हटाने के लिए खेलते रहें।
+bomb_exploded_title,Nổ,Explosion!,Ledakan!,,Взрыв!,Explosion!,爆発！,,爆炸！,,Explosão!,Explosion !,,폭발!,¡Explosión!,Esplosione!,विस्फोट!
+bomb_exploded_content,Bom đã nổ! Tiếp tục chơi để hồi sinh.,The bomb exploded! Keep playing to revive.,Bom meledak! Terus bermain untuk hidup kembali.,,"Бомба взорвалась! Продолжайте играть, чтобы возродиться.","Die Bombe ist explodiert! Spiele weiter, um dich wiederzubeleben.",爆弾が爆発しました！復活するためにプレイし続けてください。,,炸彈爆炸了！繼續玩以復活。,,A bomba explodiu! Continue jogando para reviver.,La bombe a explosé ! Continuez à jouer pour vous ressusciter.,,폭탄이 터졌어요! 부활하려면 계속 플레이하세요.,¡La bomba explotó! Sigue jugando para revivir.,La bomba è esplosa! Continua a giocare per rivivere.,बम फट गया! पुनर्जीवित होने के लिए खेलते रहें।
+time_up,Hết giờ,OUT OF TIME!,WAKTU HABIS,,ВРЕМЯ ВЫШЛО,ZEIT ABGELAUFEN,タイムアップ,,時間到,,TEMPO ACABOU,TEMPS ÉCOULÉ,,시간이 끝났습니다,TIEMPO AGOTADO,TEMPO SCADUTO,समय समाप्त
+time_up_content,Tiếp tục chơi để thêm giờ,Get 20 seconds to keep playing!,Terus bermain untuk menambah waktu,,"Продолжайте играть, чтобы добавить больше времени","Spiele weiter, um mehr Zeit hinzuzufügen",時間を追加するためにプレイし続ける,,繼續玩以增加更多時間,,Continue jogando para adicionar mais tempo,Continuez à jouer pour ajouter du temps,,시간을 추가하려면 계속 플레이하세요,Sigue jugando para añadir más tiempo,Continua a giocare per aggiungere più tempo,अधिक समय जोड़ने के लिए खेलते रहें
+timer_startup_game,Hoàn thành trong:,COMPLETE THE LEVEL IN,SELESAIKAN LEVEL DALAM,,ЗАВЕРШИТЕ УРОВЕНЬ ЗА,SCHLIESSE DAS LEVEL AB IN,レベルをクリアするには,,完成關卡於,,COMPLETE O NÍVEL EM,TERMINEZ LE NIVEAU EN,,이 레벨을 완료하려면,COMPLETA EL NIVEL EN,COMPLETA IL LIVELLO IN,स्तर पूरा करें
+daily_reward_title,Quà hàng ngày,DAILY REWARDS,HADIAH HARIAN,,ЕЖЕДНЕВНЫЕ НАГРАДЫ,TÄGLICHE BELOHNUNGEN,毎日の報酬,,每日獎勵,,RECOMPENSAS DIÁRIAS,RÉCOMPENSES QUOTIDIENNES,,매일 보상,RECOMPENSAS DIARIAS,RICOMPENSE GIORNALIERE,दैनिक इनाम
+claim,Nhận,Claim,klaim,,получить,einfordern,受け取る,,領取,,reivindicar,réclamer,,받기,reclamar,rivendica,दावा करें
+free,Miễn phí,Free,gratis,,бесплатно,kostenlos,無料,,免費,,grátis,gratuit,,무료,gratis,gratuito,मुफ्त
+boost_time_name,Thêm thời gian,EXTRA PLAYTIME,WAKTU BERMAIN TAMBAHAN,,ДОПОЛНИТЕЛЬНОЕ ВРЕМЯ,ZUSÄTZLICHE SPIELZEIT,追加プレイ時間,,額外遊玩時間,,TEMPO EXTRA DE JOGO,TEMPS DE JEU SUPPLÉMENTAIRE,,추가 플레이 시간,TIEMPO EXTRA DE JUEGO,TEMPO DI GIOCO EXTRA,अतिरिक्त खेलने का समय
+boost_time_des,Thêm 30s,Add 30 seconds,Tambah 30 detik,,Добавить 30 секунд,30 Sekunden hinzufügen,30秒追加,,增加30秒,,Adicionar 30 segundos,Ajouter 30 secondes,,30초 추가,Añadir 30 segundos,Aggiungi 30 secondi,30 सेकंड जोड़ें
+shop_bundle_name_2,Gỡ quảng cáo,REMOVE ADS,HILANGKAN IKLAN,,УБРАТЬ РЕКЛАМУ,WERBUNG ENTFERNEN,広告を削除,,移除廣告,,REMOVER ANÚNCIOS,SUPPRIMER LES PUBS,,광고 제거,ELIMINAR ANUNCIOS,RIMUOVI PUBBLICITÀ,विज्ञापन हटाएं
+shop_bundle_name_3,Gói gỡ quảng cáo,REMOVE ADS BUNDLE,PAKET HILANGKAN IKLAN,,НАБОР УДАЛЕНИЯ РЕКЛАМЫ,WERBUNGS-ENTFERNUNGS-PAKET,広告削除パック,,移除廣告組合包,,PACOTE PARA REMOVER ANÚNCIOS,PACK SUPPRESSION DE PUBS,,광고 제거 번들,PAQUETE DE ELIMINACIÓN DE ANUNCIOS,PACCHETTO RIMOZIONE PUBBLICITÀ,विज्ञापन हटाने का पैकेज
+shop_bundle_name_4,Gói dành cho người mới,BEGINNER'S BUNDLE,PAKET PEMULA,,НАБОР ДЛЯ НАЧИНАЮЩИХ,ANFÄNGER-PAKET,初心者パック,,新手組合包,,PACOTE INICIANTE,PACK DÉBUTANT,,초보자 번들,PAQUETE DE PRINCIPIANTE,PACCHETTO PRINCIPIANTE,शुरुआती पैकेज
+shop_bundle_name_5,Gói Tuyệt vời,GREAT BUNDLE,PAKET HEBAT,,ОТЛИЧНЫЙ НАБОР,TOLLES PAKET,素晴らしいパック,,優惠組合包,,PACOTE ÓTIMO,SUPER PACK,,멋진 번들,PAQUETE GENIAL,PACCHETTO FANTASTICO,शानदार पैकेज
+shop_bundle_name_6,Gói Đỉnh,EPIC BUNDLE,PAKET EPIC,,ЭПИЧЕСКИЙ НАБОР,EPISCHES PAKET,エピックパック,,史詩組合包,,PACOTE ÉPICO,PACK ÉPIQUE,,에픽 번들,PAQUETE ÉPICO,PACCHETTO EPICO,महाकाव्य पैकेज
+shop_sale_content_90,Giảm 90%,90% OFF,DISKON 90%,,СКИДКА 90%,90% RABATT,90%オフ,,90%折扣,,90% DE DESCONTO,90% DE RÉDUCTION,,90% 할인,90% DE DESCUENTO,SCONTO DEL 90%,90% की छूट
+tap_to_close,Chạm để đóng,Tap to Close,Ketuk untuk Tutup,,"Нажмите, чтобы закрыть",Tippen zum Schließen,閉じるにはタップ,,點擊關閉,,Toque para Fechar,Appuyez pour Fermer,,닫으려면 터치,Toca para Cerrar,Tocca per Chiudere,बंद करने के लिए टैप करें
+tap_to_continue,Chạm để tiếp tục,TAP TO CONTINUE,Ketuk untuk Melanjutkan,,"Нажмите, чтобы продолжить",Tippen zum Fortfahren,続けるにはタップ,,點擊繼續,,Toque para Continuar,Appuyez pour Continuer,,계속하려면 터치,Toca para Continuar,Tocca per Continuare,जारी रखने के लिए टैप करें
+room_repairing,Đang cải tạo,Renovation in progress,Renovasi sedang berlangsung,,Ремонт в процессе,Renovierung im Gange,改装中,,正在翻新,,Renovação em andamento,Rénovation en cours,,리노베이션 진행 중,Renovación en progreso,Ristrutturazione in corso,नवीनीकरण चल रहा है
+decor_hold_to_build,Giữ để xây,HOLD TO BUILD,TAHAN UNTUK MEMBANGUN,,"УДЕРЖИВАЙТЕ, ЧТОБЫ ПОСТРОИТЬ",HALTEN ZUM BAUEN,長押しして建設,,按住建造,,SEGURE PARA CONSTRUIR,MAINTENEZ POUR CONSTRUIRE,,누르고 건설,MANTÉN PARA CONSTRUIR,TIENI PREMUTO PER COSTRUIRE,निर्माण के लिए दबाए रखें
+boost_addhole_name,Nam châm,Hole,MAGNET,,МАГНИТ,MAGNET,マグネット,,磁鐵,,ÍMÃ,AIMANT,,자석,IMÁN,MAGNETE,चुंबक
+boost_addhole_des,Hút ốc,Create another Hole,Menarik sekrup,,Привлечь винт,Schraube anziehen,ねじを引き寄せる,,吸引螺絲,,Atraia um parafuso,Attirer une vis,,나사를 끌어당기기,Atraer un tornillo,Attira una vite,स्क्रू को आकर्षित करें
+help_guide_first_level,Điền hộp công cụ với các ốc phù hợp,Fill toolboxes with matching screws,Isi kotak alat dengan sekrup yang cocok,,Заполните ящики для инструментов подходящими винтами,Fülle die Werkzeugkästen mit passenden Schrauben,一致するねじでツールボックスを満たす,,將匹配的螺絲填滿工具箱,,Preencha as caixas de ferramentas com parafusos correspondentes,Remplissez les boîtes à outils avec des vis assorties,,일치하는 나사로 공구 상자를 채우세요,Llena las cajas de herramientas con tornillos coincidentes,Riempi le cassette degli attrezzi con viti abbinate,मेल खाते स्क्रू से टूलबॉक्स भरें
+help_guide_star_screw,Sử dụng ốc hình <color=#FFFF00>ngôi sao</color> khi cần,Use <color=#FFFF00>star</color> shaped screws when needed,Gunakan sekrup berbentuk <color=#FFFF00>bintang</color> saat dibutuhkan,,"Используйте винты в форме <color=#FFFF00>звезды</color>, когда нужно","Verwende <color=#FFFF00>sternförmige</color> Schrauben, wenn nötig",必要に応じて<color=#FFFF00>星形</color>のねじを使用する,,當需要時使用<color=#FFFF00>星形</color>螺絲,,Use parafusos em forma de <color=#FFFF00>estrela</color> quando necessário,Utilisez des vis en forme d'étoile <color=#FFFF00>étoile</color> lorsque nécessaire,,필요할 때 <color=#FFFF00>별 모양</color> 나사를 사용하세요,Usa tornillos con forma de <color=#FFFF00>estrella</color> cuando sea necesario,Usa viti a forma di <color=#FFFF00>stella</color> quando necessario,आवश्यक होने पर <color=#FFFF00>तारों के आकार</color> वाले स्क्रू का उपयोग करें
+help_guide_link_screw,Các ốc được kết nối sẽ di chuyển cùng nhau,Connected screws move together,Sekrup yang terhubung bergerak bersama,,Связанные винты двигаются вместе,Verbundene Schrauben bewegen sich zusammen,接続されたねじは一緒に動く,,連接的螺絲一起移動,,Parafusos conectados se movem juntos,Les vis connectées se déplacent ensemble,,연결된 나사는 함께 움직입니다,Los tornillos conectados se mueven juntos,Le viti connesse si muovono insieme,जुड़े हुए स्क्रू एक साथ चलते हैं
+help_guide_ice_screw,Phá <color=#00FFFF>BĂNG</color> bằng cách thu thập bất kỳ 3 ốc,Break the <color=#00FFFF>ICE</color> by collecting any 3 screws ,Hancurkan <color=#00FFFF>ES</color> dengan mengumpulkan 3 sekrup apa saja,,"Разбейте <color=#00FFFF>ЛЁД</color>, собрав любые 3 винта","Brich das <color=#00FFFF>EIS</color>, indem du 3 beliebige Schrauben sammelst",任意の3つのねじを集めて<color=#00FFFF>氷</color>を壊す,,收集任意 3 顆螺絲以打破<color=#00FFFF>冰塊</color>,,Quebre o <color=#00FFFF>GELO</color> coletando 3 parafusos,Brisez la <color=#00FFFF>GLACE</color> en collectant 3 vis,,나사 3개를 모아 <color=#00FFFF>얼음</color>을 깨세요,Rompe el <color=#00FFFF>HIELO</color> recolectando 3 tornillos,Rompi il <color=#00FFFF>GHIACCIO</color> raccogliendo 3 viti qualsiasi,किसी भी 3 स्क्रू इकट्ठा करके <color=#00FFFF>बर्फ</color> को तोड़ें
+help_guide_toggle_screw,Cửa chớp mở hoặc đóng mỗi lượt di chuyển,Shutter opens or closes with each move,Jendela tertutup atau terbuka setiap kali bergerak,,Жалюзи открываются или закрываются с каждым ходом,Der Rollladen öffnet oder schließt sich bei jedem Zug,シャッターは移動ごとに開閉する,,每次移動時快門會開關,,O obturador abre ou fecha a cada movimento,Le volet s'ouvre ou se ferme à chaque mouvement,,한 번 움직일 때마다 셔터가 열리고 닫힙니다,La persiana se abre o se cierra con cada movimiento,L'otturatore si apre o si chiude con ogni mossa,प्रत्येक चाल के साथ शटर खुलता या बंद होता है
+help_guide_bomb_screw,Gỡ bom trước khi hết lượt di chuyển,Clear the bomb before running out of its moves,Hapus bom sebelum kehabisan langkah,,"Обезвредьте бомбу, пока не закончились ходы","Entschärfe die Bombe, bevor die Züge ausgehen",爆弾が動き切る前に解除する,,在炸彈步數用完之前清除它,,Desarme a bomba antes de acabar os movimentos,Désamorcez la bombe avant d'épuiser les mouvements,,남은 이동 횟수 전에 폭탄을 제거하세요,Desactiva la bomba antes de quedarte sin movimientos,Disinnesca la bomba prima che finisca i movimenti,उसके चालें समाप्त होने से पहले बम को साफ करें
+help_guide_chain_screw,Loại bỏ dây xích để giải phóng ốc bị xích,Remove connected chains to free the chained screw,Hapus rantai yang terhubung untuk membebaskan sekrup yang terikat,,"Удалите соединенные цепи, чтобы освободить винт","Entferne die verbundenen Ketten, um die gefangene Schraube zu befreien",接続された鎖を外して縛られたねじを解放する,,移除連接的鏈條以解放鎖住的螺絲,,Remova as correntes conectadas para liberar o parafuso preso,Retirez les chaînes connectées pour libérer la vis enchaînée,,연결된 체인을 제거하여 묶인 나사를 풀어주세요,Elimina las cadenas conectadas para liberar el tornillo encadenado,Rimuovi le catene connesse per liberare la vite incatenata,श्रृंखलाओं को हटा दें ताकि श्रृंखला से बंधा स्क्रू मुक्त हो जाए
+help_guide_lockkit_screw,Giải phóng chìa khóa để mở khóa,Free the key to unlock the lock,Bebaskan kunci untuk membuka gembok,,"Освободите ключ, чтобы открыть замок","Befreie den Schlüssel, um das Schloss zu öffnen",鍵を解放してロックを解除する,,解放鑰匙以解鎖鎖頭,,Libere a chave para destrancar a fechadura,Libérez la clé pour déverrouiller la serrure,,자물쇠를 풀려면 열쇠를 해방하세요,Libera la llave para desbloquear el candado,Libera la chiave per sbloccare la serratura,ताला खोलने के लिए चाबी को मुक्त करें
+no_more_life,HẾT MẠNG!,NO MORE LIVES!,TIDAK ADA NYAWA LAGI!,,БОЛЬШЕ НЕТ ЖИЗНЕЙ!,KEINE LEBEN MEHR!,ライフがもうありません！,,沒有更多生命！,,SEM MAIS VIDAS!,PLUS DE VIES !,,생명이 더 이상 없습니다!,¡NO QUEDAN VIDAS!,NIENTE PIÙ VITE!,कोई और जीवन नहीं!
+keep_play,TIẾP TỤC CHƠI,KEEP PLAYING,TERUS BERMAIN,,ПРОДОЛЖАЙТЕ ИГРАТЬ,WEITERSPIELEN,続けてプレイする,,繼續遊戲,,CONTINUE JOGANDO,CONTINUEZ À JOUER,,계속 플레이,SIGUE JUGANDO,CONTINUA A GIOCARE,खेलते रहें
+get_now,MUA NGAY,GET NOW,DAPATKAN SEKARANG,,ПОЛУЧИТЕ СЕЙЧАС,JETZT HOLEN,今すぐ入手,,立即獲得,,PEGUE AGORA,OBTENIR MAINTENANT,,지금 받기,OBTENER AHORA,OTTIENI ORA,अभी प्राप्त करें
+remove_ads,GỠ QUẢNG CÁO,REMOVE ADS,HILANGKAN IKLAN,,УБРАТЬ РЕКЛАМУ,WERBUNG ENTFERNEN,広告を削除,,移除廣告,,REMOVER ANÚNCIOS,SUPPRIMER LES PUBS,,광고 제거,ELIMINAR ANUNCIOS,RIMUOVI ANNUNCI,विज्ञापन हटाएं
+level_completed,HOÀN THÀNH ,LEVEL COMPLETE,LEVEL SELESAI,,УРОВЕНЬ ЗАВЕРШЕН,LEVEL ABGESCHLOSSEN,レベルクリア,,關卡完成,,NÍVEL COMPLETO,NIVEAU TERMINÉ,,레벨 완료,NIVEL COMPLETADO,LIVELLO COMPLETATO,स्तर पूरा
+new_feature,TÍNH NĂNG MỚI,NEW FEATURE,FITUR BARU,,НОВАЯ ФУНКЦИЯ,NEUE FUNKTION,新機能,,新功能,,NOVO RECURSO,NOUVELLE FONCTIONNALITÉ,,새 기능,NUEVA FUNCIÓN,NUOVA FUNZIONE,नया फीचर
+continue,Tiếp tục,Continue,Lanjutkan,,Продолжить,Fortsetzen,続行,,繼續,,Continuar,Continuer,,계속하기,Continuar,Continua,जारी रखें
+booster_unlock,Mở khóa Trợ lực,BOOSTER UNLOCK,BOOSTER TERBUKA,,БУСТЕР РАЗБЛОКИРОВАН,BOOSTER FREIGESCHALTET,ブースター解除,,解鎖助推器,,BOOSTER DESBLOQUEADO,BOOSTER DÉVERROUILLÉ,,부스터 잠금 해제,POTENCIADOR DESBLOQUEADO,BOOSTER SBLOCCATO,बूस्टर अनलॉक
+try_again,Thử Lại,Try Again,Coba Lagi,,Попробовать снова,Erneut versuchen,再挑戦,,再試一次,,Tente Novamente,Réessayer,,다시 시도,Intenta de nuevo,Riprova,पुनः प्रयास करें
+remove_ads_des_1,Gỡ quảng cáo giữa các màn,Remove ads between levels and also banner ads.,Hapus iklan antara level,,Удалить рекламу между уровнями,Werbung zwischen den Leveln entfernen,レベル間の広告を削除する,,移除關卡間的廣告,,Remova anúncios entre os níveis,Supprimer les publicités entre les niveaux,,레벨 사이 광고 제거,Eliminar anuncios entre niveles,Rimuovi gli annunci tra i livelli,स्तरों के बीच विज्ञापन हटाएं
+remove_ads_des_2,Gỡ quảng cáo băng rôn,Remove banner ads,Hapus iklan banner,,Удалить баннерную рекламу,Bannerwerbung entfernen,バナー広告を削除する,,移除橫幅廣告,,Remova os anúncios de banner,Supprimer les publicités bannières,,배너 광고 제거,Eliminar anuncios de banner,Rimuovi gli annunci a banner,बैनर विज्ञापन हटाएं
+remove_ads_des_3,*Quảng cáo tùy chọn để nhận thưởng sẽ vẫn còn,Optional ads for rewards will stay.,*Iklan opsional untuk hadiah akan tetap ada,,*Рекламы для наград остаются,*Optionale Werbung für Belohnungen bleibt bestehen,*報酬広告は残ります,,*保留可選廣告以獲取獎勵,,*Anúncios opcionais para recompensas permanecerão,*Les pubs optionnelles pour des récompenses resteront,,*보상을 위한 선택적 광고는 남아있습니다,*Los anuncios opcionales para recompensas se mantendrán,*Gli annunci opzionali per le ricompense rimarranno,*इनाम के लिए वैकल्पिक विज्ञापन रहेंगे
+loading_preloader,Đang tải..{0}%,Loading..{0}%,Memuat..{0}%,,Загрузка..{0}%,Lädt..{0}%,読み込み中..{0}%,,加載中..{0}%,,Carregando..{0}%,Chargement..{0}%,,로딩 중..{0}%,Cargando..{0}%,Caricamento..{0}%,लोड हो रहा है..{0}%
+full_life,Đầy,Full,Penuh,,Полный,Voll,満タン,,已滿,,Cheio,Plein,,가득 참,Completo,Pieno,पूरा
+coming_soon,Sắp ra mắt,COMING SOON,Segera hadir,,Скоро,Demnächst,近日公開,,即將推出,,Em breve,Bientôt disponible,,곧 출시,Próximamente,In arrivo,जल्द आ रहा है
+character_not_support,Ký tự không được hỗ trợ.,Character not supported.,Karakter tidak didukung.,,Символ не поддерживается.,Zeichen wird nicht unterstützt.,サポートされていない文字です。,,不支援的字符。,,Caractere não suportado.,Caractère non pris en charge.,,지원되지 않는 문자입니다.,Carácter no compatible.,Carattere non supportato.,अक्षर समर्थित नहीं है।
+rule_character_name,Nhập từ 3-15 ký tự,Enter 3-15 characters,Masukkan 3-15 karakter,,Введите 3-15 символов,Geben Sie 3-15 Zeichen ein,3～15文字を入力してください,,請輸入 3-15 個字符,,Insira 3-15 caracteres,Entrez 3-15 caractères,,3~15자의 문자를 입력하세요,Ingresa entre 3 y 15 caracteres,Inserisci 3-15 caratteri,3-15 अक्षर दर्ज करें
+alert_not_enough_gold,Bạn không có đủ vàng!,You don't have enough gold!,Kamu tidak memiliki cukup emas!,,У вас недостаточно золота!,Du hast nicht genug Gold!,ゴールドが足りません！,,你的金幣不足！,,Você não tem ouro suficiente!,Vous n'avez pas assez d'or !,,골드가 충분하지 않습니다!,¡No tienes suficiente oro!,Non hai abbastanza oro!,आपके पास पर्याप्त सोना नहीं है!
+home_pin_ball,DU HÀNH VŨ TRỤ,SPACE TRIP,PERJALANAN LUAR ANGKASA,,КОСМИЧЕСКОЕ ПУТЕШЕСТВИЕ,RAUMREISE,宇宙旅行,,太空旅行,,VIAGEM ESPACIAL,VOYAGE DANS L'ESPACE,,우주 여행,VIAJE ESPACIAL,VIAGGIO SPAZIALE,अंतरिक्ष यात्रा
+bonus,Thưởng,Bonus,Bonus,,Бонус,Bonus,ボーナス,,獎勵,,Bônus,Bonus,,보너스,Bonificación,Bonus,बोनस
+tournament_title,Giải đấu,Tournament,Turnamen,,Турнир,Turnier,トーナメント,,錦標賽,,Torneio,Tournoi,,토너먼트,Torneo,Torneo,टूर्नामेंट
+tournament_des,Thắng liên tục để tăng hệ số điểm!,Win levels without failing to increase the score multiplier!,Menangkan level tanpa kalah untuk meningkatkan pengganda skor!,,"Выигрывайте уровни без поражений, чтобы увеличить множитель очков!","Gewinne Level ohne zu verlieren, um den Punktmultiplikator zu erhöhen!",失敗せずにレベルをクリアして、スコア倍率を増やそう！,,不失敗地贏得關卡來增加分數加乘！,,Vença níveis sem falhar para aumentar o multiplicador de pontuação!,Gagnez des niveaux sans échouer pour augmenter le multiplicateur de score !,,실패 없이 레벨을 승리하여 점수 배수를 증가시키세요!,¡Gana niveles sin fallar para aumentar el multiplicador de puntuación!,Vinci i livelli senza fallire per aumentare il moltiplicatore di punteggio!,अंक गुणक बढ़ाने के लिए बिना हारे स्तरों को जीतें!
+win_streak_warning,Ối! Thua sẽ đặt lại hệ số điểm của bạn!,Oops! Losing will reset your score multiplier!,Ups! Kalah akan mengatur ulang pengganda skor Anda!,,Ой! Поражение сбросит ваш множитель очков!,Ups! Eine Niederlage setzt deinen Punktmultiplikator zurück!,おっと！負けるとスコア倍率がリセットされます！,,哎呀！失敗會重置你的分數加乘！,,Ops! Perder irá redefinir o seu multiplicador de pontuação!,Oups ! Perdre réinitialisera votre multiplicateur de score !,,이런! 패배하면 점수 배수가 초기화됩니다!,¡Ups! Perder reiniciará tu multiplicador de puntuación.,Ops! La sconfitta azzererà il moltiplicatore di punteggio!,ओह! हारने से आपका अंक गुणक रीसेट हो जाएगा!
+play_again,CHƠI LẠI,PLAY AGAIN,MAIN LAGI,,ИГРАТЬ СНОВА,NOCH EINMAL SPIELEN,もう一度プレイ,,再玩一次,,JOGAR NOVAMENTE,REJOUER,,다시 하기,JUGAR DE NUEVO,GIOCA ANCORA,फिर से खेलें
+what_your_name,Tên của bạn là gì?,What is your name?,Siapa nama kamu?,,Как вас зовут?,Wie heißt du?,あなたの名前は？,,你的名字是什麼？,,Qual é o seu nome?,Quel est votre nom ?,,당신의 이름은 무엇인가요?,¿Cómo te llamas?,Come ti chiami?,आपका नाम क्या है?
+type_your_name,Nhập tên của bạn...,Type your name...,Ketik nama Anda...,,Введите ваше имя...,Gib deinen Namen ein...,名前を入力してください...,,輸入你的名字...,,Digite seu nome...,Entrez votre nom...,,이름을 입력하세요...,Escribe tu nombre...,Digita il tuo nome...,अपना नाम टाइप करें...
+rename_first_alert,Chỉ miễn phí một lần!,It's free only for once!,Gratis hanya sekali!,,Бесплатно только один раз!,Nur einmal kostenlos!,一度だけ無料です！,,只免費一次！,,É grátis apenas uma vez!,C'est gratuit une seule fois !,,한 번만 무료입니다!,¡Es gratis solo una vez!,È gratuito solo una volta!,केवल एक बार मुफ्त है!
+enter_name,Nhập Tên,Enter Name,Masukkan Nama,,Введите Имя,Namen eingeben,名前を入力,,輸入名字,,Inserir Nome,Entrez le nom,,이름 입력,Ingresar Nombre,Inserisci Nome,नाम दर्ज करें
+your_rank_with_num,HẠNG CỦA BẠN {0},YOUR RANK {0},PERINGKAT ANDA {0},,ВАШ РАНГ {0},DEIN RANG {0},あなたのランク {0},,你的排名 {0},,SUA CLASSIFICAÇÃO {0},VOTRE CLASSEMENT {0},,당신의 순위 {0},TU CLASIFICACIÓN {0},IL TUO RANGO {0},आपकी रैंक {0}
+pinball_welcome,CHÀO MỪNG ĐẾN VỚI CHUYẾN DU HÀNH VŨ TRỤ,WELCOME SPACE TRIP,SELAMAT DATANG DI PERJALANAN LUAR ANGKASA,,ДОБРО ПОЖАЛОВАТЬ В КОСМИЧЕСКОЕ ПУТЕШЕСТВИЕ,WILLKOMMEN BEI DER WELTRAUMREISE,ようこそ、宇宙旅行へ,,歡迎來到太空之旅,,BEM-VINDO À VIAGEM ESPACIAL,BIENVENUE AU VOYAGE SPATIAL,,우주 여행에 오신 것을 환영합니다,BIENVENIDO AL VIAJE ESPACIAL,BENVENUTO NEL VIAGGIO SPAZIALE,अंतरिक्ष यात्रा में आपका स्वागत है
+pinball_help,"Sự kiện Chuyến Du Hành Vũ Trụ diễn ra sau khi bạn hoàn thành một cấp độ khó. Kéo cần gạt và đẩy quả cầu va chạm với các yếu tố, kiếm điểm và chuyển đổi thành Vàng.","The Space Trip event takes place after you complete a hard level.
+Pull the lever and push the orb to collide with elements, earning points that convert to Gold.","Acara Perjalanan Luar Angkasa berlangsung setelah Anda menyelesaikan level sulit. Tarik tuas dan dorong bola untuk bertabrakan dengan elemen, mendapatkan poin yang dikonversi menjadi Emas.",,"Событие Космическое Путешествие начинается после завершения сложного уровня. Потяните за рычаг и толкните шар, чтобы он столкнулся с элементами, зарабатывая очки, которые конвертируются в золото.","Das Weltraumreise-Event findet statt, nachdem du ein schweres Level abgeschlossen hast. Ziehe den Hebel und stoße die Kugel an, damit sie mit Elementen kollidiert, um Punkte zu sammeln, die in Gold umgewandelt werden.",宇宙旅行イベントは、難しいレベルをクリアした後に行われます。レバーを引いて、オーブを要素にぶつけてポイントを獲得し、それをゴールドに変換します。,,太空之旅活動在你完成一個困難關卡後開始。拉動槓桿並推動球體與元素碰撞，獲取轉換為金幣的點數。,,"O evento Viagem Espacial acontece após você completar um nível difícil. Puxe a alavanca e empurre o orbe para colidir com os elementos, ganhando pontos que são convertidos em Ouro.","L'événement Voyage Spatial a lieu après avoir complété un niveau difficile. Tirez le levier et poussez l'orbe pour entrer en collision avec des éléments, en gagnant des points convertis en or.",,"우주 여행 이벤트는 어려운 레벨을 완료한 후에 진행됩니다. 레버를 당기고 구체를 밀어 요소와 충돌시켜 점수를 얻고, 이를 골드로 전환하세요.","El evento Viaje Espacial ocurre después de que completes un nivel difícil. Tira de la palanca y empuja el orbe para chocar con los elementos, ganando puntos que se convierten en Oro.","L'evento Viaggio Spaziale si svolge dopo aver completato un livello difficile. Tira la leva e spingi l'orbo per farlo scontrare con gli elementi, guadagnando punti convertiti in Oro.","अंतरिक्ष यात्रा कार्यक्रम कठिन स्तर पूरा करने के बाद होता है। लीवर खींचें और बॉल को तत्वों से टकराने के लिए धक्का दें, अंक कमाएं जो सोने में परिवर्तित होते हैं।"
+tuornament_help_title,,TOURNAMENT GUIDE,,,,,,,,,,,,,,,
+tournament_help_text_1,,BEAT LEVELS!,,,,,,,,,,,,,,,
+tournament_help_text_2,,COLLECT MORE CUPS \nTHAN OTHER PLAYERS,,,,,,,,,,,,,,,
+tournament_help_text_3,,WIN REWARDS!,,,,,,,,,,,,,,,
+tournament_help_text_4,,BEAT CONSECUTIVE LEVEL TO INCREASE THE MULTIPLIER!,,,,,,,,,,,,,,,
+tournament_help_text_5,,"IF YOU FAIL A LEVEL, THE MULTIPLIER WILL RESET",,,,,,,,,,,,,,,
+lvl_with_num,Lvl {0},Lvl {0},,,,,,,,,,,,,,,
+home_icon_open_in,,Open in\n{0},,,,,,,,,,,,,,,
+pinball_complete,,SPACETRIP COMPLETED,,,,,,,,,,,,,,,
+tuornament_popup_des,,Win a level to join Tournament and complete for amazing rewards,,,,,,,,,,,,,,,
+profile_edit,,PROFILE,,,,,,,,,,,,,,,
+congratulation,,CONGRATULATIONS!,,,,,,,,,,,,,,,
+racing_help_text_1,,START COMPETING AGAINST OTHER PLAYERS!,,,,,,,,,,,,,,,
+racing_help_text_2,,BEAT LEVELS FASTER\nTHAN OTHERS,,,,,,,,,,,,,,,
+racing_help_text_3,,WIN REWARDS!,,,,,,,,,,,,,,,
+racing_lose_des,,Try again and take the lead for prize!,,,,,,,,,,,,,,,
+racing_title,,SPEED RALLY,,,,,,,,,,,,,,,
+racing_banner_des,,Complete with other player!\nWhoever get to Level <color=#00FF00>{0}</color> first win the top prize!,,,,,,,,,,,,,,,
+start,,Start,,,,,,,,,,,,,,,
+racing_finding,,Searching for opponents{0},,,,,,,,,,,,,,,
+estimated_time,,Estimated time:{0},,,,,,,,,,,,,,,
+you_failed,,You Failed,,,,,,,,,,,,,,,
+finish,,Finish,,,,,,,,,,,,,,,
+pinball_no_ball_left,,No balls left!,,,,,,,,,,,,,,,
+pinball_guide,,SPACETRIP GUIDE,,,,,,,,,,,,,,,
+pinball_help_1,,BEAT LEVELS TO\nCOLLECT SPACE BALLS!,,,,,,,,,,,,,,,
+pinball_help_2,,SHOOT SPACE BALLS\nAND GAIN SCORE!,,,,,,,,,,,,,,,
+pinball_help_3,,WIN AMAZING REWARDS!,,,,,,,,,,,,,,,
+max_level,,MAX,,,,,,,,,,,,,,,
+racing_help_title,,SPEED RALLY GUIDE,,,,,,,,,,,,,,,
+loading,Đang tải{0},Loading{0},Memuat{0},,Загрузка{0},Lädt{0},読み込み中{0},,加載中{0},,Carregando{0},Chargement{0},,로딩 중{0},Cargando{0},Caricamento{0},लोड हो रहा है{0}
+rate_us_des,,"If you like our game, please give us 5 stars praise",,,,,,,,,,,,,,,
+rate_us_title,,RATE US,,,,,,,,,,,,,,,
+alert_wifi_title,,NO CONNECTION!,,,,,,,,,,,,,,,
+alert_wifi_des,,Please check the internet connection on your device.,,,,,,,,,,,,,,,
+got_it,,GOT IT,,,,,,,,,,,,,,,
+alert_update_version_des,,"Update now for a better, more exciting game experience!",,,,,,,,,,,,,,,
+alert_update_version_title,,NEW VERSION AVAILABLE!,,,,,,,,,,,,,,,
+box_reward,,BOX REWARD,,,,,,,,,,,,,,,
+rate,,RATE,,,,,,,,,,,,,,,
+sweet_journey_title,,SWEET JOURNEY,,,,,,,,,,,,,,,
+no_reward_video,,There were no ads available.,,,,,,,,,,,,,,,
+require,,Require,,,,,,,,,,,,,,,
+shop_sale_content_70,Giảm 90%,90% OFF,,,,,,,,,,,,,,,
+next_level,,Next Level,,,,,,,,,,,,,,,
+update,,Update,,,,,,,,,,,,,,,
+revive,,REVIVE,,,,,,,,,,,,,,,
+ads_rewarded_not_complete,,The rewarded ads was not completed.,,,,,,,,,,,,,,,
+help_guide_clover,,Collect clovers to earn exciting rewards!,,,,,,,,,,,,,,,
+menu_guild,,Guild,,,,,,,,,,,,,,,
+leaderboard_unlock,,Reach <color=#fbdf07>Level {0}</color> to unlock <color=#fbdf07>Leaderboard</color>,,,,,,,,,,,,,,,
+collect_clover_complete,,Complete!,,,,,,,,,,,,,,,
+bundle,,BUNDLE,,,,,,,,,,,,,,,
+popup_beginner,,BEGINNER'S,,,,,,,,,,,,,,,
+top_week,,WEEKLY,,,,,,,,,,,,,,,
+top_world,,WORLD,,,,,,,,,,,,,,,
+play_to_join,,PLAY TO JOIN,,,,,,,,,,,,,,,
+weekly_leaderboard_join,,Win a match to join the weekly contest.,,,,,,,,,,,,,,,
+score,,Score,,,,,,,,,,,,,,,
+piggy_bank_title,,Piggy Bank,,,,,,,,,,,,,,,
+piggy_bank_des,,"The more you collect, the better the value",,,,,,,,,,,,,,,
+break_now,,Break Now,,,,,,,,,,,,,,,
+full,Đầy,Full,Penuh,,Полный,Voll,満タン,,已滿,,Cheio,Plein,,가득 참,Completo,Pieno,पूरा
+earn_coins,,Earn Coins,,,,,,,,,,,,,,,
+setting_restore_purchase,Phục hồi giao dịch,Restore Purchase,Pulihkan Pembelian,,Восстановить покупку,Kauf wiederherstellen,購入を復元,,恢復購買,,Restaurar Compra,Restaurer l'achat,,구매 복원,Restaurar compra,Ripristina acquisto,ख़रीदारी पुनःस्थापित करें
+your_rank,,YOUR RANK,,,,,,,,,,,,,,,
+win_streak_des,,"Complete levels without failing! 
+If you fail, you'll fall back down.",,,,,,,,,,,,,,,
+save,,SAVE,,,,,,,,,,,,,,,
+next_free_in,,Next free is in {0},,,,,,,,,,,,,,,
+fw_daily_spin,,Daily spins: {0},,,,,,,,,,,,,,,
+fortune_wheel_title,,LUCKY SPIN,,,,,,,,,,,,,,,
+shop_bundle_name_13,,FAIL OFFER,,,,,,,,,,,,,,,
+fw_spin,,SPIN,,,,,,,,,,,,,,,
+settings_music,,Music,,,,,,,,,,,,,,,
+settings_sound,,Sounds,,,,,,,,,,,,,,,
+settings_vibration,,Vibro,,,,,,,,,,,,,,,
+new_feature_coming_xich,,The <color=#00FF99>Chainy Slither</color> is now available!,,,,,,,,,,,,,,,
+new_feature_des1_xich,,The worm is locked and will be\n unlocked after a few turns,,,,,,,,,,,,,,,
+new_feature_des2_xich,,Play a few turns to rescue this worm,,,,,,,,,,,,,,,
+new_feature_coming_ken,,The <color=#00FF99>Cocoon Slither</color> is now available!,,,,,,,,,,,,,,,
+new_feature_des1_ken,,You have rescued the Cocoon Slither,,,,,,,,,,,,,,,
+new_feature_des2_ken,,Send a slither to crack open the cocoon and wake it up!,,,,,,,,,,,,,,,
+new_feature_coming_pair,,The <color=#00FF99>Linked Slither</color> is now available!,,,,,,,,,,,,,,,
+new_feature_des1_pair,,These slithers are linked \nOne can't go without the other,,,,,,,,,,,,,,,
+new_feature_des2_pair,,They can only go in when two holes open,,,,,,,,,,,,,,,
+new_feature_coming_bomb,,The <color=#00FF99>Bomb Slither</color> is now available!,,,,,,,,,,,,,,,
+new_feature_des1_bomb,,The slither is carrying a ticking bomb!,,,,,,,,,,,,,,,
+new_feature_des2_bomb,,Move it before the countdown ends,,,,,,,,,,,,,,,
+new_feature_coming_secret_hole,,The <color=#00FF99>Covered Hole</color> is now available!,,,,,,,,,,,,,,,
+new_feature_des1_secret_hole,,This hole is blocked by rocks,,,,,,,,,,,,,,,
+new_feature_des2_secret_hole,,It will reopen after a few turns,,,,,,,,,,,,,,,

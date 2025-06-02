@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dead0c0ba3f6502418a66308bd5229b4, type: 3}
+  m_Name: GameDataSO
+  m_EditorClassIdentifier: 
+  PrefabDevMode: {fileID: 2981540685807463356, guid: 353b2a33aa8a093459ca03050a1cf795, type: 3}
+  TextLanguage: {fileID: 4900000, guid: a7c4bcf2c2c6e9345ab7ca6512c95632, type: 3}
+  DataMaterials:
+  - BlockColor: 1
+    Material: {fileID: 2100000, guid: aa0dc5b9be06f644eb4b6b3b5ba972db, type: 2}
+    Material_Outline: {fileID: 2100000, guid: bb202e0206aef674196efb2f178f300f, type: 2}
+    WingsMat: {fileID: 2100000, guid: 367cf73f68a1f7d42bc0fcd9575485c5, type: 2}
+    TargetMat: {fileID: 2100000, guid: 9f07264e089a4464e81a773760ad1398, type: 2}
+    SpritePortal_1: {fileID: 21300000, guid: 223c4dfc3d52b5744b3a1e2e599e0d3f, type: 3}
+    SpriteBlank: {fileID: 21300000, guid: f537731fe0ff97344a65e4234dc11b2b, type: 3}
+    SpriteCubeTarget: {fileID: 21300000, guid: 6cd4d3921a2047d4e9ac3e82f829a4f7, type: 3}
+    SpriteCircleTarget: {fileID: 21300000, guid: 10bbd4c6a24967b4493082126e611d8e, type: 3}
+    MainColor: {r: 0, g: 0, b: 0.75686276, a: 1}
+    TargetShootMat: {fileID: 2100000, guid: 8c7153adedf6143489d17ffce262aeb6, type: 2}
+  - BlockColor: 2
+    Material: {fileID: 2100000, guid: fc431842e31f7d64ca386f7feb1743ba, type: 2}
+    Material_Outline: {fileID: 2100000, guid: 2beef9cda32c01c4bb0ad245c86cf4cb, type: 2}
+    WingsMat: {fileID: 2100000, guid: 75cc689bdfa8e5046a8949c28f3d8e95, type: 2}
+    TargetMat: {fileID: 2100000, guid: d31a5c4bb7777014a8e23de7b6741182, type: 2}
+    SpritePortal_1: {fileID: 21300000, guid: b1e487c9ca89df94dbe9573c0accd430, type: 3}
+    SpriteBlank: {fileID: 21300000, guid: 7522aae0f46ad6e49ba3d5bd0155e8b4, type: 3}
+    SpriteCubeTarget: {fileID: 21300000, guid: ba640a1755567c047899493b870541ab, type: 3}
+    SpriteCircleTarget: {fileID: 21300000, guid: 70e5776ddf0067e43b2badad0654b70c, type: 3}
+    MainColor: {r: 1, g: 0.12941177, b: 0.05882353, a: 1}
+    TargetShootMat: {fileID: 2100000, guid: 3411a75573125d64e84d7cf6f41d7d72, type: 2}
+  - BlockColor: 3
+    Material: {fileID: 2100000, guid: b12afbd243eebcc44a144e80afb1d66c, type: 2}
+    Material_Outline: {fileID: 2100000, guid: 40f54aaded98309459d075f792f191d6, type: 2}
+    WingsMat: {fileID: 2100000, guid: 58babfc71a742e2429b360c731a8ea5a, type: 2}
+    TargetMat: {fileID: 2100000, guid: fae5e97598dce7b4da771a6b29c082c0, type: 2}
+    SpritePortal_1: {fileID: 21300000, guid: 6aa3d84c02043f14c94fdec586eeee3b, type: 3}
+    SpriteBlank: {fileID: 21300000, guid: 04ea1e582b037144a8b8ab36521cfc22, type: 3}
+    SpriteCubeTarget: {fileID: 21300000, guid: cbe95533b9fc79f41af04e6aa69b11cd, type: 3}
+    SpriteCircleTarget: {fileID: 21300000, guid: 0d4a4ee26594c4249bd0f76fa3d1787f, type: 3}
+    MainColor: {r: 0, g: 1, b: 0, a: 1}
+    TargetShootMat: {fileID: 2100000, guid: d23e060bf74b6184bbba7ef68c00ee0c, type: 2}
+  - BlockColor: 4
+    Material: {fileID: 2100000, guid: 4ca9609d96def524fa21ec782aaf1f90, type: 2}
+    Material_Outline: {fileID: 2100000, guid: 881ca3e160304e44884daca36b54367e, type: 2}
+    WingsMat: {fileID: 2100000, guid: 79aa23bb3ccdcf046993dc569890cbdc, type: 2}
+    TargetMat: {fileID: 2100000, guid: e383ac00a49d7344ea83d9e050ded75e, type: 2}
+    SpritePortal_1: {fileID: 21300000, guid: 3e66b2eee5c97974f9a56c4d99a0981b, type: 3}
+    SpriteBlank: {fileID: 21300000, guid: 69da1f3ef8f8b4e4eabe74f6ec2dadd7, type: 3}
+    SpriteCubeTarget: {fileID: 21300000, guid: 51bf8e6277bb74e4c9e8d518b2cca72f, type: 3}
+    SpriteCircleTarget: {fileID: 21300000, guid: 1178efd531acd884faaf1353e65b502e, type: 3}
+    MainColor: {r: 1, g: 1, b: 0, a: 1}
+    TargetShootMat: {fileID: 2100000, guid: 336a12cc1003cae49b223a319cfbca9c, type: 2}
+  - BlockColor: 5
+    Material: {fileID: 2100000, guid: c94870542c0245646ba815b532619868, type: 2}
+    Material_Outline: {fileID: 2100000, guid: df1cf375596016f488c7f388f4ae7857, type: 2}
+    WingsMat: {fileID: 2100000, guid: 1707505dd0fd48143a85dafde3e97258, type: 2}
+    TargetMat: {fileID: 2100000, guid: f7860f07ea451e64b9a7d2f303a873ba, type: 2}
+    SpritePortal_1: {fileID: 21300000, guid: 80fa82a4980d606469c0b125080be686, type: 3}
+    SpriteBlank: {fileID: 21300000, guid: 25a868af829453a49a7564f7570d54fc, type: 3}
+    SpriteCubeTarget: {fileID: 21300000, guid: e1c1131451b43624996fafce2310e11f, type: 3}
+    SpriteCircleTarget: {fileID: 21300000, guid: cc0e957e65c1e804cb452a4c0ab8fccc, type: 3}
+    MainColor: {r: 0.9529412, g: 0.6509804, b: 0.05882353, a: 1}
+    TargetShootMat: {fileID: 2100000, guid: 50ac01ad65301524fb99830c9ee6b106, type: 2}
+  - BlockColor: 6
+    Material: {fileID: 2100000, guid: e77a51068cecaac4f81111389876b821, type: 2}
+    Material_Outline: {fileID: 2100000, guid: 0975e2706e7af30429f7b6e91557238c, type: 2}
+    WingsMat: {fileID: 2100000, guid: 7f291691972e5bd4081d2543a6827aea, type: 2}
+    TargetMat: {fileID: 2100000, guid: 3f1f1b1f446d44e4881fa27220fe7a39, type: 2}
+    SpritePortal_1: {fileID: 21300000, guid: 1ca3109e470b1d14480f5ed53b6006e3, type: 3}
+    SpriteBlank: {fileID: 21300000, guid: f75d5242d8564e540bfde04af84d204b, type: 3}
+    SpriteCubeTarget: {fileID: 21300000, guid: 40e2bde0f469e4d428acadda283711a5, type: 3}
+    SpriteCircleTarget: {fileID: 21300000, guid: dcbaa5652c568ae4e9a9c6e33715a8a7, type: 3}
+    MainColor: {r: 0.6666667, g: 0.05882353, b: 0.94509804, a: 1}
+    TargetShootMat: {fileID: 2100000, guid: 0d33b52449c8cc141a9c1b59520fd007, type: 2}
+  - BlockColor: 7
+    Material: {fileID: 2100000, guid: f011e712e6e15ae40b043128be7d8ec5, type: 2}
+    Material_Outline: {fileID: 2100000, guid: a8b295c7243f1d2418c296998543bf01, type: 2}
+    WingsMat: {fileID: 2100000, guid: bcb2ffc370c3d734bb5f535971ff4f05, type: 2}
+    TargetMat: {fileID: 2100000, guid: 7fbbddf3973caef4e9bfdafc4de9ad22, type: 2}
+    SpritePortal_1: {fileID: 21300000, guid: 8442edf4cec27b54283ac869a87c4724, type: 3}
+    SpriteBlank: {fileID: 21300000, guid: e09b99ef2c7c82f4abf043715b12042f, type: 3}
+    SpriteCubeTarget: {fileID: 21300000, guid: fb5cc64ddef3f9a42aa6e2a26abb0c9b, type: 3}
+    SpriteCircleTarget: {fileID: 21300000, guid: 4da968ffa58a33248ad79cb8f0be1826, type: 3}
+    MainColor: {r: 0.84313726, g: 0.1254902, b: 0.39215687, a: 1}
+    TargetShootMat: {fileID: 2100000, guid: 98dcee1d9a20978419164705f7f1d5b5, type: 2}
+  - BlockColor: 8
+    Material: {fileID: 2100000, guid: 7a313ca63ff29a046a25c3b9d9d1f41a, type: 2}
+    Material_Outline: {fileID: 2100000, guid: d5e7b0090fe4cb746a29550f264ad4d1, type: 2}
+    WingsMat: {fileID: 2100000, guid: ff6bbb3fd27b06648bac9a3276548d06, type: 2}
+    TargetMat: {fileID: 2100000, guid: 35b4fff9918e2c348931f5017b7ba355, type: 2}
+    SpritePortal_1: {fileID: 21300000, guid: f7a0d720f6e7dd84aa02d6d12479dad0, type: 3}
+    SpriteBlank: {fileID: 21300000, guid: 9486f320b4ab0944689aaff4cbc40bd1, type: 3}
+    SpriteCubeTarget: {fileID: 21300000, guid: c4d4a577e8615174699a20ce9e83bed7, type: 3}
+    SpriteCircleTarget: {fileID: 21300000, guid: e6c3909f21937e14384f691c36f92d42, type: 3}
+    MainColor: {r: 0.050980393, g: 0.4509804, b: 0.019607844, a: 1}
+    TargetShootMat: {fileID: 2100000, guid: e03aea6796b01a241bc38286731b74b5, type: 2}
+  - BlockColor: 9
+    Material: {fileID: 2100000, guid: 5e5221e35c3b8cf468b08dc96aa10aa8, type: 2}
+    Material_Outline: {fileID: 2100000, guid: 4ddff8bbe30f2f9429c757cd34ced6d5, type: 2}
+    WingsMat: {fileID: 2100000, guid: fad32668d33efba4fa7caed5ac36fd43, type: 2}
+    TargetMat: {fileID: 2100000, guid: 7c6c881129e33d64a9df19736fbb21a2, type: 2}
+    SpritePortal_1: {fileID: 21300000, guid: efb9d870a40416c4d9cd26b70591b175, type: 3}
+    SpriteBlank: {fileID: 21300000, guid: 5cab814e8c18d014f90079926feec765, type: 3}
+    SpriteCubeTarget: {fileID: 21300000, guid: 8eb2d2a7367d89f4894f0f7bccab46e5, type: 3}
+    SpriteCircleTarget: {fileID: 21300000, guid: 22d784c51103ad44ba9f5e9d2da67a50, type: 3}
+    MainColor: {r: 0.039215688, g: 0.85490197, b: 0.9843137, a: 1}
+    TargetShootMat: {fileID: 2100000, guid: 24ba535b60607244099330afed6ec467, type: 2}
+  - BlockColor: 10
+    Material: {fileID: 2100000, guid: 7d577573e0a65a8469d7fc386e353697, type: 2}
+    Material_Outline: {fileID: 2100000, guid: d3cab95fe25f7a145a4146f6d754819a, type: 2}
+    WingsMat: {fileID: 2100000, guid: 8214baf347936d3418318d03d90ac611, type: 2}
+    TargetMat: {fileID: 2100000, guid: 7e7b98cf53c09e34fa45149c84a12f95, type: 2}
+    SpritePortal_1: {fileID: 21300000, guid: a5c54709b3615ba4aa9817eefc393a85, type: 3}
+    SpriteBlank: {fileID: 21300000, guid: c6e8b8ff2c3e1ae4c81a97e69be65a01, type: 3}
+    SpriteCubeTarget: {fileID: 21300000, guid: be9d92ea293c5b04baa3f9aa8a118193, type: 3}
+    SpriteCircleTarget: {fileID: 21300000, guid: c8e8b3a9602902a4380e4a264cc02448, type: 3}
+    MainColor: {r: 0.64705884, g: 0.38039216, b: 0.21568628, a: 1}
+    TargetShootMat: {fileID: 2100000, guid: d1ffea730897fa842ae5980c30391b37, type: 2}
+  - BlockColor: 11
+    Material: {fileID: 2100000, guid: ac35950c1b8dcac48aa1ff8ea20069e9, type: 2}
+    Material_Outline: {fileID: 2100000, guid: f59f84e6f9f41094f836ce6d14991b11, type: 2}
+    WingsMat: {fileID: 2100000, guid: effca63b5d2b0884db556a36ebe8f7bc, type: 2}
+    TargetMat: {fileID: 2100000, guid: 1011dc5ba75934444a852fd02f4e76a4, type: 2}
+    SpritePortal_1: {fileID: 21300000, guid: a5c54709b3615ba4aa9817eefc393a85, type: 3}
+    SpriteBlank: {fileID: 21300000, guid: c6e8b8ff2c3e1ae4c81a97e69be65a01, type: 3}
+    SpriteCubeTarget: {fileID: 21300000, guid: be9d92ea293c5b04baa3f9aa8a118193, type: 3}
+    SpriteCircleTarget: {fileID: 21300000, guid: c8e8b3a9602902a4380e4a264cc02448, type: 3}
+    MainColor: {r: 0.64705884, g: 0.38039216, b: 0.21568628, a: 1}
+    TargetShootMat: {fileID: 2100000, guid: 942a25689802aca49853d46a77895eb8, type: 2}
+  DataBorders:
+  - BorderType: 0
+    PrefabBorder: {fileID: 0}
+  - BorderType: 1
+    PrefabBorder: {fileID: 6892067516548923811, guid: bf2dd96eebbf8bc4ab94817f4746449b, type: 3}
+  - BorderType: 2
+    PrefabBorder: {fileID: 0}
+  - BorderType: 3
+    PrefabBorder: {fileID: 0}
+  - BorderType: 4
+    PrefabBorder: {fileID: 0}
+  - BorderType: 5
+    PrefabBorder: {fileID: 0}
+  - BorderType: 6
+    PrefabBorder: {fileID: 6303003172471568880, guid: cd03de60d20361145970b5a22a542d32, type: 3}
+  - BorderType: 7
+    PrefabBorder: {fileID: 2871762356746349907, guid: 5c32bf88150955848a54aa7bbd96b182, type: 3}
+  - BorderType: 8
+    PrefabBorder: {fileID: 3116704462318282351, guid: db90d2776e3147d45826a35d47138113, type: 3}
+  - BorderType: 9
+    PrefabBorder: {fileID: 6167324983193021121, guid: f9f01e9730b1ddc47bc9b0c5fb55f0c9, type: 3}
+  - BorderType: 0
+    PrefabBorder: {fileID: 0}
+  - BorderType: 11
+    PrefabBorder: {fileID: 5297686899420362939, guid: 29a409ffcd5535f4a97df1815ebd4027, type: 3}
+  WhiteMaterial: {fileID: 2100000, guid: 5f169ef56a3a0004f99982d970c9a90d, type: 2}
+  AlphaMaterial: {fileID: 2100000, guid: 6205525e2a776a7479efdc9ee3748005, type: 2}
+  PrefabFxAppearButterFly: {fileID: 2171565640630556263, guid: ed980edf9d8de514d8afcd62523c0ff2, type: 3}
+  PrefabFxPairDestroy: {fileID: 5406399209576539449, guid: c9d8895ceef836b4fabe134244b3084c, type: 3}
+  PrefabFxPodBreak: {fileID: 4311651225276466227, guid: f213e1c08153b784da51d8a78088438a, type: 3}
+  PrefabFxXichBreak: {fileID: 5589185920986075272, guid: b6830f3aa1618834195bc2cbf9eb5754, type: 3}
+  PrefabFxBombRelease: {fileID: 6105802717146437346, guid: 2d4dd9b698cb30046bccd11c758d4db3, type: 3}
+  PrefabFxBombExplosion: {fileID: 5570869514417797675, guid: aea9bbd083bb8ba458e357857d7ea90a, type: 3}
+  PrefabButterFly: {fileID: 3964458922347863525, guid: 0dbbdd93a31bfbb40829d411d0059ada, type: 3}
+  PrefabTrailGhost: {fileID: 1205269342688293597, guid: f45c3a0c185a5b34abccb85878454caf, type: 3}
+  PrefabHeadGhosting: {fileID: 58271424401701991, guid: b4fc26b88c9b5554cbd27db3dddfeb1b, type: 3}
+  PrefabClickStartGhosting: {fileID: 4182156573244750039, guid: 51983b1165d934f4bb26b0e72e4bf6d8, type: 3}
+  ConfigLevel: '{"level_unlock":{"feature":{},"new_gameplay":{"xich":7,"ken":16,"pair":24,"bomb":36,"secret_hole":51},"booster":{"freeze":5,"ghost":10,"addhole":9999999}},"ads":{"level_inter_ads":21,"level_banner_ads":2},"level_hard":[11,15,18,20,27,30,33,35,57,40,45,50,54,57]}'

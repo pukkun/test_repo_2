@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: a571a8b6f3fe7f04cad4bd7be88b95e2
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Morl Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f050fdcf01dda8549acf510fda887f45, type: 3}
+  - {fileID: 12800000, guid: f3ea77ad356f7974c93d5de2e335e692, type: 3}
+  - {fileID: 12800000, guid: 813c938bd2a9c91468b0fa05fbdad4e1, type: 3}
+  - {fileID: 12800000, guid: a2290213606376e4180ef7b69446bf69, type: 3}
+  - {fileID: 12800000, guid: 126378e9926a77f4abb749732eed9743, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

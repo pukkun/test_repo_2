@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18fad4e145f9b453e917002e2207e64d, type: 3}
+  m_Name: LionAds_Settings
+  m_EditorClassIdentifier: 
+  enableLionAds: 1
+  rewardedAdUnitIdAndroid: 3ae195508d8b5c48
+  interstitialAdUnitIdAndroid: 3d358d58e78ee631
+  bannerAdUnitIdAndroid: 0b008eaf9508b550
+  interOpenAdUnitIdAndroid: 9e742615765cc3e0
+  rewardedAdUnitIdIOS: 
+  interstitialAdUnitIdIOS: 
+  bannerAdUnitIdIOS: 
+  interOpenAdUnitIdIOS: 
+  rewardedAdUnitIdAmazonAndroid: 
+  interstitialAdUnitIdAmazonAndroid: 
+  bannerAdUnitIdAmazonAndroid: 
+  rewardedAdUnitIdAmazonIOS: 
+  interstitialAdUnitIdAmazonIOS: 
+  bannerAdUnitIdAmazonIOS: 
+  RewardedAdLoadCooldown: 5
+  InterstitialAdLoadCooldown: 5
+  BannerAdLoadCooldown: 5
+  _bannerPosition: 7
+  adjustSafeAreaWithBannerAds: 0
+  EventsToFire:
+    interstitialClick: 1
+    interstitialEnd: 1
+    interstitialLoad: 1
+    interstitialLoadFail: 1
+    interstitialShow: 1
+    interstitialShowFail: 1
+    interstitialStart: 1
+    interstitialRevenuePaid: 1
+    interOpenClick: 1
+    interOpenEnd: 1
+    interOpenLoad: 1
+    interOpenLoadFail: 1
+    interOpenShow: 1
+    interOpenShowFail: 1
+    interOpenStart: 1
+    interOpenRevenuePaid: 1
+    rewardVideoClick: 1
+    rewardVideoCollect: 1
+    rewardVideoEnd: 1
+    rewardVideoLoad: 1
+    rewardVideoLoadFail: 1
+    rewardVideoShow: 1
+    rewardVideoShowFail: 1
+    rewardVideoStart: 1
+    rewardVideoRevenuePaid: 1
+    bannerShowRequested: 1
+    bannerLoad: 1
+    bannerLoadFail: 1
+    bannerhide: 1
+    bannerRevenuePaid: 0

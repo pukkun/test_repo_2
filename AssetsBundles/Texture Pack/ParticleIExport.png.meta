@@ -1,0 +1,740 @@
+fileFormatVersion: 2
+guid: 810a93790988f914cab5db649459c822
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 21300000
+    second: ParticleIExport
+  - first:
+      213: 21300002
+    second: active_button4
+  - first:
+      213: 21300004
+    second: borderThuoc
+  - first:
+      213: 21300006
+    second: Circle_standard_01
+  - first:
+      213: 21300008
+    second: glow3
+  - first:
+      213: 21300010
+    second: sparkle
+  - first:
+      213: 21300012
+    second: alien_light
+  - first:
+      213: 21300014
+    second: Energy_trail_05_aien2
+  - first:
+      213: 21300016
+    second: CFXM_T_RayRounded_alien
+  - first:
+      213: 21300018
+    second: ring_alien
+  - first:
+      213: 21300020
+    second: circle_alien
+  - first:
+      213: 21300022
+    second: grab2_alien
+  - first:
+      213: 21300024
+    second: glow_alien copy
+  - first:
+      213: 21300026
+    second: Asset_Element_1_nho
+  - first:
+      213: 21300028
+    second: glow2_alien
+  - first:
+      213: 21300030
+    second: sparkle_alien
+  - first:
+      213: 21300032
+    second: fireworks1
+  - first:
+      213: 21300034
+    second: Particle-Sprite-Smoke-1
+  - first:
+      213: 21300036
+    second: Scroll
+  - first:
+      213: 21300038
+    second: red-crosshair-png-4
+  - first:
+      213: 21300040
+    second: ring_modular
+  - first:
+      213: 21300042
+    second: sphere_green
+  - first:
+      213: 21300044
+    second: glow (144)
+  - first:
+      213: 21300046
+    second: glow (13)
+  - first:
+      213: 21300048
+    second: Buble
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 50
+    textureCompression: 1
+    compressionQuality: 100
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 1
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: active_button4
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 646
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1832bbb69551c4975ac17b01080ea93c
+      internalID: 21300002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: alien_light
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 599
+        width: 87
+        height: 45
+      alignment: 9
+      pivot: {x: 0.62643677, y: 0.46666667}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8bfdaf47884407fb6d648cabf981f6
+      internalID: 21300012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Asset_Element_1_nho
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 774
+        width: 256
+        height: 249
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8c4a40679a2243b1b2e8475c2b50be6
+      internalID: 21300026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: borderThuoc
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 444
+        width: 128
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b7be4eb32134544990d14b97841342
+      internalID: 21300004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Buble
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 611
+        width: 196
+        height: 196
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b6900d42d3544f69d63b40ba0c96fc
+      internalID: 21300048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: CFXM_T_RayRounded_alien
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 907
+        width: 57
+        height: 52
+      alignment: 9
+      pivot: {x: 0.5614035, y: 0.48076922}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85e59931841ad485bac4eba1d60d6d7d
+      internalID: 21300016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: circle_alien
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 874
+        width: 32
+        height: 31
+      alignment: 9
+      pivot: {x: 0.5, y: 0.516129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc620f01ea01e40fcbdc399730fd4aff
+      internalID: 21300020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Circle_standard_01
+      rect:
+        serializedVersion: 2
+        x: 902
+        y: 732
+        width: 62
+        height: 64
+      alignment: 9
+      pivot: {x: 0.516129, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a2aa342a0364463a61032f1533eb53
+      internalID: 21300006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Energy_trail_05_aien2
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 780
+        width: 63
+        height: 16
+      alignment: 9
+      pivot: {x: 0.4920635, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c67a6d9c7010444acb340df2fa0fadad
+      internalID: 21300014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fireworks1
+      rect:
+        serializedVersion: 2
+        x: 964
+        y: 961
+        width: 59
+        height: 62
+      alignment: 9
+      pivot: {x: 0.5254237, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c032e9c288984c40b156101502f23e9
+      internalID: 21300032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glow (13)
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 809
+        width: 228
+        height: 214
+      alignment: 9
+      pivot: {x: 0.48245615, y: 0.49532712}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4810900d99243ceadde1b02c2a805a
+      internalID: 21300046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glow2_alien
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 520
+        width: 128
+        height: 124
+      alignment: 9
+      pivot: {x: 0.5, y: 0.516129}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cfa07afdcb374c6f8d8ad9d4a66cd59
+      internalID: 21300028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glow3
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 644
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98b2ca20e9de14281b89c6ac0bd7c916
+      internalID: 21300008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: glow_alien copy
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 526
+        width: 123
+        height: 119
+      alignment: 9
+      pivot: {x: 0.4878049, y: 0.4789916}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9384bc03404d544abb45157ecfdfd976
+      internalID: 21300024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: grab2_alien
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 647
+        width: 126
+        height: 125
+      alignment: 9
+      pivot: {x: 0.4920635, y: 0.504}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df88e9b26afe743bc83f49e4781b0234
+      internalID: 21300022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Particle-Sprite-Smoke-1
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 666
+        width: 61
+        height: 64
+      alignment: 9
+      pivot: {x: 0.52459013, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64c037dab03054adf8826fa89fd59ed5
+      internalID: 21300034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: red-crosshair-png-4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 516
+        width: 128
+        height: 126
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1aecbce05b52487394d4b4c7f927b89
+      internalID: 21300038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ring_alien
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 668
+        width: 127
+        height: 128
+      alignment: 9
+      pivot: {x: 0.503937, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f2290fefa7f44ff89e04a450c617384
+      internalID: 21300018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ring_modular
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 776
+        width: 249
+        height: 247
+      alignment: 9
+      pivot: {x: 0.51004016, y: 0.5060729}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1729170955ce34f0d9ed6092aa0bee56
+      internalID: 21300040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Scroll
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 646
+        width: 89
+        height: 128
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abac4beb77c6d4cf2b8260a928499a07
+      internalID: 21300036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle
+      rect:
+        serializedVersion: 2
+        x: 837
+        y: 719
+        width: 62
+        height: 59
+      alignment: 9
+      pivot: {x: 0.5, y: 0.47457626}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb08fa57ccf146eda8e71d1d7545a59
+      internalID: 21300010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sparkle_alien
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 460
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346443999e52d4a35aea1b21f4588eb2
+      internalID: 21300030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sphere_green
+      rect:
+        serializedVersion: 2
+        x: 740
+        y: 798
+        width: 222
+        height: 225
+      alignment: 9
+      pivot: {x: 0.4954955, y: 0.50666666}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e943976a9f3c9472c87162131653c8a9
+      internalID: 21300042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: ebdd1c5fbd7ab414692f8dfaffaa9399
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      alien_light: 21300012
+      ring_alien: 21300018
+      sparkle: 21300010
+      Asset_Element_1_nho: 21300026
+      fireworks1: 21300032
+      glow_alien copy: 21300024
+      Scroll: 21300036
+      active_button4: 21300002
+      ring_modular: 21300040
+      sphere_green: 21300042
+      Circle_standard_01: 21300006
+      glow2_alien: 21300028
+      glow3: 21300008
+      grab2_alien: 21300022
+      Particle-Sprite-Smoke-1: 21300034
+      red-crosshair-png-4: 21300038
+      Buble: 21300048
+      sparkle_alien: 21300030
+      CFXM_T_RayRounded_alien: 21300016
+      Energy_trail_05_aien2: 21300014
+      glow (13): 21300046
+      borderThuoc: 21300004
+      circle_alien: 21300020
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

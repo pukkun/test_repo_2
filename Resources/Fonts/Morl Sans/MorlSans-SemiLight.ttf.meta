@@ -1,0 +1,30 @@
+fileFormatVersion: 2
+guid: 3a6d4f3d74d7568469dc61c9de233b3b
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Morl Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f050fdcf01dda8549acf510fda887f45, type: 3}
+  - {fileID: 12800000, guid: f3ea77ad356f7974c93d5de2e335e692, type: 3}
+  - {fileID: 12800000, guid: b63ec8714fb1c55478ec4386e85b7a0e, type: 3}
+  - {fileID: 12800000, guid: b9d651edcf81b8d41b5fae65a60dae55, type: 3}
+  - {fileID: 12800000, guid: 26f19cc1ef973f440a3acf18805f3655, type: 3}
+  - {fileID: 12800000, guid: a571a8b6f3fe7f04cad4bd7be88b95e2, type: 3}
+  - {fileID: 12800000, guid: 813c938bd2a9c91468b0fa05fbdad4e1, type: 3}
+  - {fileID: 12800000, guid: a2290213606376e4180ef7b69446bf69, type: 3}
+  - {fileID: 12800000, guid: 126378e9926a77f4abb749732eed9743, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 813c938bd2a9c91468b0fa05fbdad4e1
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Morl Sans
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f050fdcf01dda8549acf510fda887f45, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

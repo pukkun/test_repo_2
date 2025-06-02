@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc4dc9e9c1c564846a2c490520eac098, type: 3}
+  m_Name: MainSO
+  m_EditorClassIdentifier: 
+  Sprites:
+  - {fileID: 21300000, guid: 435a599357cc98142a754b0ae8d1cc34, type: 3}
+  - {fileID: 21300000, guid: 9e3b68f014757eb4b9d198cf7288fe5d, type: 3}
+  - {fileID: 21300000, guid: 591a455005b90ec47b675494bd661ecc, type: 3}
+  PrefabBubbleAlertNoAds: {fileID: 4794489694750186672, guid: 73a7dc2e50a4e854f8aeaa19c18a7d4c, type: 3}
+  PrefabSetting: {fileID: 7270669437597462464, guid: 94f5135df34589f4788e9af6e169f295, type: 3}
+  PrefabTextRemainInSnake: {fileID: 5550075805620622273, guid: 112a6de8ef387ab4d85bd095f21493dc, type: 3}
+  PrefabBorder: {fileID: 5691218149581953477, guid: 3f9be93ed2b3b6d419c87e181a9dbb80, type: 3}
